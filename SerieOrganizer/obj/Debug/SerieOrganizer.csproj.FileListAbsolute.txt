@@ -1,5 +1,0 @@
-C:\Users\kalkie\Documents\Visual Studio 2008\Projects\SerieOrganizer\SerieOrganizer\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\kalkie\Documents\Visual Studio 2008\Projects\SerieOrganizer\SerieOrganizer\bin\Debug\SeriesOrganizer.exe
-C:\Users\kalkie\Documents\Visual Studio 2008\Projects\SerieOrganizer\SerieOrganizer\bin\Debug\SeriesOrganizer.pdb
-C:\Users\kalkie\Documents\Visual Studio 2008\Projects\SerieOrganizer\SerieOrganizer\obj\Debug\SeriesOrganizer.exe
-C:\Users\kalkie\Documents\Visual Studio 2008\Projects\SerieOrganizer\SerieOrganizer\obj\Debug\SeriesOrganizer.pdb
