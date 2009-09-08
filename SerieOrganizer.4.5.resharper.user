@@ -1,0 +1,126 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F0B54FDE-2A72-4B33-9229-64852AA17983/f:Program.cs" caret="0" fromTop="0" />
+      <File id="4B018014-90C7-4018-AB60-3CECF5545B33/f:SeriesTest.cs" caret="973" fromTop="29" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="822" fromTop="15" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="4B018014-90C7-4018-AB60-3CECF5545B33/f:SeriesTest.cs" caret="1002" fromTop="21" />
+      <File id="4B018014-90C7-4018-AB60-3CECF5545B33/f:SeriesTest.cs" caret="1002" fromTop="15" />
+      <File id="4B018014-90C7-4018-AB60-3CECF5545B33/f:SeriesTest.cs" caret="1003" fromTop="15" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="601" fromTop="11" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="2249" fromTop="36" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="2249" fromTop="11" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="2249" fromTop="19" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="107" fromTop="3" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="2249" fromTop="19" />
+      <File id="4B018014-90C7-4018-AB60-3CECF5545B33/f:SeriesTest.cs" caret="0" fromTop="0" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="2247" fromTop="22" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="184" fromTop="9" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="1704" fromTop="24" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="480" fromTop="11" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="1418" fromTop="33" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="1705" fromTop="27" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="2039" fromTop="16" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="2247" fromTop="15" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="620" fromTop="20" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="1203" fromTop="17" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="1203" fromTop="18" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="1637" fromTop="27" />
+      <File id="4B018014-90C7-4018-AB60-3CECF5545B33/f:SeriesTest.cs" caret="112" fromTop="6" />
+      <File id="4B018014-90C7-4018-AB60-3CECF5545B33/f:SeriesTest.cs" caret="295" fromTop="11" />
+      <File id="4B018014-90C7-4018-AB60-3CECF5545B33/f:SeriesTest.cs" caret="973" fromTop="29" />
+      <File id="4B018014-90C7-4018-AB60-3CECF5545B33/f:SeriesTest.cs" caret="1003" fromTop="29" />
+      <File id="97F0A3DE-19E0-402B-82CF-44DE64BCCBEA/f:Serie.cs" caret="759" fromTop="12" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="3" />
+      <Item value="string" priority="4" />
+      <Item value="SeriesTest" priority="0" />
+      <Item value="new" priority="2" />
+      <Item value="Serie" priority="0" />
+      <Item value="Assert" priority="2" />
+      <Item value="serie" priority="2" />
+      <Item value="this" priority="0" />
+      <Item value="fileName" priority="0" />
+      <Item value="int" priority="1" />
+      <Item value="return" priority="1" />
+      <Item value="Episode" priority="2" />
+      <Item value="value" priority="0" />
+      <Item value="private" priority="0" />
+      <Item value="if" priority="2" />
+      <Item value="match" priority="2" />
+      <Item value="null" priority="0" />
+      <Item value="StringSplitOptions" priority="1" />
+      <Item value="String" priority="0" />
+      <Item value="seasonAndEpisode" priority="1" />
+      <Item value="char" priority="0" />
+      <Item value="Int32" priority="1" />
+      <Item value="numbers" priority="0" />
+      <Item value="void" priority="1" />
+      <Item value="MatchCollection" priority="0" />
+      <Item value="foreach" priority="0" />
+      <Item value="StringBuilder" priority="0" />
+      <Item value="serieName" priority="1" />
+      <Item value="else" priority="0" />
+      <Item value="break" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="AreEqual" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SeriesManagementTest.Serie">
+      <Item value="fileName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Match">
+      <Item value="Success" priority="0" />
+      <Item value="Value" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="1" />
+      <Item value="IsNullOrEmpty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Split" priority="0" />
+      <Item value="Replace" priority="0" />
+      <Item value="Trim" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.StringSplitOptions">
+      <Item value="RemoveEmptyEntries" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Regex">
+      <Item value="Match" priority="0" />
+      <Item value="Matches" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.MatchCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Indexer" priority="0" />
+      <Item value="AppendFormat" priority="0" />
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
