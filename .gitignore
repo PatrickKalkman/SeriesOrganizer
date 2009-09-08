@@ -2,7 +2,7 @@
 [Rr]elease/  
 [Oo]bj/
 *.suo  
-_ReSharper.*/ 
+_ReSharper*/ 
 obj
 bin
 *.csproj.user
