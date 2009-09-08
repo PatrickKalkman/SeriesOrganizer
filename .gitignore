@@ -1,0 +1,16 @@
+[Dd]ebug/  
+[Rr]elease/  
+[Oo]bj/
+*.suo  
+_ReSharper.*/ 
+obj
+bin
+*.csproj.user
+*.resharper.user
+*.resharper
+*.suo
+*.cache
+*~
+*.swp
+/Build
+NDependOut
