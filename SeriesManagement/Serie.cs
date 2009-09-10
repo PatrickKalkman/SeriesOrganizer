@@ -1,12 +1,14 @@
 using System;
 using System.Text.RegularExpressions;
 using System.Text;
+using System.IO;
 
 namespace Chalk.SeriesOrganizer
 {
-   public class Serie
+   internal class Serie
    {
       private readonly string fileName;
+      private readonly string fullName;
 
       public static Regex fileNameRegularExpression = new Regex("[a-zA-Z0-9]*.",RegexOptions.CultureInvariant| RegexOptions.Compiled);
       public static Regex seasonRegularExpression = new Regex("[sS]\\d+[eE]+\\d+", RegexOptions.CultureInvariant | RegexOptions.Compiled);
@@ -16,7 +18,8 @@ namespace Chalk.SeriesOrganizer
 
       public Serie(string fileName)
       {
-         this.fileName = fileName;
+         this.fullName = fileName;
+         this.fileName = Path.GetFileName(fileName);
          Parse();
       }
 
@@ -27,6 +30,14 @@ namespace Chalk.SeriesOrganizer
       public string Name { get; set; }
 
       public string Resolution { get; set; }
+
+      public bool IsValid
+      {
+         get 
+         {
+            return !string.IsNullOrEmpty(Name) && Episode != 0 && !string.IsNullOrEmpty(Resolution);
+         }
+      }
 
       private void Parse()
       {
