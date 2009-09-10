@@ -10,6 +10,8 @@ namespace Chalk.SeriesOrganizer
 
       public static Regex fileNameRegularExpression = new Regex("[a-zA-Z0-9]*.",RegexOptions.CultureInvariant| RegexOptions.Compiled);
       public static Regex seasonRegularExpression = new Regex("[sS]\\d+[eE]+\\d+", RegexOptions.CultureInvariant | RegexOptions.Compiled);
+      public static Regex resolutionRegularExpression = new Regex("1080[PpiI]{0,1}|720[Pp]{0,1}", RegexOptions.CultureInvariant| RegexOptions.Compiled);
+
       private string seasonAndEpisode;
 
       public Serie(string fileName)
@@ -31,6 +33,16 @@ namespace Chalk.SeriesOrganizer
          ExtractSeasonAndEpisode();
          ParseSerieName();
          ParseSeasonAndEpisode();
+         ExtractResolution();
+      }
+
+      private void ExtractResolution()
+      {
+         Match resolutionMatch = resolutionRegularExpression.Match(fileName);
+         if (resolutionMatch.Success)
+         {
+            Resolution = resolutionMatch.Value.ToLower();
+         }
       }
 
       private void ParseSerieName()
@@ -44,7 +56,7 @@ namespace Chalk.SeriesOrganizer
                string token = match.Value.Replace(".", string.Empty);
                if (token != seasonAndEpisode)
                {
-                  serieName.AppendFormat(" {0}", token);
+                  serieName.AppendFormat(" {0}", token.Substring(0,1).ToUpper() + token.Substring(1).ToLower());
                }
                else
                {
