@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<project name="Hello World" default="build" basedir=".">
-   <description>The Hello World of build files.</description>
+<project name="SerieOrganizer" default="build" basedir=".">
+   <description>Build script for the Serie Organizer</description>
    <property name="debug" value="true" overwrite="false" />
    <target name="clean" description="remove all generated files">
       <delete file="SerieOrganizer.exe" failonerror="false" />
@@ -27,11 +27,10 @@
          </sources>
       </csc>
       <csc target="library" output="Chalk.SerieManagementTest.dll" debug="${debug}">
-<references>
-   <include name="SeriesManagementTest/Include/nunit.framework.dll"/>
-   <include name="SeriesManagementTest/Include/Rhino.Mocks.dll"/>
-   <include name="Chalk.SerieManagement.dll"/>
-</references>
+         <references>
+            <include name="SeriesManagementTest/Include/nunit.framework.dll"/>
+            <include name="Chalk.SerieManagement.dll"/>
+         </references>
          <sources>
             <include name="SeriesManagementTest/SerieTest.cs" />
             <include name="SeriesManagementTest/SerieCollectorTest.cs" />

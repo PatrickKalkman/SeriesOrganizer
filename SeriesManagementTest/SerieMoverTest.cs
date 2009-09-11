@@ -1,6 +1,5 @@
 ﻿using System;
 using NUnit.Framework;
-using Rhino.Mocks;
 using System.IO;
 
 namespace Chalk.SeriesOrganizer
@@ -38,22 +37,12 @@ namespace Chalk.SeriesOrganizer
       [Test]
       public void ShouldSucceedWhenSerieIsMovedToTheCorrectLocation()
       {
-         MockRepository repository = new MockRepository();
-         Serie serieToMove = repository.DynamicMock<Serie>("Serie");
-
-         SetupResult.For(serieToMove.FullName).Return(sourceFileNameAndPath);
-         SetupResult.For(serieToMove.Name).Return(SerieName);
-         SetupResult.For(serieToMove.IsValid).Return(true);
-         SetupResult.For(serieToMove.FileName).Return(SourceFilename);
-
-         repository.ReplayAll();
+         Serie serieToMove = new Serie(sourceFileNameAndPath);
 
          SerieMover seriesMover = new SerieMover(destinationFolder);
          seriesMover.Move(serieToMove);
          string destinationFilenameAndPath = Path.Combine(Path.Combine(destinationFolder, SerieName), SourceFilename);
-
          Assert.AreEqual(true, File.Exists(destinationFilenameAndPath));
-         repository.VerifyAll();
       }
 
    }

@@ -13,6 +13,7 @@ namespace Chalk.SeriesOrganizer
       private const string SerieFileName2 = "Dark.Blue.S01E05.720p.HDTV.X264-DIMENSION.mkv";
       private const string SerieFileName3 = "Dark.Blue.S01E07.720p.HDTV.X264-DIMENSION.mkv";
       private const string SerieFileName4 = "Dark.Blue.S02E01.720p.HDTV.X264-DIMENSION.mkv";
+      private const string SerieFileName5 = "Dark.Blue.S02E06.720p.HDTV.X264-DIMENSION.mkv";
 
       [SetUp]
       public void SetUp()
@@ -25,6 +26,7 @@ namespace Chalk.SeriesOrganizer
          File.WriteAllText(Path.Combine(directory.FullName, SerieFileName2), string.Empty);
          File.WriteAllText(Path.Combine(subDirectory.FullName, SerieFileName3), string.Empty);
          File.WriteAllText(Path.Combine(subDirectory.FullName, SerieFileName4), string.Empty);
+	 File.WriteAllText(Path.Combine(subSubDirectory.FullName, SerieFileName5), string.Empty);
       }
 
       [TearDown]
@@ -39,7 +41,7 @@ namespace Chalk.SeriesOrganizer
       {
          SerieCollector seriesCollector = new SerieCollector(startDirectoryName);
          List<Serie> series = seriesCollector.Collect();
-         Assert.AreEqual(4, series.Count);
+         Assert.AreEqual(5, series.Count);
       }
    }
 }
