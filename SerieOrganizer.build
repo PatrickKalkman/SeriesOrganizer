@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <project name="Hello World" default="build" basedir=".">
    <description>The Hello World of build files.</description>
    <property name="debug" value="true" overwrite="false" />
@@ -13,23 +13,31 @@
    <target name="build" description="compiles the source code">
       <csc target="exe" output="SerieOrganizer.exe" debug="${debug}">
          <sources>
-            <include name="Program.cs" />
+            <include name="SerieOrganizer/Program.cs" />
+            <include name="SerieOrganizer/Properties/AssemblyInfo.cs"/>
          </sources>
       </csc>
-      <csc target="dll" output="Chalk.SerieManagement.dll" debug="${debug}">
+      <csc target="library" output="Chalk.SerieManagement.dll" debug="${debug}">
          <sources>
-            <include name="Serie.cs" />
-            <include name="SerieCollector.cs" />
-            <include name="SerieMover.cs" />
-            <include name="SerieOrganizer.cs" />
+            <include name="SeriesManagement/Serie.cs" />
+            <include name="SeriesManagement/SerieCollector.cs" />
+            <include name="SeriesManagement/SerieMover.cs" />
+            <include name="SeriesManagement/SerieOrganizer.cs" />
+            <include name="SeriesManagement/Properties/AssemblyInfo.cs"/>
          </sources>
       </csc>
-      <csc target="dll" output="Chalk.SerieManagementTest.dll" debug="${debug}">
+      <csc target="library" output="Chalk.SerieManagementTest.dll" debug="${debug}">
+<references>
+   <include name="SeriesManagementTest/Include/nunit.framework.dll"/>
+   <include name="SeriesManagementTest/Include/Rhino.Mocks.dll"/>
+   <include name="Chalk.SerieManagement.dll"/>
+</references>
          <sources>
-            <include name="SerieTest.cs" />
-            <include name="SerieCollectorTest.cs" />
-            <include name="SerieMoverTest.cs" />
-            <include name="SerieOrganizerTest.cs" />
+            <include name="SeriesManagementTest/SerieTest.cs" />
+            <include name="SeriesManagementTest/SerieCollectorTest.cs" />
+            <include name="SeriesManagementTest/SerieMoverTest.cs" />
+            <include name="SeriesManagementTest/SerieOrganizerTest.cs" />
+            <include name="SeriesManagementTest/Properties/AssemblyInfo.cs" />
          </sources>
       </csc>
    </target>
