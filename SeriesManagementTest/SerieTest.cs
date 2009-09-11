@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace Chalk.SeriesOrganizer
+namespace Chalk.SerieOrganizer
 {
    [TestFixture]
    public class SerieTest

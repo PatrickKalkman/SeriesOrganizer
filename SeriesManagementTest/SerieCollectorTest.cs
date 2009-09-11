@@ -2,7 +2,7 @@
 using System.IO;
 using NUnit.Framework;
 
-namespace Chalk.SeriesOrganizer
+namespace Chalk.SerieOrganizer
 {
    [TestFixture]
    public class SerieCollectorTest
@@ -26,7 +26,7 @@ namespace Chalk.SeriesOrganizer
          File.WriteAllText(Path.Combine(directory.FullName, SerieFileName2), string.Empty);
          File.WriteAllText(Path.Combine(subDirectory.FullName, SerieFileName3), string.Empty);
          File.WriteAllText(Path.Combine(subDirectory.FullName, SerieFileName4), string.Empty);
-	 File.WriteAllText(Path.Combine(subSubDirectory.FullName, SerieFileName5), string.Empty);
+         File.WriteAllText(Path.Combine(subSubDirectory.FullName, SerieFileName5), string.Empty);
       }
 
       [TearDown]
@@ -39,9 +39,17 @@ namespace Chalk.SeriesOrganizer
       [Test]
       public void ShouldSucceedWhenRecursiveSearchIsExecuted()
       {
-         SerieCollector seriesCollector = new SerieCollector(startDirectoryName);
+         SerieCollector seriesCollector = new SerieCollector(CreateOrganisationConfiguration());
          List<Serie> series = seriesCollector.Collect();
          Assert.AreEqual(5, series.Count);
       }
+
+      private OrganisationConfiguration CreateOrganisationConfiguration()
+      {
+         OrganisationConfiguration configuration = new OrganisationConfiguration();
+         configuration.DirectoryToOrganize = startDirectoryName;
+         return configuration;
+      }
+
    }
 }

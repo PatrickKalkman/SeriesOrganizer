@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 using System.Text;
 using System.IO;
 
-namespace Chalk.SeriesOrganizer
+namespace Chalk.SerieOrganizer
 {
    internal class Serie
    {

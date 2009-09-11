@@ -1,8 +1,7 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using System.IO;
 
-namespace Chalk.SeriesOrganizer
+namespace Chalk.SerieOrganizer
 {
    [TestFixture]
    public class SerieMoverTest
@@ -38,12 +37,19 @@ namespace Chalk.SeriesOrganizer
       public void ShouldSucceedWhenSerieIsMovedToTheCorrectLocation()
       {
          Serie serieToMove = new Serie(sourceFileNameAndPath);
+         
 
-         SerieMover seriesMover = new SerieMover(destinationFolder);
+         SerieMover seriesMover = new SerieMover(CreateOrganisationConfiguration());
          seriesMover.Move(serieToMove);
          string destinationFilenameAndPath = Path.Combine(Path.Combine(destinationFolder, SerieName), SourceFilename);
          Assert.AreEqual(true, File.Exists(destinationFilenameAndPath));
       }
 
+      private OrganisationConfiguration CreateOrganisationConfiguration()
+      {
+         OrganisationConfiguration configuration = new OrganisationConfiguration();
+         configuration.DestinationDirectory = destinationFolder;
+         return configuration;
+      }
    }
 }

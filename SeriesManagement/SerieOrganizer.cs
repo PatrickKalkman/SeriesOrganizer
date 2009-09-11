@@ -1,11 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace Chalk.SeriesOrganizer
+namespace Chalk.SerieOrganizer
 {
-   class SerieOrganizer
+   internal class SerieOrganizer
    {
+      private readonly SerieCollector serieCollector;
+      private readonly SerieFactory serieFactory;
+      private readonly SerieMover serieMover;
+
+      public SerieOrganizer(SerieCollector serieCollector, SerieFactory serieFactory, SerieMover serieMover)
+      {
+         this.serieCollector = serieCollector;
+         this.serieFactory = serieFactory;
+         this.serieMover = serieMover;
+      }
+
+      public void Organize()
+      {
+         throw new NotImplementedException();
+      }
    }
 }

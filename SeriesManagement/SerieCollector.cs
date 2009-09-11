@@ -1,26 +1,25 @@
-using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace Chalk.SeriesOrganizer
+namespace Chalk.SerieOrganizer
 {
    internal class SerieCollector
    {
       private readonly string startDirectoryName;
 
-      public SerieCollector(string startDirectoryName)
+      public SerieCollector(OrganisationConfiguration configuration)
       {
-         this.startDirectoryName = startDirectoryName;
+         startDirectoryName = configuration.DirectoryToOrganize;
       }
 
       public List<Serie> Collect()
       {
          DirectoryInfo directoryInfo = new DirectoryInfo(startDirectoryName);
          FileInfo[] files = directoryInfo.GetFiles("*.*", SearchOption.AllDirectories);
-         return ConvertToSerieTemplates(files);
+         return ConvertToSeries(files);
       }
 
-      private List<Serie> ConvertToSerieTemplates(FileInfo[] infos)
+      private List<Serie> ConvertToSeries(FileInfo[] infos)
       {
          List<Serie> series = new List<Serie>();
          foreach (FileInfo fileInfo in infos)
