@@ -23,15 +23,25 @@ namespace Chalk.SeriesOrganizer
          Parse();
       }
 
+      public virtual string FullName
+      {
+         get { return fullName; }
+      }
+
+      public virtual string FileName
+      {
+         get { return fileName; }  
+      }
+
       public int Episode { get; set; }
 
       public int Season { get; set; }
 
-      public string Name { get; set; }
+      public virtual string Name { get; set; }
 
       public string Resolution { get; set; }
 
-      public bool IsValid
+      public virtual bool IsValid
       {
          get 
          {
@@ -96,6 +106,5 @@ namespace Chalk.SeriesOrganizer
             seasonAndEpisode = match.Value;
          }
       }
-
    }
 }

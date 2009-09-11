@@ -5,7 +5,7 @@ using NUnit.Framework;
 namespace Chalk.SeriesOrganizer
 {
    [TestFixture]
-   public class SeriesCollectorTest
+   public class SerieCollectorTest
    {
       private readonly string startDirectoryName = Path.Combine(Path.GetTempPath(), "SeriesOrganizerTest");
       
@@ -21,10 +21,10 @@ namespace Chalk.SeriesOrganizer
          DirectoryInfo directory = Directory.CreateDirectory(startDirectoryName);
          DirectoryInfo subDirectory = directory.CreateSubdirectory("Series1");
          DirectoryInfo subSubDirectory = subDirectory.CreateSubdirectory("Series5");
-         File.WriteAllText(Path.Combine(directory.FullName, SerieFileName1), "1");
-         File.WriteAllText(Path.Combine(directory.FullName, SerieFileName2), "2");
-         File.WriteAllText(Path.Combine(subDirectory.FullName, SerieFileName3), "3");
-         File.WriteAllText(Path.Combine(subDirectory.FullName, SerieFileName4), "3");
+         File.WriteAllText(Path.Combine(directory.FullName, SerieFileName1), string.Empty);
+         File.WriteAllText(Path.Combine(directory.FullName, SerieFileName2), string.Empty);
+         File.WriteAllText(Path.Combine(subDirectory.FullName, SerieFileName3), string.Empty);
+         File.WriteAllText(Path.Combine(subDirectory.FullName, SerieFileName4), string.Empty);
       }
 
       [TearDown]
@@ -37,7 +37,7 @@ namespace Chalk.SeriesOrganizer
       [Test]
       public void ShouldSucceedWhenRecursiveSearchIsExecuted()
       {
-         SeriesCollector seriesCollector = new SeriesCollector(startDirectoryName);
+         SerieCollector seriesCollector = new SerieCollector(startDirectoryName);
          List<Serie> series = seriesCollector.Collect();
          Assert.AreEqual(4, series.Count);
       }

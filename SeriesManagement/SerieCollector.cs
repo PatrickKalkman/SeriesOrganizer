@@ -4,11 +4,11 @@ using System.IO;
 
 namespace Chalk.SeriesOrganizer
 {
-   internal class SeriesCollector
+   internal class SerieCollector
    {
       private readonly string startDirectoryName;
 
-      public SeriesCollector(string startDirectoryName)
+      public SerieCollector(string startDirectoryName)
       {
          this.startDirectoryName = startDirectoryName;
       }

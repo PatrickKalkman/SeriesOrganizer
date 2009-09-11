@@ -3,7 +3,7 @@
 namespace Chalk.SeriesOrganizer
 {
    [TestFixture]
-   public class SeriesTest
+   public class SerieTest
    {
       [Test]
       public void ShouldSucceedWhenCorrectSeasonAndEpisodeAreDetermined1()
