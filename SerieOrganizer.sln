@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerieOrganizer", "SerieOrganizer\SerieOrganizer.csproj", "{F0B54FDE-2A72-4B33-9229-64852AA17983}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeriesManagement", "SeriesManagement\SeriesManagement.csproj", "{97F0A3DE-19E0-402B-82CF-44DE64BCCBEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerieManagement", "SeriesManagement\SerieManagement.csproj", "{97F0A3DE-19E0-402B-82CF-44DE64BCCBEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeriesManagementTest", "SeriesManagementTest\SeriesManagementTest.csproj", "{4B018014-90C7-4018-AB60-3CECF5545B33}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerieManagementTest", "SeriesManagementTest\SerieManagementTest.csproj", "{4B018014-90C7-4018-AB60-3CECF5545B33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F6E5985B-1A75-4A4E-9C2C-8328D2B974A1}"
+	ProjectSection(SolutionItems) = preProject
+		SerieOrganizer.build = SerieOrganizer.build
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

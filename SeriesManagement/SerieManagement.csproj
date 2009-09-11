@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Chalk.SeriesOrganizer</RootNamespace>
-    <AssemblyName>Chalk.SeriesOrganizer</AssemblyName>
+    <AssemblyName>Chalk.SerieManagement</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -49,6 +49,7 @@
     <Compile Include="Serie.cs" />
     <Compile Include="SerieCollector.cs" />
     <Compile Include="SerieMover.cs" />
+    <Compile Include="SerieOrganizer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

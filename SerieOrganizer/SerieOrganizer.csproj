@@ -8,8 +8,8 @@
     <ProjectGuid>{F0B54FDE-2A72-4B33-9229-64852AA17983}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Chalk.SeriesOrganizer.Console</RootNamespace>
-    <AssemblyName>SeriesOrganizer</AssemblyName>
+    <RootNamespace>Chalk.SerieOrganizer</RootNamespace>
+    <AssemblyName>SerieOrganizer</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
