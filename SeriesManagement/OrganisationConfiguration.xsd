@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="OrganisationConfiguration"
+    targetNamespace="http://tempuri.org/OrganisationConfiguration.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/OrganisationConfiguration.xsd"
+    xmlns:mstns="http://tempuri.org/OrganisationConfiguration.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:element name="OrganisationConfiguration" type="OrganisationConfigurationType" />
+   <xs:complexType name ="OrganisationConfigurationType">
+      <xs:sequence>
+         <xs:element name="DestinationDirectory" type="xs:string"></xs:element>
+         <xs:element name="DirectoryToOrganize" type="xs:string"></xs:element>
+         <xs:element name="UnrecognizedDirectory" type="xs:string"></xs:element>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

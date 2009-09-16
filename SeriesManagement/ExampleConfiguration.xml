@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<OrganisationConfiguration xmlns="http://tempuri.org/OrganisationConfiguration.xsd">
+   <DestinationDirectory>/tvix/Series/</DestinationDirectory>
+   <DirectoryToOrganize>/tvix/to move/</DirectoryToOrganize>
+   <UnrecognizedDirectory>/tvix/unrecognized/</UnrecognizedDirectory>
+</OrganisationConfiguration>
