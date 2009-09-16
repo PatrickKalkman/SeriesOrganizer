@@ -3,11 +3,11 @@ using System.IO;
 
 namespace Chalk.SerieOrganizer
 {
-   internal class SerieCollector
+   public class SerieCollector
    {
       private readonly string startDirectoryName;
 
-      public SerieCollector(OrganisationConfiguration configuration)
+      public SerieCollector(OrganisationConfigurationType configuration)
       {
          startDirectoryName = configuration.DirectoryToOrganize;
       }
@@ -15,11 +15,11 @@ namespace Chalk.SerieOrganizer
       public List<Serie> Collect()
       {
          DirectoryInfo directoryInfo = new DirectoryInfo(startDirectoryName);
-         FileInfo[] files = directoryInfo.GetFiles("*.*", SearchOption.AllDirectories);
+         FileInfo[] files = directoryInfo.GetFiles("*.mkv", SearchOption.AllDirectories);
          return ConvertToSeries(files);
       }
 
-      private List<Serie> ConvertToSeries(FileInfo[] infos)
+      private static List<Serie> ConvertToSeries(IEnumerable<FileInfo> infos)
       {
          List<Serie> series = new List<Serie>();
          foreach (FileInfo fileInfo in infos)

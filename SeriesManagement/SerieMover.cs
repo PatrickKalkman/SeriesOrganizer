@@ -2,11 +2,11 @@ using System.IO;
 
 namespace Chalk.SerieOrganizer
 {
-   internal class SerieMover
+   public class SerieMover
    {
       private readonly string destination;
 
-      public SerieMover(OrganisationConfiguration configuration)
+      public SerieMover(OrganisationConfigurationType configuration)
       {
          this.destination = configuration.DestinationDirectory;
       }

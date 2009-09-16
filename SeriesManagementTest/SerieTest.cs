@@ -72,6 +72,14 @@ namespace Chalk.SerieOrganizer
       }
 
       [Test]
+      public void ShouldSucceedWhenFileNameIsValidSerie2()
+      {
+         const string FileName = "psych.s04e02.720p.hdtv.x264-ctu.mkv";
+         Serie serie = new Serie(FileName);
+         Assert.AreEqual(true, serie.IsValid);
+      }
+
+      [Test]
       public void ShouldIgnorePathDuringDetermination()
       {
          const string FileName = @"/folder1/test.d3/\ test\ number one/Dark.Blue.S01E04.720p.HDTV.X264-DIMENSION.mkv";

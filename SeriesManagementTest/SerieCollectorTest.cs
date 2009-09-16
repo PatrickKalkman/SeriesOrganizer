@@ -35,7 +35,6 @@ namespace Chalk.SerieOrganizer
          Directory.Delete(startDirectoryName, true);         
       }
 
-
       [Test]
       public void ShouldSucceedWhenRecursiveSearchIsExecuted()
       {
@@ -44,9 +43,9 @@ namespace Chalk.SerieOrganizer
          Assert.AreEqual(5, series.Count);
       }
 
-      private OrganisationConfiguration CreateOrganisationConfiguration()
+      private OrganisationConfigurationType CreateOrganisationConfiguration()
       {
-         OrganisationConfiguration configuration = new OrganisationConfiguration();
+         OrganisationConfigurationType configuration = new OrganisationConfigurationType();
          configuration.DirectoryToOrganize = startDirectoryName;
          return configuration;
       }

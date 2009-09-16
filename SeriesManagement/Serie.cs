@@ -5,7 +5,7 @@ using System.IO;
 
 namespace Chalk.SerieOrganizer
 {
-   internal class Serie
+   public class Serie
    {
       private readonly string fileName;
       private readonly string fullName;
@@ -75,9 +75,9 @@ namespace Chalk.SerieOrganizer
             foreach (Match match in seriePropertiesCollection)
             {
                string token = match.Value.Replace(".", string.Empty);
-               if (token != seasonAndEpisode)
+               if (token != seasonAndEpisode && !string.IsNullOrEmpty(token)) 
                {
-                  serieName.AppendFormat(" {0}", token.Substring(0,1).ToUpper() + token.Substring(1).ToLower());
+                  serieName.AppendFormat(" {0}", token.Substring(0, 1).ToUpper() + token.Substring(1).ToLower());
                }
                else
                {
@@ -92,9 +92,12 @@ namespace Chalk.SerieOrganizer
       {
          if (!String.IsNullOrEmpty(seasonAndEpisode))
          {
-            string[] numbers = seasonAndEpisode.Split(new char[] {'S', 'E'}, StringSplitOptions.RemoveEmptyEntries);
-            Episode = Int32.Parse(numbers[1]);
-            Season = Int32.Parse(numbers[0]);
+            string[] numbers = seasonAndEpisode.ToUpper().Split(new char[] { 'S', 'E' }, StringSplitOptions.RemoveEmptyEntries);
+            if (numbers.Length > 1)
+            {
+               Episode = Int32.Parse(numbers[1]);
+               Season = Int32.Parse(numbers[0]);
+            }
          }
       }
 

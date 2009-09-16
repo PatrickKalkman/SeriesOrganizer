@@ -45,9 +45,9 @@ namespace Chalk.SerieOrganizer
          Assert.AreEqual(true, File.Exists(destinationFilenameAndPath));
       }
 
-      private OrganisationConfiguration CreateOrganisationConfiguration()
+      private OrganisationConfigurationType CreateOrganisationConfiguration()
       {
-         OrganisationConfiguration configuration = new OrganisationConfiguration();
+         OrganisationConfigurationType configuration = new OrganisationConfigurationType();
          configuration.DestinationDirectory = destinationFolder;
          return configuration;
       }

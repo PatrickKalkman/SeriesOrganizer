@@ -1,23 +1,31 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Chalk.SerieOrganizer
 {
-   internal class SerieOrganizer
+   public class SerieOrganizer
    {
       private readonly SerieCollector serieCollector;
-      private readonly SerieFactory serieFactory;
       private readonly SerieMover serieMover;
 
-      public SerieOrganizer(SerieCollector serieCollector, SerieFactory serieFactory, SerieMover serieMover)
+      public SerieOrganizer(SerieCollector serieCollector, SerieMover serieMover)
       {
          this.serieCollector = serieCollector;
-         this.serieFactory = serieFactory;
          this.serieMover = serieMover;
       }
 
       public void Organize()
       {
-         throw new NotImplementedException();
+         List<Serie> serieList = serieCollector.Collect();
+         Console.WriteLine("Found {0} files.", serieList.Count);
+         foreach (Serie serie in serieList)
+         {
+            if (serie.IsValid)
+            {
+               Console.WriteLine("Processing {0}", serie.FileName);
+               serieMover.Move(serie);
+            }
+         }
       }
    }
 }

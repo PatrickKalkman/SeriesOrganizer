@@ -11,32 +11,42 @@
       <delete file="Chalk.SerieManagementTest.pdb" failonerror="false" />
    </target>
    <target name="build" description="compiles the source code">
-      <csc target="exe" output="SerieOrganizer.exe" debug="${debug}">
-         <sources>
-            <include name="SerieOrganizer/Program.cs" />
-            <include name="SerieOrganizer/Properties/AssemblyInfo.cs"/>
+      <csc target="library" output="Chalk.SerieManagement.dll" debug="${debug}">
+         <resources>
+            <include name="SeriesManagement/OrganisationConfiguration.xsd.cs" />
+         </resources>
+         <sources basedir="SeriesManagement">
+            <include name="Serie.cs" />
+            <include name="SerieCollector.cs" />
+            <include name="SerieMover.cs" />
+            <include name="SerieOrganizer.cs" />
+            <include name="XmlConfigurationReaderBase.cs" />
+            <include name="OrganisationConfigurationReader.cs" />
+            <include name="OrganisationConfiguration.cs" />
+            <include name="Properties/AssemblyInfo.cs"/>
          </sources>
       </csc>
-      <csc target="library" output="Chalk.SerieManagement.dll" debug="${debug}">
-         <sources>
-            <include name="SeriesManagement/Serie.cs" />
-            <include name="SeriesManagement/SerieCollector.cs" />
-            <include name="SeriesManagement/SerieMover.cs" />
-            <include name="SeriesManagement/SerieOrganizer.cs" />
-            <include name="SeriesManagement/Properties/AssemblyInfo.cs"/>
+      <csc target="exe" output="SerieOrganizer.exe" debug="${debug}">
+         <references>
+            <include name="Chalk.SerieManagement.dll"/>
+         </references>
+         <sources basedir="SerieOrganizer">
+            <include name="Program.cs" />
+            <include name="Properties/AssemblyInfo.cs"/>
          </sources>
       </csc>
       <csc target="library" output="Chalk.SerieManagementTest.dll" debug="${debug}">
          <references>
             <include name="SeriesManagementTest/Include/nunit.framework.dll"/>
+            <include name="SeriesManagementTest/Include/Rhino.Mocks.dll"/>
             <include name="Chalk.SerieManagement.dll"/>
          </references>
-         <sources>
-            <include name="SeriesManagementTest/SerieTest.cs" />
-            <include name="SeriesManagementTest/SerieCollectorTest.cs" />
-            <include name="SeriesManagementTest/SerieMoverTest.cs" />
-            <include name="SeriesManagementTest/SerieOrganizerTest.cs" />
-            <include name="SeriesManagementTest/Properties/AssemblyInfo.cs" />
+         <sources basedir="SeriesManagementTest">
+            <include name="SerieTest.cs" />
+            <include name="SerieCollectorTest.cs" />
+            <include name="SerieMoverTest.cs" />
+            <include name="SerieOrganizerTest.cs" />
+            <include name="Properties/AssemblyInfo.cs" />
          </sources>
       </csc>
    </target>
