@@ -51,6 +51,7 @@
     <Compile Include="OrganisationConfigurationReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Serie.cs" />
+    <Compile Include="SerieCleaner.cs" />
     <Compile Include="SerieCollector.cs" />
     <Compile Include="SerieMover.cs" />
     <Compile Include="SerieOrganizer.cs" />

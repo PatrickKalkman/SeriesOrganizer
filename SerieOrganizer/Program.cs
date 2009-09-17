@@ -15,6 +15,10 @@ namespace Chalk.SerieOrganizer
             SerieMover mover = new SerieMover(configuration);
             SerieOrganizer organizer = new SerieOrganizer(collector, mover);
             organizer.Organize();
+            SerieCleaner cleaner = new SerieCleaner(configuration);
+            cleaner.RemoveNfoFiles();
+            cleaner.RemoveSampleFiles();
+            cleaner.CleanEmptyDirectories();
          }
          else
          {

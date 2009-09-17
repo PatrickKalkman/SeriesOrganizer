@@ -20,6 +20,7 @@
             <include name="SerieCollector.cs" />
             <include name="SerieMover.cs" />
             <include name="SerieOrganizer.cs" />
+            <include name="SerieCleaner.cs" />
             <include name="XmlConfigurationReaderBase.cs" />
             <include name="OrganisationConfigurationReader.cs" />
             <include name="OrganisationConfiguration.cs" />
@@ -46,6 +47,7 @@
             <include name="SerieCollectorTest.cs" />
             <include name="SerieMoverTest.cs" />
             <include name="SerieOrganizerTest.cs" />
+            <include name="SerieCleanerTest.cs" />
             <include name="Properties/AssemblyInfo.cs" />
          </sources>
       </csc>
