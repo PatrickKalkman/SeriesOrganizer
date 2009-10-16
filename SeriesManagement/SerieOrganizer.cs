@@ -25,6 +25,10 @@ namespace Chalk.SerieOrganizer
                Console.WriteLine("Processing {0}", serie.FileName);
                serieMover.Move(serie);
             }
+            else
+            {
+               Console.WriteLine("Serie {0} is not a valid serie", serie.FileName);
+            }
          }
       }
    }
