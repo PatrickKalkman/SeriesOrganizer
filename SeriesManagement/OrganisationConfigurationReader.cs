@@ -8,7 +8,7 @@ namespace Chalk.SerieOrganizer
    public class OrganisationConfigurationReader : XmlConfigurationReaderBase<OrganisationConfigurationType>
    {
       public OrganisationConfigurationReader()
-         : base(".", "OrganisationConfiguration.xml")
+         : base("/etc/", "OrganisationConfiguration.xml")
       {
       }
    }

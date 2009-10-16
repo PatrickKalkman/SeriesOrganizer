@@ -80,11 +80,37 @@ namespace Chalk.SerieOrganizer
       }
 
       [Test]
+      public void ShouldSucceedWhenFileNameHasNoResolutionIsValidSerie()
+      {
+         const string FileName = "psych.s04e02.hdtv.x264-ctu.mkv";
+         Serie serie = new Serie(FileName);
+         Assert.AreEqual(true, serie.IsValid);
+      }
+
+
+      [Test]
       public void ShouldIgnorePathDuringDetermination()
       {
          const string FileName = @"/folder1/test.d3/\ test\ number one/Dark.Blue.S01E04.720p.HDTV.X264-DIMENSION.mkv";
          Serie serie = new Serie(FileName);
          Assert.AreEqual("Dark Blue", serie.Name);
       }
+
+      [Test]
+      public void ShouldSucceedWhenDirectoryNameIsUsedToDetermineEpisode()
+      {
+         const string FileName = @"fringe.201.a.new.day.in.an.old.town-sitv.rar";
+         Serie serie = new Serie(FileName);
+         Assert.AreEqual(true, serie.IsValid);
+      }
+
+      [Test]
+      public void ShouldSucceedWhenSerieIsSeperatedWithMinus()
+      {
+         const string FileName = @"tvr-torchwood-s01e04-720p.mkv";
+         Serie serie = new Serie(FileName);
+         Assert.AreEqual(true, serie.IsValid);
+      }
+      
    }
 }
