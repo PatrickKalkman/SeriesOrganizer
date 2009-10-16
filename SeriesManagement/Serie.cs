@@ -74,8 +74,8 @@ namespace Chalk.SerieOrganizer
             StringBuilder serieName = new StringBuilder();
             foreach (Match match in seriePropertiesCollection)
             {
-               string token = match.Value.Replace(".", string.Empty).Replace("-", string.Empty);
-               if (token != seasonAndEpisode && !string.IsNullOrEmpty(token)) 
+               string token = match.Value.Replace(".", string.Empty);
+               if (!IsSeasonAndEpisode(token) && !string.IsNullOrEmpty(token)) 
                {
                   serieName.AppendFormat(" {0}", token.Substring(0, 1).ToUpper() + token.Substring(1).ToLower());
                }
@@ -86,6 +86,27 @@ namespace Chalk.SerieOrganizer
             }
             Name = serieName.ToString().Trim();
          }
+      }
+
+      private bool IsSeasonAndEpisode(string token)
+      {
+         if (!string.IsNullOrEmpty(seasonAndEpisode))
+         {
+            if (token == seasonAndEpisode)
+               return true;
+
+            int smallSeasonAndEpisode;
+            if (Int32.TryParse(seasonAndEpisode.Replace("S", string.Empty).Replace("E", string.Empty),
+                               out smallSeasonAndEpisode))
+            {
+               int smallSeasonAndEpisodeFromToken;
+               if (Int32.TryParse(token, out smallSeasonAndEpisodeFromToken))
+               {
+                  return smallSeasonAndEpisode == smallSeasonAndEpisodeFromToken;
+               }
+            }
+         }
+         return false;
       }
 
       private void ParseSeasonAndEpisode()
@@ -107,6 +128,14 @@ namespace Chalk.SerieOrganizer
          if (match.Success)
          {
             seasonAndEpisode = match.Value;
+         }
+         else
+         {
+            match = seasonRegularExpression.Match(fullName);
+            if (match.Success)
+            {
+               seasonAndEpisode = match.Value;
+            }
          }
       }
    }

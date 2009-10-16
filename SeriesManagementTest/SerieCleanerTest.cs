@@ -60,6 +60,5 @@ namespace Chalk.SerieOrganizer
          configuration.DirectoryToOrganize = directoryBase.FullName;
          return configuration;
       }
-
    }
 }

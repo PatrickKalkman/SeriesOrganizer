@@ -111,6 +111,15 @@ namespace Chalk.SerieOrganizer
          Serie serie = new Serie(FileName);
          Assert.AreEqual(true, serie.IsValid);
       }
-      
+
+      [Test]
+      public void ShouldUsePathInformationWhenSeasonAndEpisodeCannotBeDetermined()
+      {
+         const string FileName = @"/Fringe\ S02E05/fringe.205.dream.logic-sitv.mkv";
+         Serie serie = new Serie(FileName);
+         Assert.AreEqual("Fringe", serie.Name);
+         Assert.AreEqual(2, serie.Season);
+         Assert.AreEqual(5, serie.Episode);
+      }
    }
 }
