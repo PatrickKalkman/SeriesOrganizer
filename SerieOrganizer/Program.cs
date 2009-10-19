@@ -1,4 +1,5 @@
 ﻿using System;
+using Chalk.SubtitlesManagement;
 
 namespace Chalk.SerieOrganizer
 {
@@ -6,6 +7,12 @@ namespace Chalk.SerieOrganizer
    {
       static void Main(string[] args)
       {
+         SubtitlesConfigurationReader subtitlesReader = new SubtitlesConfigurationReader();
+         SubtitlesConfigurationType subtitlesConfiguration = subtitlesReader.Read();
+
+         
+
+
          OrganisationConfigurationReader reader = new OrganisationConfigurationReader();
          OrganisationConfigurationType configuration = reader.Read();
          if (configuration != null)

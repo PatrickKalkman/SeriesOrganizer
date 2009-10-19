@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F0B54FDE-2A72-4B33-9229-64852AA17983}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{08EC6396-CBC1-4577-B413-AF1D2F6AD88C}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Chalk.SerieOrganizer</RootNamespace>
-    <AssemblyName>SerieOrganizer</AssemblyName>
+    <RootNamespace>Chalk.Common</RootNamespace>
+    <AssemblyName>Chalk.Common</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -35,9 +35,6 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="System.ServiceModel.Web">
-      <RequiredTargetFramework>3.5</RequiredTargetFramework>
-    </Reference>
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -48,22 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{08EC6396-CBC1-4577-B413-AF1D2F6AD88C}</Project>
-      <Name>Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SeriesManagement\SerieManagement.csproj">
-      <Project>{97F0A3DE-19E0-402B-82CF-44DE64BCCBEA}</Project>
-      <Name>SerieManagement</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SubtitlesManagement\SubtitlesManagement.csproj">
-      <Project>{533AFA38-0442-4DDF-863E-C5D537D0C39F}</Project>
-      <Name>SubtitlesManagement</Name>
-    </ProjectReference>
+    <Compile Include="XmlConfigurationReaderBase.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SubtitlesConfiguration xmlns="http://tempuri.org/SubtitlesConfiguration.xsd">
+   <BierdopjeApiKey>51AFBB7D64B937E1</BierdopjeApiKey>
+   <BierdopjeUrl>http://www.bierdopje.com/api/</BierdopjeUrl>
+</SubtitlesConfiguration>
