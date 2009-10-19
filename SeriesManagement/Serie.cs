@@ -10,7 +10,7 @@ namespace Chalk.SerieOrganizer
       private readonly string fileName;
       private readonly string fullName;
 
-      public static Regex fileNameRegularExpression = new Regex("[a-zA-Z0-9]*.",RegexOptions.CultureInvariant| RegexOptions.Compiled);
+      public static Regex fileNameRegularExpression = new Regex("[a-zA-Z0-9]*.|[a-zA-Z0-9]*-", RegexOptions.CultureInvariant | RegexOptions.Compiled);
       public static Regex seasonRegularExpression = new Regex("[sS]\\d+[eE]+\\d+", RegexOptions.CultureInvariant | RegexOptions.Compiled);
       public static Regex resolutionRegularExpression = new Regex("1080[PpiI]{0,1}|720[Pp]{0,1}", RegexOptions.CultureInvariant| RegexOptions.Compiled);
 
@@ -45,7 +45,7 @@ namespace Chalk.SerieOrganizer
       {
          get 
          {
-            return !string.IsNullOrEmpty(Name) && Episode != 0 && !string.IsNullOrEmpty(Resolution);
+            return !string.IsNullOrEmpty(Name) && Episode != 0;
          }
       }
 

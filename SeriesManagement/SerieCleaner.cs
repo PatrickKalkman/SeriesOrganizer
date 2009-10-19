@@ -38,6 +38,7 @@ namespace Chalk.SerieOrganizer
          
          if (files.Length == 0 && subDirectories.Length == 0)
          {
+            Console.WriteLine("Deleting {0}.", directoryInfo.FullName);
             directoryInfo.Delete();
          }
       }
