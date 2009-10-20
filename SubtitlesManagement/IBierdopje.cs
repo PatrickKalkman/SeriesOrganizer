@@ -1,6 +1,9 @@
 ﻿using System.Collections.Generic;
+using System.IO;
 using System.ServiceModel;
+using System.ServiceModel.Channels;
 using System.ServiceModel.Web;
+using System.Xml;
 
 namespace Chalk.SubtitlesManagement
 {
@@ -8,12 +11,12 @@ namespace Chalk.SubtitlesManagement
    interface IBierdopje
    {
       [OperationContract]
-      [WebInvoke(UriTemplate = "/GetShowById/{showId}", Method = "Get")]
-      TvShow GetShowById(int showId);
+      [WebInvoke(UriTemplate = "/GetShowById/{showId}", Method = "Get", ResponseFormat = WebMessageFormat.Xml)]
+      TvShow GetShowById(string showId);
 
       [OperationContract]
       [WebInvoke(UriTemplate = "/GetShowByTVDBID/{showId}", Method = "Get")]
-      TvShow GetShowByTvDbId(int showId);
+      TvShow GetShowByTvDbId(string showId);
 
       [OperationContract]
       [WebInvoke(UriTemplate = "/FindShowByName/{name}", Method = "Get")]
@@ -21,23 +24,23 @@ namespace Chalk.SubtitlesManagement
 
       [OperationContract]
       [WebInvoke(UriTemplate = "/GetEpisodesForSeason/{showId}/{season}", Method = "Get")]
-      TvShows GetEpisodesForSeason(int showId, int season);
+      TvShows GetEpisodesForSeason(string showId, string season);
 
       [OperationContract]
       [WebInvoke(UriTemplate = "/GetAllEpisodesForShow/{showId}", Method = "Get")]
-      TvShows GetAllEpisodesForShow(int showId);
+      TvShows GetAllEpisodesForShow(string showId);
 
       [OperationContract]
       [WebInvoke(UriTemplate = "/GetEpisodeById/{episodeId}", Method = "Get")]
-      TvShows GetEpisodeById(int episodeId);
+      TvShows GetEpisodeById(string episodeId);
 
       [OperationContract]
       [WebInvoke(UriTemplate = "/GetAllSubsForEpisode/{episodeId}", Method = "Get")]
-      TvShows GetAllSubsForEpisode(int episodeId);
+      TvShows GetAllSubsForEpisode(string episodeId);
 
       [OperationContract]
       [WebInvoke(UriTemplate = "/GetAllSubsFor/{showId}/{season}/{episodeId}/{language}/isTvDbId", Method = "Get")]
-      TvShows GetAllSubsFor(int showId, int season, int episodeId, string language, bool isTvBdId);
+      TvShows GetAllSubsFor(string showId, string season, string episodeId, string language, string isTvBdId);
    }
 
    internal class TvShows : List<TvShow>
