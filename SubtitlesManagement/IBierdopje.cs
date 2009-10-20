@@ -11,12 +11,12 @@ namespace Chalk.SubtitlesManagement
    interface IBierdopje
    {
       [OperationContract]
-      [WebInvoke(UriTemplate = "/GetShowById/{showId}", Method = "Get", ResponseFormat = WebMessageFormat.Xml)]
-      TvShow GetShowById(string showId);
+      [WebInvoke(UriTemplate = "/GetShowById/{showId}", Method = "Get")]
+      Stream GetShowById(string showId);
 
       [OperationContract]
       [WebInvoke(UriTemplate = "/GetShowByTVDBID/{showId}", Method = "Get")]
-      TvShow GetShowByTvDbId(string showId);
+      Stream GetShowByTvDbId(string showId);
 
       [OperationContract]
       [WebInvoke(UriTemplate = "/FindShowByName/{name}", Method = "Get")]

@@ -1,11 +1,13 @@
+using System;
 using System.Runtime.Serialization;
+using System.Xml.Serialization;
 
 namespace Chalk.SubtitlesManagement
 {
-   [DataContract(Name = "genre", Namespace = "")]
+   [Serializable]
    public class Genre
    {
-      [DataMember(Name = "genre")]
+      [XmlElement("result")]
       public string genre;
    }
 }

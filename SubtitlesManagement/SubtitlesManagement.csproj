@@ -54,9 +54,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomMessageEncoder.cs" />
-    <Compile Include="CustomTextMessageBindingElement.cs" />
-    <Compile Include="CustomTextMessageEncoderFactory.cs" />
     <Compile Include="FilterBehaviour.cs" />
     <Compile Include="FilterMessageInspector.cs" />
     <Compile Include="Genre.cs" />

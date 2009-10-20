@@ -13,6 +13,8 @@ namespace ConsoleApplication1
          SubtitlesService service = new SubtitlesService(new SubtitlesServiceResponseParser());
          TvShow tvShow;
          bool result = service.TryGetShowById(12934, out tvShow);
+         if (result)
+            result = service.TryGetShowByTvDbId(tvShow.tvDbId, out tvShow);
       }
    }
 }

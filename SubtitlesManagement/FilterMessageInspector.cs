@@ -38,13 +38,6 @@ namespace Chalk.SubtitlesManagement
 
       public void AfterReceiveReply(ref Message reply, object correlationState)
       {
-         MessageBuffer buffer = reply.CreateBufferedCopy(int.MaxValue);
-         
-         MemoryStream stream = new MemoryStream();
-         buffer.WriteMessage(stream);
-         string payLoad = GetStringFromMemoryStream(stream);
-
-         int i = 10;
       }
 
       public static string GetStringFromMemoryStream(MemoryStream m)

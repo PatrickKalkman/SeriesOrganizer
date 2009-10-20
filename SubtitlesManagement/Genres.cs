@@ -1,9 +1,11 @@
+using System;
 using System.Collections.Generic;
-using System.Runtime.Serialization;
+using System.Xml.Serialization;
 
 namespace Chalk.SubtitlesManagement
 {
-   [DataContract(Name = "genres", Namespace = "")]
+   [Serializable()]
+   [XmlRoot("genres")]
    public class Genres : List<Genre>
    {
    }
