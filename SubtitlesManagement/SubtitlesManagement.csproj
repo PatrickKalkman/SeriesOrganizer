@@ -56,6 +56,7 @@
   <ItemGroup>
     <Compile Include="FilterBehaviour.cs" />
     <Compile Include="FilterMessageInspector.cs" />
+    <Compile Include="FindByNamesResult.cs" />
     <Compile Include="Genre.cs" />
     <Compile Include="Genres.cs" />
     <Compile Include="IBierdopje.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="SubtitlesServiceResponseParser.cs" />
     <Compile Include="SubtitlesStorage.cs" />
     <Compile Include="TvShow.cs" />
+    <Compile Include="TvShows.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SubtitlesConfiguration.xsd" />

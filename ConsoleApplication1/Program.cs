@@ -11,10 +11,8 @@ namespace ConsoleApplication1
       static void Main(string[] args)
       {
          SubtitlesService service = new SubtitlesService(new SubtitlesServiceResponseParser());
-         TvShow tvShow;
-         bool result = service.TryGetShowById(12934, out tvShow);
-         if (result)
-            result = service.TryGetShowByTvDbId(tvShow.tvDbId, out tvShow);
+         List<TvShow> tvShows = service.FindShowsByName("House");
+         int etst = 0;
       }
    }
 }
