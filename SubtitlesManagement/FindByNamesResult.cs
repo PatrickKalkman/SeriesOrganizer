@@ -6,10 +6,15 @@ namespace Chalk.SubtitlesManagement
 {
    [XmlRoot(ElementName = "bierdopje", Namespace = "", IsNullable = false)]
    [Serializable()]
-   public class FindByNamesResult
+   public class FindByNamesResult : ITvShowResult
    {
       [XmlElement("response")]
       public Response response;
+
+      public List<TvShow> TvShows
+      {
+         get { return response.tvShows; }
+      }
    }
 
    [Serializable()]
@@ -22,5 +27,4 @@ namespace Chalk.SubtitlesManagement
       [XmlArrayItem("genre", typeof(TvShow))]
       public List<TvShow> tvShows;
    }
-
 }

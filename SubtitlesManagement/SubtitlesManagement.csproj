@@ -56,10 +56,12 @@
   <ItemGroup>
     <Compile Include="FilterBehaviour.cs" />
     <Compile Include="FilterMessageInspector.cs" />
+    <Compile Include="FindByNamesCachedResult.cs" />
     <Compile Include="FindByNamesResult.cs" />
     <Compile Include="Genre.cs" />
     <Compile Include="Genres.cs" />
-    <Compile Include="IBierdopje.cs" />
+    <Compile Include="ITvSeries.cs" />
+    <Compile Include="ITvShowResult.cs" />
     <Compile Include="SubtitlesConfiguration.cs">
       <DependentUpon>SubtitlesConfiguration.xsd</DependentUpon>
     </Compile>
@@ -69,7 +71,6 @@
     <Compile Include="SubtitlesServiceResponseParser.cs" />
     <Compile Include="SubtitlesStorage.cs" />
     <Compile Include="TvShow.cs" />
-    <Compile Include="TvShows.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SubtitlesConfiguration.xsd" />
