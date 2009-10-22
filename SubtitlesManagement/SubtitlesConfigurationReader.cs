@@ -1,4 +1,4 @@
-﻿using Chalk.SerieOrganizer;
+﻿using Chalk.Common;
 
 namespace Chalk.SubtitlesManagement
 {

@@ -42,8 +42,12 @@ namespace Chalk.SubtitlesManagement
 
       public TvShow GetShowById(string result)
       {
-         StringReader stringReader = new StringReader(result);
-         return GetShow(stringReader);
+         if (!string.IsNullOrEmpty(result))
+         {
+            StringReader stringReader = new StringReader(result);
+            return GetShow(stringReader);
+         }
+         throw new ArgumentNullException("result", "The result parameter cannot be null.");
       }
    }
 }
