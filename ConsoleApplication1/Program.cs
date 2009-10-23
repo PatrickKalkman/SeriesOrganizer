@@ -16,8 +16,8 @@ namespace ConsoleApplication1
          WebChannelFactory<ITvSeries> channelFactory = new WebChannelFactory<ITvSeries>(endPoint);
 
          SubtitlesService service = new SubtitlesService(new SubtitlesServiceResponseParser(), channelFactory);
-         List<TvShow> tvShows = service.FindShowsByName("NCIS");
-         Console.WriteLine("Found {0} number of tvshows.", tvShows.Count);
+         TvShow show = service.GetEpisodesForSeason(12934, 1);
+
          Console.ReadLine();
       }
    }

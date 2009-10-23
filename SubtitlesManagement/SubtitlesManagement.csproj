@@ -71,6 +71,7 @@
     <Compile Include="SubtitlesStorage.cs" />
     <Compile Include="TvShow.cs" />
     <Compile Include="TvShowBase.cs" />
+    <Compile Include="TvShowEpisode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SubtitlesConfiguration.xsd" />

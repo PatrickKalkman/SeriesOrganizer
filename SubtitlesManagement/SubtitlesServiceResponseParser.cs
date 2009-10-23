@@ -7,16 +7,16 @@ namespace Chalk.SubtitlesManagement
 {
    public class SubtitlesServiceResponseParser
    {
-      public List<TvShow> FindShowsByName(string result)
+      public List<TvShow> FindShowsByName(string xmlToParse)
       {
-         StringReader stringReader = new StringReader(result);
-         List<TvShow> shows = IsCachedResult(result) ? GetShows<FindByNamesCachedResult>(stringReader) : GetShows<FindByNamesResult>(stringReader);
-         return shows;    
+         StringReader stringReader = new StringReader(xmlToParse);
+         List<TvShow> shows = IsCachedResult(xmlToParse) ? GetShows<FindByNamesCachedResult>(stringReader) : GetShows<FindByNamesResult>(stringReader);
+         return shows;
       }
 
-      private static bool IsCachedResult(string result)
+      private static bool IsCachedResult(string xmlToParse)
       {
-         int index = result.IndexOf("<cached>true</cached>");
+         int index = xmlToParse.IndexOf("<cached>true</cached>");
          return index != -1 && index != 0;
       }
 
@@ -27,20 +27,20 @@ namespace Chalk.SubtitlesManagement
          return bierdopjeResult.TvShows;
       }
 
-      public TvShowBase GetShow(string result)
+      public TvShowBase GetShow(string xmlToParse)
       {
-         if (!string.IsNullOrEmpty(result))
+         if (!string.IsNullOrEmpty(xmlToParse))
          {
             try
             {
-               bool isCachedResult = IsCachedResult(result);
+               bool isCachedResult = IsCachedResult(xmlToParse);
                Type typeToDeserialize = isCachedResult ? typeof(BierDopjeCached) : typeof(BierDopje);
-               StringReader stringReader = new StringReader(result);
+               StringReader stringReader = new StringReader(xmlToParse);
                XmlSerializer xs = new XmlSerializer(typeToDeserialize);
                var bierdopjeResult = Convert.ChangeType(xs.Deserialize(stringReader), typeToDeserialize);
                if (isCachedResult)
                {
-                  TvShowCached tvShowCached = ((BierDopjeCached) bierdopjeResult).tvShow;
+                  TvShowCached tvShowCached = ((BierDopjeCached)bierdopjeResult).tvShow;
                   tvShowCached.Genres.AddRange(tvShowCached.genres);
                   return tvShowCached;
                }
@@ -53,10 +53,31 @@ namespace Chalk.SubtitlesManagement
             }
             catch (InvalidOperationException error)
             {
-               throw new ArgumentException("The given xml is invalid and cannot be parsed.", "result", error);
+               throw new ArgumentException("The given xml is invalid and cannot be parsed.", "xmlToParse", error);
             }
          }
-         throw new ArgumentNullException("result", "The result parameter cannot be null.");
+         throw new ArgumentNullException("xmlToParse", "The result parameter cannot be null.");
+      }
+
+      public List<TvShowEpisode> GetEpisodes(string xmlToParse)
+      {
+         if (!string.IsNullOrEmpty(xmlToParse))
+         {
+            try
+            {
+               bool isCachedResult = IsCachedResult(xmlToParse);
+               Type typeToDeserialize = isCachedResult ? typeof(TvShowEpisodeResultCached) : typeof(TvShowEpisodeResult);
+               StringReader stringReader = new StringReader(xmlToParse);
+               XmlSerializer xs = new XmlSerializer(typeToDeserialize);
+               ITvEpisodes tvShowEpisodeResult = (ITvEpisodes)(xs.Deserialize(stringReader));
+               return tvShowEpisodeResult.TvEpisodes;
+            }
+            catch (InvalidOperationException error)
+            {
+               throw new ArgumentException("The given xml is invalid and cannot be parsed.", "xmlToParse", error);
+            }
+         }
+         throw new ArgumentNullException("xmlToParse", "The result parameter cannot be null.");
       }
    }
 }

@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using NUnit.Framework;
 using Chalk.SubtitlesManagement.Resources;
 
@@ -40,6 +38,22 @@ namespace Chalk.SubtitlesManagement
          SubtitlesServiceResponseParser subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
          TvShowBase tvShow = subtitlesServiceResponseParser.GetShow(TestResources.SingleShowCached);
          Assert.AreEqual(12934, tvShow.id);
+      }
+
+      [Test]
+      public void ShouldParseEpisodesCorrectly()
+      {
+         SubtitlesServiceResponseParser subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
+         List<TvShowEpisode> episodes = subtitlesServiceResponseParser.GetEpisodes(TestResources.GetEpisodesForSeasonNotCached);
+         Assert.AreEqual(11, episodes.Count);
+      }
+
+      [Test]
+      public void ShouldParseCachedEpisodesCorrectly()
+      {
+         SubtitlesServiceResponseParser subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
+         List<TvShowEpisode> episodes = subtitlesServiceResponseParser.GetEpisodes(TestResources.GetEpisodesForSeasonCached);
+         Assert.AreEqual(11, episodes.Count);
       }
 
       private static SubtitlesServiceResponseParser CreateSubtitlesServiceResponseParser()

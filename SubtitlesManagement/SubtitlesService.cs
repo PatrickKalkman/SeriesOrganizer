@@ -1,7 +1,5 @@
 using System.Collections.Generic;
 using System.IO;
-using System.ServiceModel;
-using System.ServiceModel.Description;
 using System.ServiceModel.Channels;
 using System.ServiceModel.Web;
 using System.Text;
@@ -49,6 +47,14 @@ namespace Chalk.SubtitlesManagement
 
          tvShow = responseParser.GetShow(responseString);
          return tvShow.id != 0;
+      }
+
+      public virtual TvShow GetEpisodesForSeason(int showId, int season)
+      {
+         ITvSeries bierdopje = channelFactory.CreateChannel();
+         Stream responseStream = bierdopje.GetEpisodesForSeason(showId.ToString(), season.ToString());
+         string responseString = CreateStringFromStream(responseStream);
+         return null;
       }
 
       private static string CreateStringFromStream(Stream stream)

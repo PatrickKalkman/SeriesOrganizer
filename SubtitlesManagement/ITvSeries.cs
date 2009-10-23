@@ -21,22 +21,22 @@ namespace Chalk.SubtitlesManagement
 
       [OperationContract]
       [WebInvoke(UriTemplate = "/GetEpisodesForSeason/{showId}/{season}", Method = "Get")]
-      TvShow GetEpisodesForSeason(string showId, string season);
+      Stream GetEpisodesForSeason(string showId, string season);
 
       [OperationContract]
       [WebInvoke(UriTemplate = "/GetAllEpisodesForShow/{showId}", Method = "Get")]
-      TvShow GetAllEpisodesForShow(string showId);
+      Stream GetAllEpisodesForShow(string showId);
 
       [OperationContract]
       [WebInvoke(UriTemplate = "/GetEpisodeById/{episodeId}", Method = "Get")]
-      TvShow GetEpisodeById(string episodeId);
+      Stream GetEpisodeById(string episodeId);
 
       [OperationContract]
       [WebInvoke(UriTemplate = "/GetAllSubsForEpisode/{episodeId}", Method = "Get")]
-      TvShow GetAllSubsForEpisode(string episodeId);
+      Stream GetAllSubsForEpisode(string episodeId);
 
       [OperationContract]
       [WebInvoke(UriTemplate = "/GetAllSubsFor/{showId}/{season}/{episodeId}/{language}/isTvDbId", Method = "Get")]
-      TvShow GetAllSubsFor(string showId, string season, string episodeId, string language, string isTvBdId);
+      Stream GetAllSubsFor(string showId, string season, string episodeId, string language, string isTvBdId);
    }
 }
