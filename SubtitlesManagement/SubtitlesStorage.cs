@@ -9,7 +9,7 @@ namespace Chalk.SubtitlesManagement
          this.service = service;
       }
 
-      public bool TryGetShowById(int showId, out TvShow show)
+      public bool TryGetShowById(int showId, out TvShowBase show)
       {
          return service.TryGetShowById(showId, out show);
       }

@@ -29,25 +29,25 @@ namespace Chalk.SubtitlesManagement
          return responseParser.FindShowsByName(responseString);
       }
 
-      public virtual bool TryGetShowById(int id, out TvShow tvShow)
+      public virtual bool TryGetShowById(int id, out TvShowBase tvShow)
       {
          ITvSeries bierdopje = channelFactory.CreateChannel();
          Stream responseStream = bierdopje.GetShowById(id.ToString());
          string responseString = CreateStringFromStream(responseStream);
          ((IChannel)bierdopje).Close();
 
-         tvShow = responseParser.GetShowById(responseString);
+         tvShow = responseParser.GetShow(responseString);
          return tvShow.id != 0;
       }
 
-      public virtual bool TryGetShowByTvDbId(int tvDbId, out TvShow tvShow)
+      public virtual bool TryGetShowByTvDbId(int tvDbId, out TvShowBase tvShow)
       {
          ITvSeries bierdopje = channelFactory.CreateChannel();
          Stream responseStream = bierdopje.GetShowByTvDbId(tvDbId.ToString());
          string responseString = CreateStringFromStream(responseStream);
          ((IChannel)bierdopje).Close();
 
-         tvShow = responseParser.GetShowByTvDbId(responseString);
+         tvShow = responseParser.GetShow(responseString);
          return tvShow.id != 0;
       }
 

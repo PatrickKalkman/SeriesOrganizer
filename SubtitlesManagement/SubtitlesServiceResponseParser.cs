@@ -27,25 +27,34 @@ namespace Chalk.SubtitlesManagement
          return bierdopjeResult.TvShows;
       }
 
-      public TvShow GetShowByTvDbId(string result)
-      {
-         StringReader stringReader = new StringReader(result);
-         return GetShow(stringReader);
-      }
-
-      private static TvShow GetShow(TextReader stringReader)
-      {
-         XmlSerializer xs = new XmlSerializer(typeof(BierDopje));
-         var bierdopjeResult = (BierDopje)xs.Deserialize(stringReader);
-         return bierdopjeResult.tvShow;
-      }
-
-      public TvShow GetShowById(string result)
+      public TvShowBase GetShow(string result)
       {
          if (!string.IsNullOrEmpty(result))
          {
-            StringReader stringReader = new StringReader(result);
-            return GetShow(stringReader);
+            try
+            {
+               bool isCachedResult = IsCachedResult(result);
+               Type typeToDeserialize = isCachedResult ? typeof(BierDopjeCached) : typeof(BierDopje);
+               StringReader stringReader = new StringReader(result);
+               XmlSerializer xs = new XmlSerializer(typeToDeserialize);
+               var bierdopjeResult = Convert.ChangeType(xs.Deserialize(stringReader), typeToDeserialize);
+               if (isCachedResult)
+               {
+                  TvShowCached tvShowCached = ((BierDopjeCached) bierdopjeResult).tvShow;
+                  tvShowCached.Genres.AddRange(tvShowCached.genres);
+                  return tvShowCached;
+               }
+               else
+               {
+                  TvShow tvShow = ((BierDopje)bierdopjeResult).tvShow;
+                  tvShow.Genres.AddRange(tvShow.genres);
+                  return tvShow;
+               }
+            }
+            catch (InvalidOperationException error)
+            {
+               throw new ArgumentException("The given xml is invalid and cannot be parsed.", "result", error);
+            }
          }
          throw new ArgumentNullException("result", "The result parameter cannot be null.");
       }

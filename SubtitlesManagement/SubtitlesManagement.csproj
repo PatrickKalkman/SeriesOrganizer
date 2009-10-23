@@ -54,12 +54,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TvShowCached.cs" />
     <Compile Include="FilterBehaviour.cs" />
     <Compile Include="FilterMessageInspector.cs" />
     <Compile Include="FindByNamesCachedResult.cs" />
     <Compile Include="FindByNamesResult.cs" />
-    <Compile Include="Genre.cs" />
-    <Compile Include="Genres.cs" />
     <Compile Include="ITvSeries.cs" />
     <Compile Include="ITvShowResult.cs" />
     <Compile Include="SubtitlesConfiguration.cs">
@@ -71,6 +70,7 @@
     <Compile Include="SubtitlesServiceResponseParser.cs" />
     <Compile Include="SubtitlesStorage.cs" />
     <Compile Include="TvShow.cs" />
+    <Compile Include="TvShowBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SubtitlesConfiguration.xsd" />
