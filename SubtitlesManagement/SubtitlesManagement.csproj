@@ -54,9 +54,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ITvEpisodes.cs" />
+    <Compile Include="ITvShowEpisode.cs" />
+    <Compile Include="ITvShowEpisodeSubtitlesResult.cs" />
+    <Compile Include="SingleTvShowEpisodeResult.cs" />
+    <Compile Include="SingleTvShowEpisodeResultCached.cs" />
     <Compile Include="TvShowCached.cs" />
-    <Compile Include="FilterBehaviour.cs" />
-    <Compile Include="FilterMessageInspector.cs" />
     <Compile Include="FindByNamesCachedResult.cs" />
     <Compile Include="FindByNamesResult.cs" />
     <Compile Include="ITvSeries.cs" />
@@ -72,6 +75,12 @@
     <Compile Include="TvShow.cs" />
     <Compile Include="TvShowBase.cs" />
     <Compile Include="TvShowEpisode.cs" />
+    <Compile Include="TvShowEpisodeResult.cs" />
+    <Compile Include="TvShowEpisodeResultCached.cs" />
+    <Compile Include="TvShowEpisodeSubtitle.cs" />
+    <Compile Include="TvShowEpisodeSubtitleCachedResult.cs" />
+    <Compile Include="TvShowEpisodeSubtitleResponse.cs" />
+    <Compile Include="TvShowEpisodeSubtitleResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SubtitlesConfiguration.xsd" />

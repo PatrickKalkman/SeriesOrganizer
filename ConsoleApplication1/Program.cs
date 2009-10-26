@@ -16,7 +16,7 @@ namespace ConsoleApplication1
          WebChannelFactory<ITvSeries> channelFactory = new WebChannelFactory<ITvSeries>(endPoint);
 
          SubtitlesService service = new SubtitlesService(new SubtitlesServiceResponseParser(), channelFactory);
-         TvShow show = service.GetEpisodesForSeason(12934, 1);
+         List<TvShowEpisodeSubtitle> episodes = service.GetAllSubsFor(1062201, 1, 443185, "en", true);
 
          Console.ReadLine();
       }
