@@ -7,11 +7,53 @@ namespace Chalk.SubtitlesManagement
 {
    public class SubtitlesServiceResponseParser
    {
-      internal List<TvShow> FindShowsByName(string xmlToParse)
+      internal TvShowBase GetTvShow(string xmlToParse)
       {
-         StringReader stringReader = new StringReader(xmlToParse);
-         List<TvShow> shows = IsCachedResult(xmlToParse) ? GetShows<FindByNamesCachedResult>(stringReader) : GetShows<FindByNamesResult>(stringReader);
-         return shows;
+         ValidateXmlToParse(xmlToParse);
+         Type typeToDeserialize = GetTypeToDeserialize(xmlToParse, typeof(SingleTvShowResult), typeof(SingleTvShowResultCached));
+         return DeserializeType<ISingleTvShowResult>(xmlToParse, typeToDeserialize).TvShow;
+      }
+
+      internal List<TvShow> GetTvShows(string xmlToParse)
+      {
+         Type typeToDeserialize = GetTypeToDeserialize(xmlToParse, typeof(FindByNamesResult), typeof(FindByNamesCachedResult));
+         return DeserializeType<List<TvShow>>(xmlToParse, typeToDeserialize);
+      }
+
+      internal TvShowEpisode GetEpisode(string xmlToParse)
+      {
+         ValidateXmlToParse(xmlToParse);
+         return DeserializeType<ITvShowEpisode>(xmlToParse, typeof(SingleTvShowEpisodeResult)).Episode;
+      }
+
+      internal List<TvShowEpisode> GetEpisodes(string xmlToParse)
+      {
+         ValidateXmlToParse(xmlToParse);
+         Type typeToDeserialize = GetTypeToDeserialize(xmlToParse, typeof(TvShowEpisodeResult), typeof(TvShowEpisodeResultCached));
+         return DeserializeType<ITvEpisodes>(xmlToParse, typeToDeserialize).TvEpisodes;
+      }
+
+      internal List<TvShowEpisodeSubtitle> GetSubtitles(string xmlToParse)
+      {
+         ValidateXmlToParse(xmlToParse);
+         Type typeToDeserialize = GetTypeToDeserialize(xmlToParse, typeof(TvShowEpisodeSubtitleResult), typeof(TvShowEpisodeSubtitleResultCached));
+         return DeserializeType<ITvShowEpisodeSubtitlesResult>(xmlToParse, typeToDeserialize).TvShowEpisodeSubtitles;
+      }
+
+      private static TToReturn DeserializeType<TToReturn>(string xmlToParse, Type typeToDeserialize)
+      {
+         try
+         {
+            using (StringReader stringReader = new StringReader(xmlToParse))
+            {
+               XmlSerializer xs = new XmlSerializer(typeToDeserialize);
+               return (TToReturn)xs.Deserialize(stringReader);
+            }
+         }
+         catch (InvalidOperationException error)
+         {
+            throw new ArgumentException("The given xml is invalid and cannot be parsed.", "xmlToParse", error);
+         }
       }
 
       internal static bool IsCachedResult(string xmlToParse)
@@ -20,113 +62,17 @@ namespace Chalk.SubtitlesManagement
          return index != -1 && index != 0;
       }
 
-      internal static List<TvShow> GetShows<TSerializer>(TextReader stringReader) where TSerializer : ITvShowResult
+      private static Type GetTypeToDeserialize(string xmlToParse, Type resultTypeNotCached, Type resultTypeCached)
       {
-         XmlSerializer xs = new XmlSerializer(typeof(TSerializer));
-         TSerializer bierdopjeResult = (TSerializer)xs.Deserialize(stringReader);
-         return bierdopjeResult.TvShows;
-      }
-
-      internal TvShowBase GetShow(string xmlToParse)
-      {
-         ValidateXmlToParse(xmlToParse);
-
-         try
-         {
-            bool isCachedResult = IsCachedResult(xmlToParse);
-            Type typeToDeserialize = isCachedResult ? typeof(BierDopjeCached) : typeof(BierDopje);
-            using (StringReader stringReader = new StringReader(xmlToParse))
-            {
-               XmlSerializer xs = new XmlSerializer(typeToDeserialize);
-
-               var bierdopjeResult = Convert.ChangeType(xs.Deserialize(stringReader), typeToDeserialize);
-               if (isCachedResult)
-               {
-                  TvShowCached tvShowCached = ((BierDopjeCached) bierdopjeResult).tvShow;
-                  tvShowCached.Genres.AddRange(tvShowCached.genres);
-                  return tvShowCached;
-               }
-               else
-               {
-                  TvShow tvShow = ((BierDopje) bierdopjeResult).tvShow;
-                  tvShow.Genres.AddRange(tvShow.genres);
-                  return tvShow;
-               }
-            }
-         }
-         catch (InvalidOperationException error)
-         {
-            throw new ArgumentException("The given xml is invalid and cannot be parsed.", "xmlToParse", error);
-         }
-      }
-
-      internal List<TvShowEpisode> GetEpisodes(string xmlToParse)
-      {
-         ValidateXmlToParse(xmlToParse);
-
-         try
-         {
-            bool isCachedResult = IsCachedResult(xmlToParse);
-            Type typeToDeserialize = isCachedResult ? typeof(TvShowEpisodeResultCached) : typeof(TvShowEpisodeResult);
-            using (StringReader stringReader = new StringReader(xmlToParse))
-            {
-               XmlSerializer xs = new XmlSerializer(typeToDeserialize);
-               ITvEpisodes tvShowEpisodeResult = (ITvEpisodes) (xs.Deserialize(stringReader));
-               return tvShowEpisodeResult.TvEpisodes;
-            }
-         }
-         catch (InvalidOperationException error)
-         {
-            throw new ArgumentException("The given xml is invalid and cannot be parsed.", "xmlToParse", error);
-         }
-      }
-
-      internal TvShowEpisode GetEpisode(string xmlToParse)
-      {
-         ValidateXmlToParse(xmlToParse);
-         try
-         {
-            using (StringReader stringReader = new StringReader(xmlToParse))
-            {
-               XmlSerializer xs = new XmlSerializer(typeof (SingleTvShowEpisodeResult));
-               ITvShowEpisode tvShowEpisode = (ITvShowEpisode) (xs.Deserialize(stringReader));
-               return tvShowEpisode.Episode;
-            }
-         }
-         catch (InvalidOperationException error)
-         {
-            throw new ArgumentException("The given xml is invalid and cannot be parsed.", "xmlToParse", error);
-         }
-      }
-
-      internal List<TvShowEpisodeSubtitle> GetSubtitle(string xmlToParse)
-      {
-         ValidateXmlToParse(xmlToParse);
-         try
-         {
-            using (StringReader stringReader = new StringReader(xmlToParse))
-            {
-               bool isCachedResult = IsCachedResult(xmlToParse);
-               Type typeToDeserialize = isCachedResult ? typeof (TvShowEpisodeSubtitleCachedResult) : typeof (TvShowEpisodeSubtitleResult);
-
-               XmlSerializer xs = new XmlSerializer(typeToDeserialize);
-               ITvShowEpisodeSubtitlesResult tvShowEpisodeSubtitleResponse = (ITvShowEpisodeSubtitlesResult) (xs.Deserialize(stringReader));
-               return tvShowEpisodeSubtitleResponse.TvShowEpisodeSubtitles;
-            }
-         }
-         catch (InvalidOperationException error)
-         {
-            throw new ArgumentException("The given xml is invalid and cannot be parsed.", "xmlToParse", error);
-         }
+         return IsCachedResult(xmlToParse) ? resultTypeCached : resultTypeNotCached;
       }
 
       private static void ValidateXmlToParse(string xmlToParse)
       {
          if (string.IsNullOrEmpty(xmlToParse))
          {
-            throw new ArgumentNullException("xmlToParse", "The result parameter cannot be null or empty.");
+            throw new ArgumentNullException("xmlToParse", "The given xml cannot be null or empty.");
          }
       }
-
    }
 }
