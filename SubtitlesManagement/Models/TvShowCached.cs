@@ -17,10 +17,6 @@ namespace Chalk.SubtitlesManagement
          {
             return genres;
          }
-         set
-         {
-            base.Genres = value;
-         }
       }
    }
 }

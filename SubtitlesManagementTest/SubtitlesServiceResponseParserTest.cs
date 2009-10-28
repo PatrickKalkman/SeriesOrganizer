@@ -13,7 +13,7 @@ namespace Chalk.SubtitlesManagement
       public void ShouldThrowExceptionWhenResponseIsNullOrEmpty()
       {
          SubtitlesServiceResponseParser subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
-         subtitlesServiceResponseParser.GetShow(null);
+         subtitlesServiceResponseParser.GetTvShow(null);
       }
 
       [Test]
@@ -21,14 +21,14 @@ namespace Chalk.SubtitlesManagement
       public void ShouldThrowExceptionWhenResponseIsInvalid()
       {
          SubtitlesServiceResponseParser subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
-         subtitlesServiceResponseParser.GetShow("34@#$@#$@#$@#$");
+         subtitlesServiceResponseParser.GetTvShow("34@#$@#$@#$@#$");
       }
 
       [Test]
       public void ShouldParseSingleTvShowCorrectly()
       {
          SubtitlesServiceResponseParser subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
-         TvShowBase tvShow = subtitlesServiceResponseParser.GetShow(TestResources.SingleShowNotCached);
+         TvShowBase tvShow = subtitlesServiceResponseParser.GetTvShow(TestResources.SingleShowNotCached);
          Assert.AreEqual(12934, tvShow.id);
       }
 
@@ -36,7 +36,7 @@ namespace Chalk.SubtitlesManagement
       public void ShouldParseCachedSingleTvShowCorrectly()
       {
          SubtitlesServiceResponseParser subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
-         TvShowBase tvShow = subtitlesServiceResponseParser.GetShow(TestResources.SingleShowCached);
+         TvShowBase tvShow = subtitlesServiceResponseParser.GetTvShow(TestResources.SingleShowCached);
          Assert.AreEqual(12934, tvShow.id);
       }
 
@@ -92,7 +92,7 @@ namespace Chalk.SubtitlesManagement
       public void ShouldParseSubtitlesCorrectly()
       {
          SubtitlesServiceResponseParser subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
-         List<TvShowEpisodeSubtitle> tvShowEpisodeSubtitles = subtitlesServiceResponseParser.GetSubtitle(TestResources.GetAllSubsForEpisodeNotCached);
+         List<TvShowEpisodeSubtitle> tvShowEpisodeSubtitles = subtitlesServiceResponseParser.GetSubtitles(TestResources.GetAllSubsForEpisodeNotCached);
          Assert.AreEqual(2, tvShowEpisodeSubtitles.Count);
       }
 
@@ -100,7 +100,7 @@ namespace Chalk.SubtitlesManagement
       public void ShouldParseCachedSubtitlesCorrectly()
       {
          SubtitlesServiceResponseParser subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
-         List<TvShowEpisodeSubtitle> tvShowEpisodeSubtitles = subtitlesServiceResponseParser.GetSubtitle(TestResources.GetAllSubsForEpisodeCached);
+         List<TvShowEpisodeSubtitle> tvShowEpisodeSubtitles = subtitlesServiceResponseParser.GetSubtitles(TestResources.GetAllSubsForEpisodeCached);
          Assert.AreEqual(2, tvShowEpisodeSubtitles.Count);
       }
 
