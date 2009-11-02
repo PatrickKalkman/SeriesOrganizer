@@ -4,6 +4,10 @@ using System.ServiceModel.Web;
 
 namespace Chalk.SubtitlesManagement
 {
+   /// <summary>
+   /// This interface describes the api that is offered by www.bierdopje.com for interacting with
+   /// the content of the website. 
+   /// </summary>
    [ServiceContract]
    public interface ITvSeries
    {

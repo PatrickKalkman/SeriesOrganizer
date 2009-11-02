@@ -1,4 +1,4 @@
-namespace Chalk.SubtitlesManagement
+namespace Chalk.SubtitlesManagement.Models
 {
    internal interface ITvShowEpisode
    {

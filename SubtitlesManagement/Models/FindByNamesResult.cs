@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Xml.Serialization;
 
-namespace Chalk.SubtitlesManagement
+namespace Chalk.SubtitlesManagement.Models
 {
    [XmlRoot(ElementName = "bierdopje", Namespace = "", IsNullable = false)]
    [Serializable()]

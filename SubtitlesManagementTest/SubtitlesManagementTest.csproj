@@ -60,7 +60,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TestResources.resx</DependentUpon>
     </Compile>
-    <Compile Include="SubtitleServiceTest.cs" />
     <Compile Include="SubtitlesServiceResponseParserTest.cs" />
   </ItemGroup>
   <ItemGroup>

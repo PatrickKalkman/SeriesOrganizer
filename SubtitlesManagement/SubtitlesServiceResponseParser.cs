@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Xml.Serialization;
+using Chalk.SubtitlesManagement.Models;
 
 namespace Chalk.SubtitlesManagement
 {
@@ -17,37 +18,37 @@ namespace Chalk.SubtitlesManagement
       internal List<TvShow> GetTvShows(string xmlToParse)
       {
          Type typeToDeserialize = GetTypeToDeserialize(xmlToParse, typeof(FindByNamesResult), typeof(FindByNamesCachedResult));
-         return DeserializeType<List<TvShow>>(xmlToParse, typeToDeserialize);
+         return DeserializeType<ITvShowResult>(xmlToParse, typeToDeserialize).TvShows;
       }
 
-      internal TvShowEpisode GetEpisode(string xmlToParse)
+      internal TvShowEpisode GetTvShowEpisode(string xmlToParse)
       {
          ValidateXmlToParse(xmlToParse);
          return DeserializeType<ITvShowEpisode>(xmlToParse, typeof(SingleTvShowEpisodeResult)).Episode;
       }
 
-      internal List<TvShowEpisode> GetEpisodes(string xmlToParse)
+      internal List<TvShowEpisode> GetTvShowEpisodes(string xmlToParse)
       {
          ValidateXmlToParse(xmlToParse);
          Type typeToDeserialize = GetTypeToDeserialize(xmlToParse, typeof(TvShowEpisodeResult), typeof(TvShowEpisodeResultCached));
          return DeserializeType<ITvEpisodes>(xmlToParse, typeToDeserialize).TvEpisodes;
       }
 
-      internal List<TvShowEpisodeSubtitle> GetSubtitles(string xmlToParse)
+      internal List<TvShowEpisodeSubtitle> GetTvShowEpisodeSubtitles(string xmlToParse)
       {
          ValidateXmlToParse(xmlToParse);
          Type typeToDeserialize = GetTypeToDeserialize(xmlToParse, typeof(TvShowEpisodeSubtitleResult), typeof(TvShowEpisodeSubtitleResultCached));
          return DeserializeType<ITvShowEpisodeSubtitlesResult>(xmlToParse, typeToDeserialize).TvShowEpisodeSubtitles;
       }
 
-      private static TToReturn DeserializeType<TToReturn>(string xmlToParse, Type typeToDeserialize)
+      private static TTypeToReturn DeserializeType<TTypeToReturn>(string xmlToParse, Type typeToDeserialize)
       {
          try
          {
             using (StringReader stringReader = new StringReader(xmlToParse))
             {
                XmlSerializer xs = new XmlSerializer(typeToDeserialize);
-               return (TToReturn)xs.Deserialize(stringReader);
+               return (TTypeToReturn)xs.Deserialize(stringReader);
             }
          }
          catch (InvalidOperationException error)
@@ -56,7 +57,7 @@ namespace Chalk.SubtitlesManagement
          }
       }
 
-      internal static bool IsCachedResult(string xmlToParse)
+      private static bool IsCachedResult(string xmlToParse)
       {
          int index = xmlToParse.IndexOf("<cached>true</cached>");
          return index != -1 && index != 0;

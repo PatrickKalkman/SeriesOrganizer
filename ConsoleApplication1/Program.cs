@@ -1,9 +1,11 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ServiceModel;
 using System.ServiceModel.Description;
 using System.ServiceModel.Web;
 using Chalk.SubtitlesManagement;
+using Chalk.SubtitlesManagement.Models;
 
 namespace ConsoleApplication1
 {
@@ -16,7 +18,8 @@ namespace ConsoleApplication1
          WebChannelFactory<ITvSeries> channelFactory = new WebChannelFactory<ITvSeries>(endPoint);
 
          SubtitlesService service = new SubtitlesService(new SubtitlesServiceResponseParser(), channelFactory);
-         List<TvShowEpisodeSubtitle> episodes = service.GetAllSubsFor(1062201, 1, 443185, "en", true);
+         //List<TvShow> shows = service.FindShowsByName("FlashForward");
+         List<TvShowEpisodeSubtitle> episodes = service.GetAllSubsFor(12934, 1, 443185, "en", false); //12934
 
          Console.ReadLine();
       }

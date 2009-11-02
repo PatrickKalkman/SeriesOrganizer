@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -54,16 +54,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ITvEpisodes.cs" />
-    <Compile Include="ITvShowEpisode.cs" />
-    <Compile Include="ITvShowEpisodeSubtitlesResult.cs" />
-    <Compile Include="SingleTvShowEpisodeResult.cs" />
-    <Compile Include="SingleTvShowEpisodeResultCached.cs" />
-    <Compile Include="TvShowCached.cs" />
-    <Compile Include="FindByNamesCachedResult.cs" />
-    <Compile Include="FindByNamesResult.cs" />
+    <Compile Include="Models\FindByNamesCachedResult.cs" />
+    <Compile Include="Models\FindByNamesResult.cs" />
+    <Compile Include="Models\ISingleTvShowResult.cs" />
+    <Compile Include="Models\ITvEpisodes.cs" />
+    <Compile Include="Models\ITvShowEpisode.cs" />
+    <Compile Include="Models\ITvShowEpisodeSubtitlesResult.cs" />
+    <Compile Include="Models\ITvShowResult.cs" />
+    <Compile Include="Models\SingleTvShowEpisodeResult.cs" />
+    <Compile Include="Models\SingleTvShowEpisodeResultCached.cs" />
+    <Compile Include="Models\SingleTvShowResult.cs" />
+    <Compile Include="Models\SingleTvShowResultCached.cs" />
+    <Compile Include="Models\TvShow.cs" />
+    <Compile Include="Models\TvShowBase.cs" />
+    <Compile Include="Models\TvShowCached.cs" />
+    <Compile Include="Models\TvShowEpisode.cs" />
+    <Compile Include="Models\TvShowEpisodeResult.cs" />
+    <Compile Include="Models\TvShowEpisodeResultCached.cs" />
+    <Compile Include="Models\TvShowEpisodeSubtitle.cs" />
+    <Compile Include="Models\TvShowEpisodeSubtitleResponse.cs" />
+    <Compile Include="Models\TvShowEpisodeSubtitleResult.cs" />
+    <Compile Include="Models\TvShowEpisodeSubtitleResultCached.cs" />
     <Compile Include="ITvSeries.cs" />
-    <Compile Include="ITvShowResult.cs" />
     <Compile Include="SubtitlesConfiguration.cs">
       <DependentUpon>SubtitlesConfiguration.xsd</DependentUpon>
     </Compile>
@@ -71,16 +83,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SubtitlesService.cs" />
     <Compile Include="SubtitlesServiceResponseParser.cs" />
-    <Compile Include="SubtitlesStorage.cs" />
-    <Compile Include="TvShow.cs" />
-    <Compile Include="TvShowBase.cs" />
-    <Compile Include="TvShowEpisode.cs" />
-    <Compile Include="TvShowEpisodeResult.cs" />
-    <Compile Include="TvShowEpisodeResultCached.cs" />
-    <Compile Include="TvShowEpisodeSubtitle.cs" />
-    <Compile Include="TvShowEpisodeSubtitleCachedResult.cs" />
-    <Compile Include="TvShowEpisodeSubtitleResponse.cs" />
-    <Compile Include="TvShowEpisodeSubtitleResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SubtitlesConfiguration.xsd" />

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Chalk.SubtitlesManagement
+namespace Chalk.SubtitlesManagement.Models
 {
    internal interface ITvShowResult
    {
