@@ -13,15 +13,7 @@ namespace Chalk.SubtitlesManagement
       private readonly MockRepository repository = new MockRepository();
 
       [Test]
-      public void ShouldSendResponseStringToResponseParser()
-      {
-         SubtitlesService subtitlesService = CreateSubtitleServiceAndSetExpectations();
-         repository.ReplayAll();
-         subtitlesService.FindShowsByName("Flash");
-         repository.VerifyAll();
-      }
-
-      private SubtitlesService CreateSubtitleServiceAndSetExpectations()
+      public void ShouldSendResponseStringToFindShowByNameInResponseParser()
       {
          const string ResponseString = "Dummy Response String";
 
@@ -34,12 +26,16 @@ namespace Chalk.SubtitlesManagement
          ServiceChannelFactory serviceChannelFactory = repository.DynamicMock<ServiceChannelFactory>(CreateSubtitlesConfiguration());
          Expect.Call(serviceChannelFactory.CreateChannel()).Return(tvSeries);
 
-         return new SubtitlesService(responseParser, serviceChannelFactory);
+         SubtitlesService subtitlesService = new SubtitlesService(responseParser, serviceChannelFactory);
+         repository.ReplayAll();
+         subtitlesService.FindShowsByName("Flash");
+         repository.VerifyAll();
       }
+
 
       private static Stream CreateDummyStream(string responseString)
       {
-         return new MemoryStream(Encoding.Default.GetBytes("bladiebla"));
+         return new MemoryStream(Encoding.Default.GetBytes(responseString));
       }
 
       private static SubtitlesConfigurationType CreateSubtitlesConfiguration()
