@@ -18,6 +18,14 @@ namespace Chalk.SubtitlesManagement
       }
 
       [Test]
+      [ExpectedException(typeof(ArgumentNullException))]
+      public void ShouldThrowExceptionWhenResponseIsEmpty()
+      {
+         SubtitlesServiceResponseParser subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
+         subtitlesServiceResponseParser.GetTvShows(string.Empty);
+      }
+
+      [Test]
       [ExpectedException(typeof(ArgumentException))]
       public void ShouldThrowExceptionWhenResponseIsInvalid()
       {
@@ -103,6 +111,24 @@ namespace Chalk.SubtitlesManagement
          SubtitlesServiceResponseParser subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
          List<TvShowEpisodeSubtitle> tvShowEpisodeSubtitles = subtitlesServiceResponseParser.GetTvShowEpisodeSubtitles(TestResources.GetAllSubsForEpisodeCached);
          Assert.AreEqual(2, tvShowEpisodeSubtitles.Count);
+      }
+
+      [Test]
+      public void ShouldParseMultipleTvShowsCorrectly()
+      {
+         const int NumberOfTvShowsInResource = 11;
+         SubtitlesServiceResponseParser subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
+         List<TvShow> tvShows = subtitlesServiceResponseParser.GetTvShows(TestResources.FindShowsByNameNotCached);
+         Assert.AreEqual(NumberOfTvShowsInResource, tvShows.Count);
+      }
+
+      [Test]
+      public void ShouldParseMultipleTvShowsCachedCorrectly()
+      {
+         const int NumberOfTvShowsInResource = 11;
+         SubtitlesServiceResponseParser subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
+         List<TvShow> tvShows = subtitlesServiceResponseParser.GetTvShows(TestResources.FindShowsByNameCached);
+         Assert.AreEqual(NumberOfTvShowsInResource, tvShows.Count);
       }
 
       private static SubtitlesServiceResponseParser CreateSubtitlesServiceResponseParser()

@@ -11,6 +11,7 @@ namespace Chalk.SubtitlesManagement.Models
       [XmlElement("response")]
       public Response response;
 
+      [XmlIgnore]
       public List<TvShow> TvShows
       {
          get { return response.tvShows; }

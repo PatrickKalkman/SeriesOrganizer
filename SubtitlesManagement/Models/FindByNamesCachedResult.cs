@@ -12,6 +12,7 @@ namespace Chalk.SubtitlesManagement.Models
       [XmlArrayItem("result", typeof(TvShow))]
       public List<TvShow> tvShows;
 
+      [XmlIgnore]
       public List<TvShow> TvShows
       {
          get { return tvShows; }

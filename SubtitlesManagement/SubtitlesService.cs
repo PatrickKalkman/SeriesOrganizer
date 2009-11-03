@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.ServiceModel.Channels;
-using System.ServiceModel.Web;
 using System.Text;
 using Chalk.SubtitlesManagement.Models;
 
@@ -10,15 +9,15 @@ namespace Chalk.SubtitlesManagement
    public class SubtitlesService
    {
       private readonly SubtitlesServiceResponseParser responseParser;
-      private readonly WebChannelFactory<ITvSeries> channelFactory;
+      private readonly ServiceChannelFactory serviceChannelFactory;
 
-      public SubtitlesService(SubtitlesServiceResponseParser responseParser, WebChannelFactory<ITvSeries> channelFactory)
+      public SubtitlesService(SubtitlesServiceResponseParser responseParser, ServiceChannelFactory serviceChannelFactory)
       {
          this.responseParser = responseParser;
-         this.channelFactory = channelFactory;
+         this.serviceChannelFactory = serviceChannelFactory;
       }
 
-      public virtual List<TvShow> FindShowsByName(string name)
+      public List<TvShow> FindShowsByName(string name)
       {
          ITvSeries bierdopjeService = CreateBierdopjeServiceChannel();
          string responseString;
@@ -132,12 +131,14 @@ namespace Chalk.SubtitlesManagement
 
       private ITvSeries CreateBierdopjeServiceChannel()
       {
-         return channelFactory.CreateChannel();
+         return serviceChannelFactory.CreateChannel();
       }
 
       private static void CloseBierdopjeServiceChannel(ITvSeries bierdopjeService)
       {
-         ((IChannel)bierdopjeService).Close();
+         IChannel bierdopjeServiceChannel = bierdopjeService as IChannel;
+         if (bierdopjeServiceChannel != null)
+            bierdopjeServiceChannel.Close();
       }
    }
 }

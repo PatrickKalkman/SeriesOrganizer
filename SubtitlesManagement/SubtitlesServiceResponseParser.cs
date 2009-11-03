@@ -6,6 +6,10 @@ using Chalk.SubtitlesManagement.Models;
 
 namespace Chalk.SubtitlesManagement
 {
+   /// <summary>
+   /// This class is responsible for parsing the response string and creating 
+   /// concrete types from the response string.
+   /// </summary>
    public class SubtitlesServiceResponseParser
    {
       internal TvShowBase GetTvShow(string xmlToParse)
@@ -15,8 +19,9 @@ namespace Chalk.SubtitlesManagement
          return DeserializeType<ISingleTvShowResult>(xmlToParse, typeToDeserialize).TvShow;
       }
 
-      internal List<TvShow> GetTvShows(string xmlToParse)
+      internal virtual List<TvShow> GetTvShows(string xmlToParse)
       {
+         ValidateXmlToParse(xmlToParse);
          Type typeToDeserialize = GetTypeToDeserialize(xmlToParse, typeof(FindByNamesResult), typeof(FindByNamesCachedResult));
          return DeserializeType<ITvShowResult>(xmlToParse, typeToDeserialize).TvShows;
       }
