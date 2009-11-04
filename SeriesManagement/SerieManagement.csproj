@@ -55,18 +55,13 @@
     <Compile Include="SerieCollector.cs" />
     <Compile Include="SerieMover.cs" />
     <Compile Include="SerieOrganizer.cs" />
+    <Compile Include="XmlConfigurationReaderBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="OrganisationConfiguration.xsd" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ExampleConfiguration.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{08EC6396-CBC1-4577-B413-AF1D2F6AD88C}</Project>
-      <Name>Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

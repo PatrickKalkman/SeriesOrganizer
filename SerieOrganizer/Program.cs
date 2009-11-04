@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using Chalk.SubtitlesManagement;
+using Chalk.SubtitlesManagement.Models;
 
 namespace Chalk.SerieOrganizer
 {
@@ -7,11 +9,9 @@ namespace Chalk.SerieOrganizer
    {
       static void Main(string[] args)
       {
-         SubtitlesConfigurationReader subtitlesReader = new SubtitlesConfigurationReader();
-         SubtitlesConfigurationType subtitlesConfiguration = subtitlesReader.Read();
-
-         
-
+         SubtitleService service = SubtitleServiceFactory.CreateSubtitleService();
+         List<TvShow> shows = service.FindShowsByName("Flash");
+         Console.ReadLine();
 
          OrganisationConfigurationReader reader = new OrganisationConfigurationReader();
          OrganisationConfigurationType configuration = reader.Read();

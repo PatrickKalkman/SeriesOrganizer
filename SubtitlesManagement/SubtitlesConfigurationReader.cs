@@ -1,8 +1,6 @@
-﻿using Chalk.Common;
-
-namespace Chalk.SubtitlesManagement
+﻿namespace Chalk.SubtitlesManagement
 {
-   public class SubtitlesConfigurationReader : XmlConfigurationReaderBase<SubtitlesConfigurationType>
+   internal class SubtitlesConfigurationReader : XmlConfigurationReaderBase<SubtitlesConfigurationType>
    {
       public SubtitlesConfigurationReader()
          : base(".", "SubtitlesConfiguration.xml")

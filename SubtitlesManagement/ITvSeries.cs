@@ -9,7 +9,7 @@ namespace Chalk.SubtitlesManagement
    /// the content of the website. 
    /// </summary>
    [ServiceContract]
-   public interface ITvSeries
+   internal interface ITvSeries
    {
       [OperationContract]
       [WebInvoke(UriTemplate = "/GetShowById/{showId}", Method = "Get")]
