@@ -35,6 +35,6 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
-[assembly: InternalsVisibleTo("Chalk.SubtitlesManagementTest")]
+[assembly: InternalsVisibleTo("Chalk.SubtitleManagementTest")]
 [assembly: InternalsVisibleTo("DynamicProxyGenAssembly2")]
 

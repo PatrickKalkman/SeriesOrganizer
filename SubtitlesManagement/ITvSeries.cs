@@ -1,46 +1,33 @@
-﻿using System.IO;
-using System.ServiceModel;
-using System.ServiceModel.Web;
-
 namespace Chalk.SubtitlesManagement
 {
    /// <summary>
    /// This interface describes the api that is offered by www.bierdopje.com for interacting with
    /// the content of the website. 
    /// </summary>
-   [ServiceContract]
    internal interface ITvSeries
    {
-      [OperationContract]
-      [WebInvoke(UriTemplate = "/GetShowById/{showId}", Method = "Get")]
-      Stream GetShowById(string showId);
+//      [WebInvoke(UriTemplate = "/GetShowById/{showId}", Method = "Get")]
+      string GetShowById(string showId);
 
-      [OperationContract]
-      [WebInvoke(UriTemplate = "/GetShowByTVDBID/{showId}", Method = "Get")]
-      Stream GetShowByTvDbId(string showId);
+//      [WebInvoke(UriTemplate = "/GetShowByTVDBID/{showId}", Method = "Get")]
+      string GetShowByTvDbId(string showId);
 
-      [OperationContract]
-      [WebInvoke(UriTemplate = "/FindShowByName/{name}", Method = "Get")]
-      Stream FindShowByName(string name);
+//      [WebInvoke(UriTemplate = "/FindShowByName/{name}", Method = "Get")]
+      string FindShowByName(string name);
 
-      [OperationContract]
-      [WebInvoke(UriTemplate = "/GetEpisodesForSeason/{showId}/{season}", Method = "Get")]
-      Stream GetEpisodesForSeason(string showId, string season);
+//      [WebInvoke(UriTemplate = "/GetEpisodesForSeason/{showId}/{season}", Method = "Get")]
+      string GetEpisodesForSeason(string showId, string season);
 
-      [OperationContract]
-      [WebInvoke(UriTemplate = "/GetAllEpisodesForShow/{showId}", Method = "Get")]
-      Stream GetAllEpisodesForShow(string showId);
+//      [WebInvoke(UriTemplate = "/GetAllEpisodesForShow/{showId}", Method = "Get")]
+      string GetAllEpisodesForShow(string showId);
 
-      [OperationContract]
-      [WebInvoke(UriTemplate = "/GetEpisodeById/{episodeId}", Method = "Get")]
-      Stream GetEpisodeById(string episodeId);
+//      [WebInvoke(UriTemplate = "/GetEpisodeById/{episodeId}", Method = "Get")]
+      string GetEpisodeById(string episodeId);
 
-      [OperationContract]
-      [WebInvoke(UriTemplate = "/GetAllSubsForEpisode/{episodeId}/{language}", Method = "Get")]
-      Stream GetAllSubsForEpisode(string episodeId, string language);
+//      [WebInvoke(UriTemplate = "/GetAllSubsForEpisode/{episodeId}/{language}", Method = "Get")]
+      string GetAllSubsForEpisode(string episodeId, string language);
 
-      [OperationContract]
-      [WebInvoke(UriTemplate = "/GetAllSubsFor/{showId}/{season}/{episodeId}/{language}/{isTvDbId}", Method = "Get")]
-      Stream GetAllSubsFor(string showId, string season, string episodeId, string language, string isTvDbId);
+//      [WebInvoke(UriTemplate = "/GetAllSubsFor/{showId}/{season}/{episodeId}/{language}/{isTvDbId}", Method = "Get")]
+      string GetAllSubsFor(string showId, string season, string episodeId, string language, string isTvDbId);
    }
 }

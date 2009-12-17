@@ -21,7 +21,7 @@ namespace Chalk.SubtitlesManagement
          Expect.Call(responseParser.GetTvShows(ResponseString)).Return(new List<TvShow>());
 
          ITvSeries tvSeries = repository.DynamicMock<ITvSeries>();
-         Expect.Call(tvSeries.FindShowByName(string.Empty)).Return(CreateDummyStream(ResponseString)).IgnoreArguments();
+         Expect.Call(tvSeries.FindShowByName(string.Empty)).Return(ResponseString).IgnoreArguments();
 
          ServiceChannelFactory serviceChannelFactory = repository.DynamicMock<ServiceChannelFactory>(CreateSubtitlesConfiguration());
          Expect.Call(serviceChannelFactory.CreateChannel()).Return(tvSeries);
@@ -32,10 +32,10 @@ namespace Chalk.SubtitlesManagement
          repository.VerifyAll();
       }
 
-
-      private static Stream CreateDummyStream(string responseString)
+      [Test]
+      public void ShouldRemoveSrrFiles()
       {
-         return new MemoryStream(Encoding.Default.GetBytes(responseString));
+          //ctu-x264-lie.to.me.209.srr
       }
 
       private static SubtitlesConfigurationType CreateSubtitlesConfiguration()

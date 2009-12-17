@@ -10,14 +10,14 @@
       <delete file="Chalk.SerieManagement.pdb" failonerror="false" />
       <delete file="Chalk.SerieManagementTest.dll" failonerror="false" />
       <delete file="Chalk.SerieManagementTest.pdb" failonerror="false" />
-      <delete file="Chalk.SubtitlesManagement.dll" failonerror="false" />
-      <delete file="Chalk.SubtitlesManagement.pdb" failonerror="false" />
-      <delete file="Chalk.SubtitlesManagementTest.dll" failonerror="false" />
-      <delete file="Chalk.SubtitlesManagementTest.pdb" failonerror="false" />
+      <delete file="Chalk.SubtitleManagement.dll" failonerror="false" />
+      <delete file="Chalk.SubtitleManagement.pdb" failonerror="false" />
+      <delete file="Chalk.SubtitleManagementTest.dll" failonerror="false" />
+      <delete file="Chalk.SubtitleManagementTest.pdb" failonerror="false" />
    </target>
    
-   <target name="build" description="compiles the source code">
-      
+   <target name="build" description="compiles the source code">  
+   
       <csc target="library" output="Chalk.SerieManagement.dll" debug="${debug}">
          <resources>
             <include name="SeriesManagement/OrganisationConfiguration.xsd.cs" />
@@ -34,10 +34,55 @@
             <include name="Properties/AssemblyInfo.cs"/>
          </sources>
       </csc>
+ 
+      <csc target="library" output="Chalk.SubtitleManagement.dll" debug="${debug}">
+         <references>
+            <include name="System.ServiceModel.dll"/>
+	    <include name="System.ServiceModel.Web.dll"/>
+         </references>
+         <resources>
+            <include name="SubtitlesManagement/SubtitlesConfigurationType.xsd.cs" />
+         </resources>
+         <sources basedir="SubtitlesManagement">
+            <include name="ITvSeries.cs" />
+            <include name="TvSeriesService.cs" />
+            <include name="SubtitlesConfigurationType.cs"/>
+            <include name="ServiceChannelFactory.cs" />
+            <include name="SubtitlesConfigurationReader.cs" />
+            <include name="SubtitlesConfiguration.cs" />
+            <include name="SubtitleService.cs" />
+            <include name="SubtitleServiceFactory.cs" />
+            <include name="SubtitleServiceResponseDeserializer.cs" />
+            <include name="XmlConfigurationReaderBase.cs" />
+            <include name="Properties/AssemblyInfo.cs"/>
+            <include name="Models/FindByNamesCachedResult.cs" />
+            <include name="Models/FindByNamesResult.cs" />
+            <include name="Models/ISingleTvShowResult.cs" />
+       	    <include name="Models/ITvShowResult.cs"/>
+            <include name="Models/ITvEpisodes.cs" />
+            <include name="Models/ITvShowEpisode.cs" />
+            <include name="Models/ITvShowEpisodeSubtitlesResult.cs" />
+            <include name="Models/SingleTvShowEpisodeResult.cs" />
+            <include name="Models/SingleTvShowEpisodeResultCached.cs" />
+            <include name="Models/SingleTvShowResult.cs" />
+            <include name="Models/SingleTvShowResultCached.cs" />
+            <include name="Models/TvShow.cs" />
+            <include name="Models/TvShowBase.cs" />
+            <include name="Models/TvShowCached.cs" />
+            <include name="Models/TvShowEpisode.cs" />
+            <include name="Models/TvShowEpisodeResult.cs" />
+            <include name="Models/TvShowEpisodeResultCached.cs" />
+            <include name="Models/TvShowEpisodeSubtitle.cs" />
+            <include name="Models/TvShowEpisodeSubtitleResponse.cs" />
+            <include name="Models/TvShowEpisodeSubtitleResult.cs" />
+            <include name="Models/TvShowEpisodeSubtitleResultCached.cs" />
+         </sources>
+      </csc>
       
       <csc target="exe" output="SerieOrganizer.exe" debug="${debug}">
          <references>
             <include name="Chalk.SerieManagement.dll"/>
+            <include name="Chalk.SubtitleManagement.dll"/>
          </references>
          <sources basedir="SerieOrganizer">
             <include name="Program.cs" />
@@ -61,28 +106,19 @@
          </sources>
       </csc>
 
-      <csc target="library" output="Chalk.SubtitlesManagement.dll" debug="${debug}">
-         <resources>
-            <include name="SubtitlesManagement/OrganisationConfiguration.xsd.cs" />
-         </resources>
-         <sources basedir="SubtitlesManagement">
-            <include name="ITvSeries.cs" />
-            <include name="ServiceChannelFactory.cs" />
-            <include name="SubtitlesConfigurationReader.cs" />
-            <include name="SubtitleService.cs" />
-            <include name="SubtitleServiceFactory.cs" />
-            <include name="SubtitleServiceResponseDeserializer.cs" />
-            <include name="XmlConfigurationReaderBase.cs" />
-            <include name="Properties/AssemblyInfo.cs"/>
-         </sources>
-      </csc>
 
-      <csc target="library" output="Chalk.SubtitlesManagementTest.dll" debug="${debug}">
+      <csc target="library" output="Chalk.SubtitleManagementTest.dll" debug="${debug}">
+	     <references>
+            <include name="SeriesManagementTest/Include/nunit.framework.dll"/>
+            <include name="SeriesManagementTest/Include/Rhino.Mocks.dll"/>
+			<include name="Chalk.SubtitleManagement.dll"/>
+         </references>
          <resources>
-            <include name="SubtitlesManagementTest/TestResources.resx" />
+            <include name="SubtitlesManagementTest/Resources/TestResources.resx" />
          </resources>
          <sources basedir="SubtitlesManagementTest">
-            <include name="SubtitlesServiceResponseDeserializer.cs" />
+            <include name="SubtitlesServiceResponseDeserializerTest.cs" />
+			<include name="Resources/TestResources.Designer.cs" />
             <include name="SubtitlesServiceTest.cs" />
             <include name="Properties/AssemblyInfo.cs"/>
          </sources>

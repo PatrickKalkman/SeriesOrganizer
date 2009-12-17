@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+using System;
 using Chalk.SubtitlesManagement;
 using Chalk.SubtitlesManagement.Models;
 
@@ -9,9 +8,12 @@ namespace Chalk.SerieOrganizer
    {
       static void Main(string[] args)
       {
-         SubtitleService service = SubtitleServiceFactory.CreateSubtitleService();
-         List<TvShow> shows = service.FindShowsByName("Flash");
+         SubtitleService subtitleService = SubtitleServiceFactory.CreateSubtitleService();
+         TvShowBase tvShow;
+         bool result = subtitleService.TryGetShowById(13673, out tvShow);
+         Console.WriteLine("TvShow {0}", tvShow.showName);
          Console.ReadLine();
+
 
          OrganisationConfigurationReader reader = new OrganisationConfigurationReader();
          OrganisationConfigurationType configuration = reader.Read();
@@ -24,12 +26,13 @@ namespace Chalk.SerieOrganizer
             organizer.Organize();
             SerieCleaner cleaner = new SerieCleaner(configuration);
             cleaner.RemoveNfoFiles();
+            cleaner.CleanSrrFiles();
             cleaner.RemoveSampleFiles();
             cleaner.CleanEmptyDirectories();
          }
          else
          {
-            Console.WriteLine("Cannot read the configuration file.");
+         Console.WriteLine("Cannot read the configuration file.");
          }
       }
    }

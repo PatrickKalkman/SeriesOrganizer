@@ -43,6 +43,16 @@ namespace Chalk.SerieOrganizer
          }
       }
 
+      public void CleanSrrFiles()
+      {
+         DirectoryInfo directoryToOrganize = new DirectoryInfo(configuration.DirectoryToOrganize);
+         foreach (FileInfo srrFile in directoryToOrganize.GetFiles("*.srr", SearchOption.AllDirectories))
+         {
+            Console.WriteLine("Deleting srr file {0}", srrFile.Name);
+            srrFile.Delete();
+         }
+      }
+
       public void RemoveNfoFiles()
       {
          DirectoryInfo directoryToOrganize = new DirectoryInfo(configuration.DirectoryToOrganize);
