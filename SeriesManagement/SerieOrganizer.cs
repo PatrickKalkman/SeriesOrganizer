@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Chalk.SubtitlesManagement;
 
 namespace Chalk.SerieOrganizer
 {
@@ -7,11 +8,13 @@ namespace Chalk.SerieOrganizer
    {
       private readonly SerieCollector serieCollector;
       private readonly SerieMover serieMover;
+      private readonly SubtitleService subtitleService;
 
-      public SerieOrganizer(SerieCollector serieCollector, SerieMover serieMover)
+      public SerieOrganizer(SerieCollector serieCollector, SerieMover serieMover, SubtitleService subtitleService)
       {
          this.serieCollector = serieCollector;
          this.serieMover = serieMover;
+         this.subtitleService = subtitleService;
       }
 
       public void Organize()
@@ -23,6 +26,7 @@ namespace Chalk.SerieOrganizer
             if (serie.IsValid)
             {
                Console.WriteLine("Processing {0}", serie.FileName);
+               subtitleService.DownloadSubtitle(serie.Name, serie.FullName); 
                serieMover.Move(serie);
             }
             else

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Chalk.SubtitlesManagement.Models;
 
@@ -18,6 +19,7 @@ namespace Chalk.SubtitlesManagement
       {
          ITvSeries bierdopjeService = CreateBierdopjeServiceChannel();
          string responseString = bierdopjeService.FindShowByName(name);
+         Console.WriteLine(responseString);
          return responseParser.GetTvShows(responseString);
       }
 
@@ -75,6 +77,16 @@ namespace Chalk.SubtitlesManagement
       private ITvSeries CreateBierdopjeServiceChannel()
       {
          return serviceChannelFactory.CreateChannel();
+      }
+      public void	 DownloadSubtitle(string name, string fileNameAndPath)
+      {
+         List<TvShow> foundShows = FindShowsByName(name);   
+         if (foundShows.Count == 0)
+            Console.WriteLine("No shows found with name {0}", name);
+         foreach (TvShow tvShow in foundShows)
+         {
+            Console.WriteLine("Show {0} was found and has id {1}.", tvShow.showName, tvShow.tvDbId);
+         }
       }
    }
 }

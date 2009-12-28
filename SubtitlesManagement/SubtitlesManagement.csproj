@@ -94,12 +94,6 @@
   <ItemGroup>
     <Content Include="ExampleConfiguration.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SeriesManagement\SerieManagement.csproj">
-      <Project>{97F0A3DE-19E0-402B-82CF-44DE64BCCBEA}</Project>
-      <Name>SerieManagement</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

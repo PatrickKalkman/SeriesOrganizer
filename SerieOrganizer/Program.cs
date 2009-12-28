@@ -8,12 +8,6 @@ namespace Chalk.SerieOrganizer
    {
       static void Main(string[] args)
       {
-         SubtitleService subtitleService = SubtitleServiceFactory.CreateSubtitleService();
-         TvShowBase tvShow;
-         bool result = subtitleService.TryGetShowById(13673, out tvShow);
-         Console.WriteLine("TvShow {0}", tvShow.showName);
-         Console.ReadLine();
-
 
          OrganisationConfigurationReader reader = new OrganisationConfigurationReader();
          OrganisationConfigurationType configuration = reader.Read();
@@ -22,7 +16,8 @@ namespace Chalk.SerieOrganizer
             Console.WriteLine("Reading {0}", configuration.DirectoryToOrganize);
             SerieCollector collector = new SerieCollector(configuration);
             SerieMover mover = new SerieMover(configuration);
-            SerieOrganizer organizer = new SerieOrganizer(collector, mover);
+            SubtitleService subtitleService = SubtitleServiceFactory.CreateSubtitleService();
+            SerieOrganizer organizer = new SerieOrganizer(collector, mover, subtitleService);
             organizer.Organize();
             SerieCleaner cleaner = new SerieCleaner(configuration);
             cleaner.RemoveNfoFiles();
@@ -32,7 +27,7 @@ namespace Chalk.SerieOrganizer
          }
          else
          {
-         Console.WriteLine("Cannot read the configuration file.");
+            Console.WriteLine("Cannot read the configuration file.");
          }
       }
    }

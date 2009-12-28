@@ -45,8 +45,9 @@ namespace Chalk.SerieOrganizer
 
       public void CleanSrrFiles()
       {
+	 Console.WriteLine("Starting deleting srr files.");
          DirectoryInfo directoryToOrganize = new DirectoryInfo(configuration.DirectoryToOrganize);
-         foreach (FileInfo srrFile in directoryToOrganize.GetFiles("*.srr", SearchOption.AllDirectories))
+         foreach (FileInfo srrFile in directoryToOrganize.GetFiles("*srr", SearchOption.AllDirectories))
          {
             Console.WriteLine("Deleting srr file {0}", srrFile.Name);
             srrFile.Delete();
