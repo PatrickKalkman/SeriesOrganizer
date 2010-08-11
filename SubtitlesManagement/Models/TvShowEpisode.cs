@@ -15,6 +15,9 @@ namespace Chalk.SubtitlesManagement.Models
       [XmlElement("title")]
       public string title;
 
+      [XmlElement("showlink")]
+      public string showLink;
+
       [XmlElement("episodelink")]
       public string episodeLink;
 
@@ -57,6 +60,9 @@ namespace Chalk.SubtitlesManagement.Models
       [XmlElement("subsen")]
       public bool subsen;
 
+      [XmlElement("updated")]
+      public string updated;
+      
       [XmlElement("summary")]
       public string summary;
    }

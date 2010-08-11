@@ -23,9 +23,14 @@ namespace Chalk.SubtitlesManagement.Models
    {
       [XmlElement("status")]
       public bool status;
+      [XmlElement("cached")]
+      public bool cached;
+      [XmlElement("apiversion")]
+      public string version;
 
       [XmlArray("results")]
-      [XmlArrayItem("genre", typeof(TvShow))]
+      [XmlArrayItem("result", typeof(TvShow))]
       public List<TvShow> tvShows;
    }
+
 }

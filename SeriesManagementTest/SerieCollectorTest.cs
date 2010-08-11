@@ -38,7 +38,7 @@ namespace Chalk.SerieOrganizer
       [Test]
       public void ShouldSucceedWhenRecursiveSearchIsExecuted()
       {
-         SerieCollector seriesCollector = new SerieCollector(CreateOrganisationConfiguration());
+         SerieCollector seriesCollector = new SerieCollector(CreateOrganisationConfiguration().DirectoryToOrganize);
          List<Serie> series = seriesCollector.Collect();
          Assert.AreEqual(5, series.Count);
       }

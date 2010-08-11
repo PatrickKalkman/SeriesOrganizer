@@ -6,6 +6,8 @@
    <target name="clean" description="remove all generated files">
       <delete file="SerieOrganizer.exe" failonerror="false" />
       <delete file="SerieOrganizer.pdb" failonerror="false" />
+      <delete file="SubtitleDownloader.exe" failonerror="false" /> 
+      <delete file="SubtitleDownloader.pdb" failonerror="false" />
       <delete file="Chalk.SerieManagement.dll" failonerror="false" />
       <delete file="Chalk.SerieManagement.pdb" failonerror="false" />
       <delete file="Chalk.SerieManagementTest.dll" failonerror="false" />
@@ -18,6 +20,7 @@
 
    <target name="install" description="install serie organizer">
       <copy file="SerieOrganizer.exe" todir="/usr/bin/" />
+      <copy file="SubtitleDownloader.exe" todir="/usr/bin" />
       <copy file="Chalk.SerieManagement.dll" todir="/usr/bin/" />
       <copy file="Chalk.SubtitleManagement.dll" todir="/usr/bin/" />
    </target>
@@ -44,7 +47,6 @@
             <include name="SubtitleServiceResponseDeserializer.cs" />
             <include name="XmlConfigurationReaderBase.cs" />
             <include name="Properties/AssemblyInfo.cs"/>
-            <include name="Models/FindByNamesCachedResult.cs" />
             <include name="Models/FindByNamesResult.cs" />
             <include name="Models/ISingleTvShowResult.cs" />
             <include name="Models/ITvShowResult.cs"/>
@@ -52,19 +54,14 @@
             <include name="Models/ITvShowEpisode.cs" />
             <include name="Models/ITvShowEpisodeSubtitlesResult.cs" />
             <include name="Models/SingleTvShowEpisodeResult.cs" />
-            <include name="Models/SingleTvShowEpisodeResultCached.cs" />
             <include name="Models/SingleTvShowResult.cs" />
-            <include name="Models/SingleTvShowResultCached.cs" />
             <include name="Models/TvShow.cs" />
             <include name="Models/TvShowBase.cs" />
-            <include name="Models/TvShowCached.cs" />
             <include name="Models/TvShowEpisode.cs" />
             <include name="Models/TvShowEpisodeResult.cs" />
-            <include name="Models/TvShowEpisodeResultCached.cs" />
             <include name="Models/TvShowEpisodeSubtitle.cs" />
             <include name="Models/TvShowEpisodeSubtitleResponse.cs" />
             <include name="Models/TvShowEpisodeSubtitleResult.cs" />
-            <include name="Models/TvShowEpisodeSubtitleResultCached.cs" />
          </sources>
       </csc>
    
@@ -95,6 +92,17 @@
             <include name="Chalk.SubtitleManagement.dll"/>
          </references>
          <sources basedir="SerieOrganizer">
+            <include name="Program.cs" />
+            <include name="Properties/AssemblyInfo.cs"/>
+         </sources>
+      </csc>
+
+      <csc target="exe" output="SubtitleDownloader.exe" debug="${debug}" >
+        <references>
+            <include name="Chalk.SerieManagement.dll"/>
+            <include name="Chalk.SubtitleManagement.dll"/>
+         </references>
+         <sources basedir="SubtitleDownloader">
             <include name="Program.cs" />
             <include name="Properties/AssemblyInfo.cs"/>
          </sources>

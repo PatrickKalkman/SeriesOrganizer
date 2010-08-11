@@ -5,7 +5,7 @@
       public static SubtitleService CreateSubtitleService()
       {
          SubtitlesConfigurationType configuration = new SubtitlesConfigurationType();
-         configuration.BierdopjeUrl = "http://www.bierdopje.com";
+         configuration.BierdopjeUrl = "http://api.bierdopje.com";
          configuration.BierdopjeApiKey = "51AFBB7D64B937E1";
          ServiceChannelFactory serviceChannelFactory = new ServiceChannelFactory(configuration);
          return new SubtitleService(new SubtitleServiceResponseDeserializer(), serviceChannelFactory);

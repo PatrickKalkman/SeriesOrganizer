@@ -54,7 +54,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\FindByNamesCachedResult.cs" />
     <Compile Include="Models\FindByNamesResult.cs" />
     <Compile Include="Models\ISingleTvShowResult.cs" />
     <Compile Include="Models\ITvEpisodes.cs" />
@@ -62,19 +61,14 @@
     <Compile Include="Models\ITvShowEpisodeSubtitlesResult.cs" />
     <Compile Include="Models\ITvShowResult.cs" />
     <Compile Include="Models\SingleTvShowEpisodeResult.cs" />
-    <Compile Include="Models\SingleTvShowEpisodeResultCached.cs" />
     <Compile Include="Models\SingleTvShowResult.cs" />
-    <Compile Include="Models\SingleTvShowResultCached.cs" />
     <Compile Include="Models\TvShow.cs" />
     <Compile Include="Models\TvShowBase.cs" />
-    <Compile Include="Models\TvShowCached.cs" />
     <Compile Include="Models\TvShowEpisode.cs" />
     <Compile Include="Models\TvShowEpisodeResult.cs" />
-    <Compile Include="Models\TvShowEpisodeResultCached.cs" />
     <Compile Include="Models\TvShowEpisodeSubtitle.cs" />
     <Compile Include="Models\TvShowEpisodeSubtitleResponse.cs" />
     <Compile Include="Models\TvShowEpisodeSubtitleResult.cs" />
-    <Compile Include="Models\TvShowEpisodeSubtitleResultCached.cs" />
     <Compile Include="ITvSeries.cs" />
     <Compile Include="ServiceChannelFactory.cs" />
     <Compile Include="SubtitlesConfiguration.cs">

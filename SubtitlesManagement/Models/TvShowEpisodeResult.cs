@@ -21,6 +21,15 @@ namespace Chalk.SubtitlesManagement.Models
    [Serializable]
    public class EpisodeResponse
    {
+      [XmlElement("status")]
+      public bool status;
+      [XmlElement("cached")]
+      public bool cached;
+      [XmlElement("apiversion")]
+      public string version;
+      [XmlElement("cachelife")]
+      public string cachelife;
+
       [XmlArray("results")] 
       [XmlArrayItem("result")] 
       public List<TvShowEpisode> tvEpisodes;

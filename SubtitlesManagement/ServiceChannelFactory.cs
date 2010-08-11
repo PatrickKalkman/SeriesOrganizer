@@ -6,7 +6,7 @@
 
       public ServiceChannelFactory(SubtitlesConfigurationType configuration)
       {
-         uri = string.Format("{0}/api/{1}", configuration.BierdopjeUrl, configuration.BierdopjeApiKey);
+         uri = string.Format("{0}/{1}", configuration.BierdopjeUrl, configuration.BierdopjeApiKey);
       }
 
       internal virtual ITvSeries CreateChannel()

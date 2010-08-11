@@ -64,6 +64,15 @@ namespace Chalk.SerieOrganizer
       }
 
       [Test]
+      public void ShouldParseLimitedSeasonAndEpisode()
+      {
+         const string FileName = "lie.to.me.218.720p-dimension.mkv";
+         Serie serie = new Serie(FileName);
+         Assert.AreEqual(2, serie.Season);
+         Assert.AreEqual(18, serie.Episode);
+      }
+
+      [Test]
       public void ShouldSucceedWhenFileNameIsNotValidSerie()
       {
          const string FileName = "Dark.Blue.mkv";

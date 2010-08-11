@@ -118,434 +118,199 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="FindShowsByNameCached" xml:space="preserve">
-    <value>&lt;bierdopje&gt;
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;bierdopje&gt;
 &lt;response&gt;
-	&lt;result&gt;
-		&lt;showid&gt;13673&lt;/showid&gt;
-		&lt;tvdbid&gt;77954&lt;/tvdbid&gt;
-		&lt;showname&gt;Flash Forward&lt;/showname&gt;
-		&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
-		&lt;firstaired&gt;05 januari 1997 00:00:00&lt;/firstaired&gt;
-		&lt;lastaired&gt;05 januari 1997 00:00:00&lt;/lastaired&gt;
-		&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
-		&lt;seasons&gt;1&lt;/seasons&gt;
-		&lt;episodes&gt;8&lt;/episodes&gt;
-		&lt;genres&gt;
-			&lt;result&gt;comedy&lt;/result&gt;
-			&lt;result&gt;children&lt;/result&gt;
-
-		&lt;/genres&gt;
-		&lt;showstatus&gt;Terugkomende serie&lt;/showstatus&gt;
-		&lt;network&gt;&lt;/network&gt;
-		&lt;airtime&gt;21:10&lt;/airtime&gt;
-		&lt;runtime&gt;30&lt;/runtime&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;favorites&gt;22&lt;/favorites&gt;
-		&lt;has_translators&gt;false&lt;/has_translators&gt;
-		&lt;summary&gt;Becca Fisher and Tucker James are two 13 year-olds who have been best friends since birth. They live next door to each other and have shared birthday parties, babysitters and backyard swings. But now, Becca and Tucker are beginning the rite of passage known as the eighth grade. Suddenly, they are teenagers, testing the bounds of their new independence while struggling to hang on the their past.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;showid&gt;9636&lt;/showid&gt;
-		&lt;tvdbid&gt;78650&lt;/tvdbid&gt;
-		&lt;showname&gt;The Flash&lt;/showname&gt;
-		&lt;showlink&gt;http://www.bierdopje.com/shows/the-flash&lt;/showlink&gt;
-		&lt;firstaired&gt;20 september 1990 00:00:00&lt;/firstaired&gt;
-		&lt;lastaired&gt;18 mei 1991 00:00:00&lt;/lastaired&gt;
-		&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
-		&lt;seasons&gt;1&lt;/seasons&gt;
-		&lt;episodes&gt;24&lt;/episodes&gt;
-		&lt;genres&gt;
-			&lt;result&gt;action and adventure&lt;/result&gt;
-
-		&lt;/genres&gt;
-		&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
-		&lt;network&gt;&lt;/network&gt;
-		&lt;airtime&gt;8:00 PM&lt;/airtime&gt;
-		&lt;runtime&gt;60&lt;/runtime&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;favorites&gt;0&lt;/favorites&gt;
-		&lt;has_translators&gt;false&lt;/has_translators&gt;
-		&lt;summary&gt;The Flash is the story of Barry Allen, a police scientist who is the victim of a freak accident.  While working late, his lab is hit by lightning.  The blast shatters a number of vials, so Barry is both electrocuted and bathed in dozens of chemicals.When he recovers, Barry finds that he has gained the ability to move at almost incomprehensible speed.  Fellow scientist Christina (Tina) McGee works with Barry to help him control his newfound powers, even constructing a suit for him which will not be destroyed by his speed.  Donning the red and yellow suit, Barry hides his identity from the world as he uses his powers to fight those who the police cannot catch.  In doing so he begins to create the legend of the anonymous scarlet speedster known only as The Flash.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;showid&gt;3206&lt;/showid&gt;
-		&lt;tvdbid&gt;80441&lt;/tvdbid&gt;
-		&lt;showname&gt;Flash Gordon (2007)&lt;/showname&gt;
-		&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-2007&lt;/showlink&gt;
-		&lt;firstaired&gt;07 september 2001 00:00:00&lt;/firstaired&gt;
-		&lt;lastaired&gt;08 februari 2008 00:00:00&lt;/lastaired&gt;
-		&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
-		&lt;seasons&gt;1&lt;/seasons&gt;
-		&lt;episodes&gt;22&lt;/episodes&gt;
-		&lt;genres&gt;
-			&lt;result&gt;science-fiction&lt;/result&gt;
-
-		&lt;/genres&gt;
-		&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
-		&lt;network&gt;&lt;/network&gt;
-		&lt;airtime&gt;9:00 PM&lt;/airtime&gt;
-		&lt;runtime&gt;60&lt;/runtime&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;favorites&gt;19&lt;/favorites&gt;
-		&lt;has_translators&gt;true&lt;/has_translators&gt;
-		&lt;summary&gt;This new series brings the famed comic strip character to the small screen for a contemporary look at his intergalactic adventures. Look for beloved characters like Ming, Dale Arden, and Dr. Hans Zarkov!&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;showid&gt;10287&lt;/showid&gt;
-		&lt;tvdbid&gt;82452&lt;/tvdbid&gt;
-		&lt;showname&gt;The New Animated Adventures of Flash Gordon&lt;/showname&gt;
-		&lt;showlink&gt;http://www.bierdopje.com/shows/the-new-animated-adventures-of-flash-gordon&lt;/showlink&gt;
-		&lt;firstaired&gt;21 augustus 1982 00:00:00&lt;/firstaired&gt;
-		&lt;lastaired&gt;21 augustus 1982 00:00:00&lt;/lastaired&gt;
-		&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
-		&lt;seasons&gt;2&lt;/seasons&gt;
-		&lt;episodes&gt;33&lt;/episodes&gt;
-		&lt;genres&gt;
-
-		&lt;/genres&gt;
-		&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
-		&lt;network&gt;&lt;/network&gt;
-		&lt;airtime&gt;&lt;/airtime&gt;
-		&lt;runtime&gt;30&lt;/runtime&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;favorites&gt;0&lt;/favorites&gt;
-		&lt;has_translators&gt;false&lt;/has_translators&gt;
-		&lt;summary&gt;Flash Gordon blasts off to the planet Mongo with girlfriend Dale Arden and scientist Hans Zarkov to prevent evil dictator Ming the Merciless from dominating the universe. In attempting to put an end to Ming''s villainy, Flash receives the aid (and often the hindrance) of Prince Barin of Arboria, the Hawk Men led by King Vultan, Queen Fria of the ice-covered land of Frigia, Thun the Lion Man and Ming''s sexy, scantily-clad daughter Aura, who has a powerful attraction for Flash&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;showid&gt;9637&lt;/showid&gt;
-		&lt;tvdbid&gt;81666&lt;/tvdbid&gt;
-		&lt;showname&gt;The Flashing Blade&lt;/showname&gt;
-		&lt;showlink&gt;http://www.bierdopje.com/shows/the-flashing-blade&lt;/showlink&gt;
-		&lt;firstaired&gt;31 maart 1969 00:00:00&lt;/firstaired&gt;
-		&lt;lastaired&gt;16 juni 1969 00:00:00&lt;/lastaired&gt;
-		&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
-		&lt;seasons&gt;1&lt;/seasons&gt;
-		&lt;episodes&gt;12&lt;/episodes&gt;
-		&lt;genres&gt;
-
-		&lt;/genres&gt;
-		&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
-		&lt;network&gt;BBC 1&lt;/network&gt;
-		&lt;airtime&gt;&lt;/airtime&gt;
-		&lt;runtime&gt;25&lt;/runtime&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;favorites&gt;0&lt;/favorites&gt;
-		&lt;has_translators&gt;false&lt;/has_translators&gt;
-		&lt;summary&gt;The Flashing Blade (Le Chevalier Temp&amp;#195;&amp;#170;te) is a French television serial made in the late 1960s, which was broadcast in the UK on BBC children's television during the 1960s, with several re-runs in the 1970s.&amp;#60;br /&amp;#62;
-&amp;#60;br /&amp;#62;
-Dubbed from French into English, the action was set in 17th century France, during a period of war between France and Spain. The plot involves a besieged French garrison in a castle (Fort Casal) on the Savoie border, and the efforts of a dashing spy to engineer their rescue.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;showid&gt;3207&lt;/showid&gt;
-		&lt;tvdbid&gt;80533&lt;/tvdbid&gt;
-		&lt;showname&gt;Flash Gordon Conquers the Universe&lt;/showname&gt;
-		&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-conquers-the-universe&lt;/showlink&gt;
-		&lt;firstaired&gt;01 januari 1970 01:00:00&lt;/firstaired&gt;
-		&lt;lastaired&gt;01 januari 1970 00:00:00&lt;/lastaired&gt;
-		&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
-		&lt;seasons&gt;1&lt;/seasons&gt;
-		&lt;episodes&gt;12&lt;/episodes&gt;
-		&lt;genres&gt;
-
-		&lt;/genres&gt;
-		&lt;showstatus&gt;Onbekend&lt;/showstatus&gt;
-		&lt;network&gt;&lt;/network&gt;
-		&lt;airtime&gt;&lt;/airtime&gt;
-		&lt;runtime&gt;0&lt;/runtime&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;favorites&gt;0&lt;/favorites&gt;
-		&lt;has_translators&gt;false&lt;/has_translators&gt;
-		&lt;summary&gt;A mysterious plague, the Purple Death, ravages the earth. Dr. Zarkov, investigating in his spaceship, finds a ship from planet Mongo seeding the atmosphere with dust. Sure enough, Ming the Merciless is up to his old tricks. So it''s back to Mongo for Flash, Dale, and Zarkov, this time with ready-made allies waiting: Prince Barin of Arboria and Queen Fria of the frozen northern land of Frigia; where, it so happens, is found polarite, antidote to the plague. But Ming will use all his forces to keep our heroes from thwarting his plans of conquest.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;showid&gt;3204&lt;/showid&gt;
-		&lt;tvdbid&gt;70331&lt;/tvdbid&gt;
-		&lt;showname&gt;Flash Gordon (1954)&lt;/showname&gt;
-		&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-1954&lt;/showlink&gt;
-		&lt;firstaired&gt;10 december 1954 00:00:00&lt;/firstaired&gt;
-		&lt;lastaired&gt;05 mei 1998 00:00:00&lt;/lastaired&gt;
-		&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
-		&lt;seasons&gt;2&lt;/seasons&gt;
-		&lt;episodes&gt;11&lt;/episodes&gt;
-		&lt;genres&gt;
-			&lt;result&gt;action and adventure&lt;/result&gt;
-
-		&lt;/genres&gt;
-		&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
-		&lt;network&gt;&lt;/network&gt;
-		&lt;airtime&gt;&lt;/airtime&gt;
-		&lt;runtime&gt;30&lt;/runtime&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;favorites&gt;0&lt;/favorites&gt;
-		&lt;has_translators&gt;false&lt;/has_translators&gt;
-		&lt;summary&gt;Geen summary beschikbaar!&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;showid&gt;3209&lt;/showid&gt;
-		&lt;tvdbid&gt;80532&lt;/tvdbid&gt;
-		&lt;showname&gt;Flash Gordon: Space Soldiers&lt;/showname&gt;
-		&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-space-soldiers&lt;/showlink&gt;
-		&lt;firstaired&gt;01 januari 1970 01:00:00&lt;/firstaired&gt;
-		&lt;lastaired&gt;01 januari 1970 00:00:00&lt;/lastaired&gt;
-		&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
-		&lt;seasons&gt;1&lt;/seasons&gt;
-		&lt;episodes&gt;13&lt;/episodes&gt;
-		&lt;genres&gt;
-
-		&lt;/genres&gt;
-		&lt;showstatus&gt;Onbekend&lt;/showstatus&gt;
-		&lt;network&gt;&lt;/network&gt;
-		&lt;airtime&gt;&lt;/airtime&gt;
-		&lt;runtime&gt;0&lt;/runtime&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;favorites&gt;0&lt;/favorites&gt;
-		&lt;has_translators&gt;false&lt;/has_translators&gt;
-		&lt;summary&gt;A rogue planet is ''rushing madly toward the earth.'' Impending doom creates worldwide pandemonium. But maverick scientist Dr. Zarkov hopes to stay disaster by travelling to the new planet in his experimental rocket. Two chance-met strangers, athletic Flash Gordon and damsel in distress Dale Arden, go with him. Arrived, the trio find Mongo to be a planet of wonders, warring factions, and deadly perils, its orbit controlled by Emperor Ming who has his own sinister plans for earth. Can our heroes, armed only with science and sex appeal, stop him?&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;showid&gt;3205&lt;/showid&gt;
-		&lt;tvdbid&gt;72679&lt;/tvdbid&gt;
-		&lt;showname&gt;Flash Gordon (1996)&lt;/showname&gt;
-		&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-1996&lt;/showlink&gt;
-		&lt;firstaired&gt;01 januari 1970 01:00:00&lt;/firstaired&gt;
-		&lt;lastaired&gt;01 januari 1970 00:00:00&lt;/lastaired&gt;
-		&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
-		&lt;seasons&gt;1&lt;/seasons&gt;
-		&lt;episodes&gt;5&lt;/episodes&gt;
-		&lt;genres&gt;
-
-		&lt;/genres&gt;
-		&lt;showstatus&gt;Onbekend&lt;/showstatus&gt;
-		&lt;network&gt;&lt;/network&gt;
-		&lt;airtime&gt;&lt;/airtime&gt;
-		&lt;runtime&gt;30&lt;/runtime&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;favorites&gt;0&lt;/favorites&gt;
-		&lt;has_translators&gt;false&lt;/has_translators&gt;
-		&lt;summary&gt;In this animated space adventure, Flash Gordon takes on the evil Ming the Merciless.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;showid&gt;3208&lt;/showid&gt;
-		&lt;tvdbid&gt;80531&lt;/tvdbid&gt;
-		&lt;showname&gt;Flash Gordon''s Trip to Mars&lt;/showname&gt;
-		&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordons-trip-to-mars&lt;/showlink&gt;
-		&lt;firstaired&gt;01 januari 1970 01:00:00&lt;/firstaired&gt;
-		&lt;lastaired&gt;01 januari 1970 00:00:00&lt;/lastaired&gt;
-		&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
-		&lt;seasons&gt;1&lt;/seasons&gt;
-		&lt;episodes&gt;15&lt;/episodes&gt;
-		&lt;genres&gt;
-
-		&lt;/genres&gt;
-		&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
-		&lt;network&gt;&lt;/network&gt;
-		&lt;airtime&gt;&lt;/airtime&gt;
-		&lt;runtime&gt;0&lt;/runtime&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;favorites&gt;0&lt;/favorites&gt;
-		&lt;has_translators&gt;false&lt;/has_translators&gt;
-		&lt;summary&gt;Flash, Dale, Zarkhov and, stowaway reporter, Happy Hapgood travel to Mars to find the source of a ray that is stealing the nitron from the Earth''s atmosphere. They soon find out that it is Emperor Ming, with the help of Queen Azura of Mars who is behind this. With the aid of the Clay People and Prince Barin, Flash and his friends are triumphant in destroying the ray and putting an end to the scheme of Ming the Merciless.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;showid&gt;2512&lt;/showid&gt;
-		&lt;tvdbid&gt;73312&lt;/tvdbid&gt;
-		&lt;showname&gt;Dirty Pair Flash&lt;/showname&gt;
-		&lt;showlink&gt;http://www.bierdopje.com/shows/dirty-pair-flash&lt;/showlink&gt;
-		&lt;firstaired&gt;01 januari 1970 01:00:00&lt;/firstaired&gt;
-		&lt;lastaired&gt;01 januari 1970 00:00:00&lt;/lastaired&gt;
-		&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
-		&lt;seasons&gt;1&lt;/seasons&gt;
-		&lt;episodes&gt;16&lt;/episodes&gt;
-		&lt;genres&gt;
-
-		&lt;/genres&gt;
-		&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
-		&lt;network&gt;&lt;/network&gt;
-		&lt;airtime&gt;9:00 PM&lt;/airtime&gt;
-		&lt;runtime&gt;30&lt;/runtime&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;favorites&gt;0&lt;/favorites&gt;
-		&lt;has_translators&gt;false&lt;/has_translators&gt;
-		&lt;summary&gt;Dirty Pair Flash is related to the original Dirty Pair, with the same characters but there are some changes. Dirty Pair Flash was released later but it is something of a prequel, showing the two main characters on their first assignments. It contains animated violence and mayhem, some profanity and a small amount of nudity. The DVD release is rated 15 and up. The Pair consists of two 17-year-old junior level ''Trouble Consultants'', a cross between a trouble-shooter and a secret agent. They work for an organization called World Welfare &amp;#38; Works Association or the 3WA which handles problems galaxy-wide. Their codename is ''Lovely Angels'' but it''s easy to see why they are eventually known as the Dirty Pair, not in a naughty way, but because they tend to leave ruination wherever they go. Yuri is the purple-haired and perky team member, she is occasionally zany and a bit distracted. Yuri tends to rely on her feminine wiles to get out of trouble, rarely plans ahead and is obsessed wit&lt;/summary&gt;
-
-	&lt;/result&gt;
+	&lt;status&gt;true&lt;/status&gt;
 	&lt;cached&gt;true&lt;/cached&gt;
-	&lt;status&gt;true&lt;/status&gt;
-&lt;/response&gt;
-&lt;/bierdopje&gt;</value>
-  </data>
-  <data name="FindShowsByNameNotCached" xml:space="preserve">
-    <value>&lt;bierdopje&gt;
-&lt;response&gt;
-	&lt;status&gt;true&lt;/status&gt;
+	&lt;apiversion&gt;201003031200&lt;/apiversion&gt;
 	&lt;results&gt;
-		&lt;genre&gt;
+		&lt;result&gt;
 			&lt;showid&gt;13673&lt;/showid&gt;
+
 			&lt;tvdbid&gt;77954&lt;/tvdbid&gt;
 			&lt;showname&gt;Flash Forward&lt;/showname&gt;
 			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
-			&lt;firstaired&gt;05 januari 1997 00:00:00&lt;/firstaired&gt;
-			&lt;lastaired&gt;05 januari 1997 00:00:00&lt;/lastaired&gt;
-			&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
+			&lt;firstaired&gt;1997-01-05&lt;/firstaired&gt;
+			&lt;lastaired&gt;1997-01-05&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+
 			&lt;seasons&gt;1&lt;/seasons&gt;
-			&lt;episodes&gt;8&lt;/episodes&gt;
+			&lt;episodes&gt;0&lt;/episodes&gt;
 			&lt;genres&gt;
-				&lt;genre&gt;comedy&lt;/genre&gt;
-				&lt;genre&gt;children&lt;/genre&gt;
+				&lt;result&gt;comedy&lt;/result&gt;
+				&lt;result&gt;children&lt;/result&gt;
 
 			&lt;/genres&gt;
+
 			&lt;showstatus&gt;Terugkomende serie&lt;/showstatus&gt;
 			&lt;network&gt;&lt;/network&gt;
 			&lt;airtime&gt;21:10&lt;/airtime&gt;
 			&lt;runtime&gt;30&lt;/runtime&gt;
-			&lt;score&gt;0&lt;/score&gt;
-			&lt;favorites&gt;22&lt;/favorites&gt;
+			&lt;score&gt;9&lt;/score&gt;
+			&lt;favorites&gt;101&lt;/favorites&gt;
+
 			&lt;has_translators&gt;false&lt;/has_translators&gt;
+			&lt;updated&gt;1280762838&lt;/updated&gt;
 			&lt;summary&gt;Becca Fisher and Tucker James are two 13 year-olds who have been best friends since birth. They live next door to each other and have shared birthday parties, babysitters and backyard swings. But now, Becca and Tucker are beginning the rite of passage known as the eighth grade. Suddenly, they are teenagers, testing the bounds of their new independence while struggling to hang on the their past.&lt;/summary&gt;
 
-		&lt;/genre&gt;
-		&lt;genre&gt;
+		&lt;/result&gt;
+		&lt;result&gt;
 			&lt;showid&gt;9636&lt;/showid&gt;
+
 			&lt;tvdbid&gt;78650&lt;/tvdbid&gt;
 			&lt;showname&gt;The Flash&lt;/showname&gt;
 			&lt;showlink&gt;http://www.bierdopje.com/shows/the-flash&lt;/showlink&gt;
-			&lt;firstaired&gt;20 september 1990 00:00:00&lt;/firstaired&gt;
-			&lt;lastaired&gt;18 mei 1991 00:00:00&lt;/lastaired&gt;
-			&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
+			&lt;firstaired&gt;1990-09-20&lt;/firstaired&gt;
+			&lt;lastaired&gt;1991-05-18&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+
 			&lt;seasons&gt;1&lt;/seasons&gt;
-			&lt;episodes&gt;24&lt;/episodes&gt;
+			&lt;episodes&gt;0&lt;/episodes&gt;
 			&lt;genres&gt;
-				&lt;genre&gt;action and adventure&lt;/genre&gt;
+				&lt;result&gt;action and adventure&lt;/result&gt;
 
 			&lt;/genres&gt;
 			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
+
 			&lt;network&gt;&lt;/network&gt;
 			&lt;airtime&gt;8:00 PM&lt;/airtime&gt;
 			&lt;runtime&gt;60&lt;/runtime&gt;
 			&lt;score&gt;0&lt;/score&gt;
 			&lt;favorites&gt;0&lt;/favorites&gt;
 			&lt;has_translators&gt;false&lt;/has_translators&gt;
+
+			&lt;updated&gt;1267896505&lt;/updated&gt;
 			&lt;summary&gt;The Flash is the story of Barry Allen, a police scientist who is the victim of a freak accident.  While working late, his lab is hit by lightning.  The blast shatters a number of vials, so Barry is both electrocuted and bathed in dozens of chemicals.When he recovers, Barry finds that he has gained the ability to move at almost incomprehensible speed.  Fellow scientist Christina (Tina) McGee works with Barry to help him control his newfound powers, even constructing a suit for him which will not be destroyed by his speed.  Donning the red and yellow suit, Barry hides his identity from the world as he uses his powers to fight those who the police cannot catch.  In doing so he begins to create the legend of the anonymous scarlet speedster known only as The Flash.&lt;/summary&gt;
 
-		&lt;/genre&gt;
-		&lt;genre&gt;
-			&lt;showid&gt;3206&lt;/showid&gt;
-			&lt;tvdbid&gt;80441&lt;/tvdbid&gt;
-			&lt;showname&gt;Flash Gordon (2007)&lt;/showname&gt;
-			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-2007&lt;/showlink&gt;
-			&lt;firstaired&gt;07 september 2001 00:00:00&lt;/firstaired&gt;
-			&lt;lastaired&gt;08 februari 2008 00:00:00&lt;/lastaired&gt;
-			&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;showid&gt;3207&lt;/showid&gt;
+			&lt;tvdbid&gt;80533&lt;/tvdbid&gt;
+
+			&lt;showname&gt;Flash Gordon Conquers the Universe&lt;/showname&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-conquers-the-universe&lt;/showlink&gt;
+			&lt;firstaired&gt;1940-03-03&lt;/firstaired&gt;
+			&lt;lastaired&gt;1940-03-03&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
 			&lt;seasons&gt;1&lt;/seasons&gt;
-			&lt;episodes&gt;22&lt;/episodes&gt;
-			&lt;genres&gt;
-				&lt;genre&gt;science-fiction&lt;/genre&gt;
 
-			&lt;/genres&gt;
-			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
-			&lt;network&gt;&lt;/network&gt;
-			&lt;airtime&gt;9:00 PM&lt;/airtime&gt;
-			&lt;runtime&gt;60&lt;/runtime&gt;
-			&lt;score&gt;0&lt;/score&gt;
-			&lt;favorites&gt;19&lt;/favorites&gt;
-			&lt;has_translators&gt;true&lt;/has_translators&gt;
-			&lt;summary&gt;This new series brings the famed comic strip character to the small screen for a contemporary look at his intergalactic adventures. Look for beloved characters like Ming, Dale Arden, and Dr. Hans Zarkov!&lt;/summary&gt;
-
-		&lt;/genre&gt;
-		&lt;genre&gt;
-			&lt;showid&gt;10287&lt;/showid&gt;
-			&lt;tvdbid&gt;82452&lt;/tvdbid&gt;
-			&lt;showname&gt;The New Animated Adventures of Flash Gordon&lt;/showname&gt;
-			&lt;showlink&gt;http://www.bierdopje.com/shows/the-new-animated-adventures-of-flash-gordon&lt;/showlink&gt;
-			&lt;firstaired&gt;21 augustus 1982 00:00:00&lt;/firstaired&gt;
-			&lt;lastaired&gt;21 augustus 1982 00:00:00&lt;/lastaired&gt;
-			&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
-			&lt;seasons&gt;2&lt;/seasons&gt;
-			&lt;episodes&gt;33&lt;/episodes&gt;
+			&lt;episodes&gt;0&lt;/episodes&gt;
 			&lt;genres&gt;
+				&lt;result&gt;science-fiction&lt;/result&gt;
 
 			&lt;/genres&gt;
 			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
 			&lt;network&gt;&lt;/network&gt;
 			&lt;airtime&gt;&lt;/airtime&gt;
-			&lt;runtime&gt;30&lt;/runtime&gt;
+
+			&lt;runtime&gt;16&lt;/runtime&gt;
 			&lt;score&gt;0&lt;/score&gt;
 			&lt;favorites&gt;0&lt;/favorites&gt;
 			&lt;has_translators&gt;false&lt;/has_translators&gt;
-			&lt;summary&gt;Flash Gordon blasts off to the planet Mongo with girlfriend Dale Arden and scientist Hans Zarkov to prevent evil dictator Ming the Merciless from dominating the universe. In attempting to put an end to Ming''s villainy, Flash receives the aid (and often the hindrance) of Prince Barin of Arboria, the Hawk Men led by King Vultan, Queen Fria of the ice-covered land of Frigia, Thun the Lion Man and Ming''s sexy, scantily-clad daughter Aura, who has a powerful attraction for Flash&lt;/summary&gt;
+			&lt;updated&gt;1268301613&lt;/updated&gt;
+			&lt;summary&gt;A mysterious plague, the Purple Death, ravages the earth. Dr. Zarkov, investigating in his spaceship, finds a ship from planet Mongo seeding the atmosphere with dust. Sure enough, Ming the Merciless is up to his old tricks. So it's back to Mongo for Flash, Dale, and Zarkov, this time with ready-made allies waiting: Prince Barin of Arboria and Queen Fria of the frozen northern land of Frigia; where, it so happens, is found polarite, antidote to the plague. But Ming will use all his forces to keep our heroes from thwarting his plans of conquest.&lt;/summary&gt;
 
-		&lt;/genre&gt;
-		&lt;genre&gt;
+		&lt;/result&gt;
+		&lt;result&gt;
 			&lt;showid&gt;9637&lt;/showid&gt;
 			&lt;tvdbid&gt;81666&lt;/tvdbid&gt;
 			&lt;showname&gt;The Flashing Blade&lt;/showname&gt;
 			&lt;showlink&gt;http://www.bierdopje.com/shows/the-flashing-blade&lt;/showlink&gt;
-			&lt;firstaired&gt;31 maart 1969 00:00:00&lt;/firstaired&gt;
-			&lt;lastaired&gt;16 juni 1969 00:00:00&lt;/lastaired&gt;
-			&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
+
+			&lt;firstaired&gt;1969-03-31&lt;/firstaired&gt;
+			&lt;lastaired&gt;1969-06-16&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
 			&lt;seasons&gt;1&lt;/seasons&gt;
-			&lt;episodes&gt;12&lt;/episodes&gt;
+			&lt;episodes&gt;0&lt;/episodes&gt;
 			&lt;genres&gt;
+				&lt;result&gt;action and adventure&lt;/result&gt;
 
 			&lt;/genres&gt;
 			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
-			&lt;network&gt;BBC 1&lt;/network&gt;
+			&lt;network&gt;&lt;/network&gt;
 			&lt;airtime&gt;&lt;/airtime&gt;
 			&lt;runtime&gt;25&lt;/runtime&gt;
 			&lt;score&gt;0&lt;/score&gt;
 			&lt;favorites&gt;0&lt;/favorites&gt;
+
 			&lt;has_translators&gt;false&lt;/has_translators&gt;
-			&lt;summary&gt;The Flashing Blade (Le Chevalier Temp&amp;#195;&amp;#170;te) is a French television serial made in the late 1960s, which was broadcast in the UK on BBC children's television during the 1960s, with several re-runs in the 1970s.&amp;#60;br /&amp;#62;
-&amp;#60;br /&amp;#62;
+			&lt;updated&gt;1268235499&lt;/updated&gt;
+			&lt;summary&gt;The Flashing Blade (Le Chevalier Temp&amp;#38;amp;ecirc;te) is a French television serial made in the late 1960s, which was broadcast in the UK on BBC children's television during the 1960s, with several re-runs in the 1970s.
+
 Dubbed from French into English, the action was set in 17th century France, during a period of war between France and Spain. The plot involves a besieged French garrison in a castle (Fort Casal) on the Savoie border, and the efforts of a dashing spy to engineer their rescue.&lt;/summary&gt;
 
-		&lt;/genre&gt;
-		&lt;genre&gt;
-			&lt;showid&gt;3207&lt;/showid&gt;
-			&lt;tvdbid&gt;80533&lt;/tvdbid&gt;
-			&lt;showname&gt;Flash Gordon Conquers the Universe&lt;/showname&gt;
-			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-conquers-the-universe&lt;/showlink&gt;
-			&lt;firstaired&gt;01 januari 1970 01:00:00&lt;/firstaired&gt;
-			&lt;lastaired&gt;01 januari 1970 00:00:00&lt;/lastaired&gt;
-			&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;showid&gt;3206&lt;/showid&gt;
+
+			&lt;tvdbid&gt;80441&lt;/tvdbid&gt;
+			&lt;showname&gt;Flash Gordon (2007)&lt;/showname&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-2007&lt;/showlink&gt;
+			&lt;firstaired&gt;2001-09-07&lt;/firstaired&gt;
+			&lt;lastaired&gt;2008-02-08&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+
 			&lt;seasons&gt;1&lt;/seasons&gt;
-			&lt;episodes&gt;12&lt;/episodes&gt;
+			&lt;episodes&gt;0&lt;/episodes&gt;
+			&lt;genres&gt;
+				&lt;result&gt;science-fiction&lt;/result&gt;
+
+			&lt;/genres&gt;
+			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
+
+			&lt;network&gt;&lt;/network&gt;
+			&lt;airtime&gt;9:00 PM&lt;/airtime&gt;
+			&lt;runtime&gt;60&lt;/runtime&gt;
+			&lt;score&gt;7&lt;/score&gt;
+			&lt;favorites&gt;17&lt;/favorites&gt;
+			&lt;has_translators&gt;true&lt;/has_translators&gt;
+
+			&lt;updated&gt;1278424230&lt;/updated&gt;
+			&lt;summary&gt;This new series brings the famed comic strip character to the small screen for a contemporary look at his intergalactic adventures. Look for beloved characters like Ming, Dale Arden, and Dr. Hans Zarkov!&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;showid&gt;10287&lt;/showid&gt;
+			&lt;tvdbid&gt;82452&lt;/tvdbid&gt;
+
+			&lt;showname&gt;The New Animated Adventures of Flash Gordon&lt;/showname&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/the-new-animated-adventures-of-flash-gordon&lt;/showlink&gt;
+			&lt;firstaired&gt;1982-08-21&lt;/firstaired&gt;
+			&lt;lastaired&gt;1982-08-21&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+			&lt;seasons&gt;2&lt;/seasons&gt;
+
+			&lt;episodes&gt;0&lt;/episodes&gt;
 			&lt;genres&gt;
 
 			&lt;/genres&gt;
-			&lt;showstatus&gt;Onbekend&lt;/showstatus&gt;
+			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
 			&lt;network&gt;&lt;/network&gt;
 			&lt;airtime&gt;&lt;/airtime&gt;
-			&lt;runtime&gt;0&lt;/runtime&gt;
+			&lt;runtime&gt;30&lt;/runtime&gt;
+
 			&lt;score&gt;0&lt;/score&gt;
 			&lt;favorites&gt;0&lt;/favorites&gt;
 			&lt;has_translators&gt;false&lt;/has_translators&gt;
-			&lt;summary&gt;A mysterious plague, the Purple Death, ravages the earth. Dr. Zarkov, investigating in his spaceship, finds a ship from planet Mongo seeding the atmosphere with dust. Sure enough, Ming the Merciless is up to his old tricks. So it''s back to Mongo for Flash, Dale, and Zarkov, this time with ready-made allies waiting: Prince Barin of Arboria and Queen Fria of the frozen northern land of Frigia; where, it so happens, is found polarite, antidote to the plague. But Ming will use all his forces to keep our heroes from thwarting his plans of conquest.&lt;/summary&gt;
+			&lt;updated&gt;1229257779&lt;/updated&gt;
+			&lt;summary&gt;Flash Gordon blasts off to the planet Mongo with girlfriend Dale Arden and scientist Hans Zarkov to prevent evil dictator Ming the Merciless from dominating the universe. In attempting to put an end to Ming's villainy, Flash receives the aid (and often the hindrance) of Prince Barin of Arboria, the Hawk Men led by King Vultan, Queen Fria of the ice-covered land of Frigia, Thun the Lion Man and Ming's sexy, scantily-clad daughter Aura, who has a powerful attraction for Flash&lt;/summary&gt;
 
-		&lt;/genre&gt;
-		&lt;genre&gt;
+		&lt;/result&gt;
+
+		&lt;result&gt;
 			&lt;showid&gt;3204&lt;/showid&gt;
 			&lt;tvdbid&gt;70331&lt;/tvdbid&gt;
 			&lt;showname&gt;Flash Gordon (1954)&lt;/showname&gt;
 			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-1954&lt;/showlink&gt;
-			&lt;firstaired&gt;10 december 1954 00:00:00&lt;/firstaired&gt;
-			&lt;lastaired&gt;05 mei 1998 00:00:00&lt;/lastaired&gt;
-			&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
+			&lt;firstaired&gt;1954-12-10&lt;/firstaired&gt;
+
+			&lt;lastaired&gt;1998-05-05&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
 			&lt;seasons&gt;2&lt;/seasons&gt;
-			&lt;episodes&gt;11&lt;/episodes&gt;
+			&lt;episodes&gt;0&lt;/episodes&gt;
 			&lt;genres&gt;
-				&lt;genre&gt;action and adventure&lt;/genre&gt;
+				&lt;result&gt;action and adventure&lt;/result&gt;
 
 			&lt;/genres&gt;
 			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
@@ -554,43 +319,24 @@ Dubbed from French into English, the action was set in 17th century France, duri
 			&lt;runtime&gt;30&lt;/runtime&gt;
 			&lt;score&gt;0&lt;/score&gt;
 			&lt;favorites&gt;0&lt;/favorites&gt;
+
 			&lt;has_translators&gt;false&lt;/has_translators&gt;
+			&lt;updated&gt;1241121734&lt;/updated&gt;
 			&lt;summary&gt;Geen summary beschikbaar!&lt;/summary&gt;
 
-		&lt;/genre&gt;
-		&lt;genre&gt;
-			&lt;showid&gt;3209&lt;/showid&gt;
-			&lt;tvdbid&gt;80532&lt;/tvdbid&gt;
-			&lt;showname&gt;Flash Gordon: Space Soldiers&lt;/showname&gt;
-			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-space-soldiers&lt;/showlink&gt;
-			&lt;firstaired&gt;01 januari 1970 01:00:00&lt;/firstaired&gt;
-			&lt;lastaired&gt;01 januari 1970 00:00:00&lt;/lastaired&gt;
-			&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
-			&lt;seasons&gt;1&lt;/seasons&gt;
-			&lt;episodes&gt;13&lt;/episodes&gt;
-			&lt;genres&gt;
-
-			&lt;/genres&gt;
-			&lt;showstatus&gt;Onbekend&lt;/showstatus&gt;
-			&lt;network&gt;&lt;/network&gt;
-			&lt;airtime&gt;&lt;/airtime&gt;
-			&lt;runtime&gt;0&lt;/runtime&gt;
-			&lt;score&gt;0&lt;/score&gt;
-			&lt;favorites&gt;0&lt;/favorites&gt;
-			&lt;has_translators&gt;false&lt;/has_translators&gt;
-			&lt;summary&gt;A rogue planet is ''rushing madly toward the earth.'' Impending doom creates worldwide pandemonium. But maverick scientist Dr. Zarkov hopes to stay disaster by travelling to the new planet in his experimental rocket. Two chance-met strangers, athletic Flash Gordon and damsel in distress Dale Arden, go with him. Arrived, the trio find Mongo to be a planet of wonders, warring factions, and deadly perils, its orbit controlled by Emperor Ming who has his own sinister plans for earth. Can our heroes, armed only with science and sex appeal, stop him?&lt;/summary&gt;
-
-		&lt;/genre&gt;
-		&lt;genre&gt;
+		&lt;/result&gt;
+		&lt;result&gt;
 			&lt;showid&gt;3205&lt;/showid&gt;
+
 			&lt;tvdbid&gt;72679&lt;/tvdbid&gt;
 			&lt;showname&gt;Flash Gordon (1996)&lt;/showname&gt;
 			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-1996&lt;/showlink&gt;
-			&lt;firstaired&gt;01 januari 1970 01:00:00&lt;/firstaired&gt;
-			&lt;lastaired&gt;01 januari 1970 00:00:00&lt;/lastaired&gt;
-			&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
+			&lt;firstaired&gt;&lt;/firstaired&gt;
+			&lt;lastaired&gt;1970-01-01&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
 			&lt;seasons&gt;1&lt;/seasons&gt;
-			&lt;episodes&gt;5&lt;/episodes&gt;
+
+			&lt;episodes&gt;0&lt;/episodes&gt;
 			&lt;genres&gt;
 
 			&lt;/genres&gt;
@@ -598,536 +344,865 @@ Dubbed from French into English, the action was set in 17th century France, duri
 			&lt;network&gt;&lt;/network&gt;
 			&lt;airtime&gt;&lt;/airtime&gt;
 			&lt;runtime&gt;30&lt;/runtime&gt;
+
 			&lt;score&gt;0&lt;/score&gt;
 			&lt;favorites&gt;0&lt;/favorites&gt;
 			&lt;has_translators&gt;false&lt;/has_translators&gt;
+			&lt;updated&gt;&lt;/updated&gt;
 			&lt;summary&gt;In this animated space adventure, Flash Gordon takes on the evil Ming the Merciless.&lt;/summary&gt;
 
-		&lt;/genre&gt;
-		&lt;genre&gt;
-			&lt;showid&gt;3208&lt;/showid&gt;
-			&lt;tvdbid&gt;80531&lt;/tvdbid&gt;
-			&lt;showname&gt;Flash Gordon''s Trip to Mars&lt;/showname&gt;
-			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordons-trip-to-mars&lt;/showlink&gt;
-			&lt;firstaired&gt;01 januari 1970 01:00:00&lt;/firstaired&gt;
-			&lt;lastaired&gt;01 januari 1970 00:00:00&lt;/lastaired&gt;
-			&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
-			&lt;seasons&gt;1&lt;/seasons&gt;
-			&lt;episodes&gt;15&lt;/episodes&gt;
-			&lt;genres&gt;
+		&lt;/result&gt;
 
-			&lt;/genres&gt;
-			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
-			&lt;network&gt;&lt;/network&gt;
-			&lt;airtime&gt;&lt;/airtime&gt;
-			&lt;runtime&gt;0&lt;/runtime&gt;
-			&lt;score&gt;0&lt;/score&gt;
-			&lt;favorites&gt;0&lt;/favorites&gt;
-			&lt;has_translators&gt;false&lt;/has_translators&gt;
-			&lt;summary&gt;Flash, Dale, Zarkhov and, stowaway reporter, Happy Hapgood travel to Mars to find the source of a ray that is stealing the nitron from the Earth''s atmosphere. They soon find out that it is Emperor Ming, with the help of Queen Azura of Mars who is behind this. With the aid of the Clay People and Prince Barin, Flash and his friends are triumphant in destroying the ray and putting an end to the scheme of Ming the Merciless.&lt;/summary&gt;
-
-		&lt;/genre&gt;
-		&lt;genre&gt;
+		&lt;result&gt;
 			&lt;showid&gt;2512&lt;/showid&gt;
 			&lt;tvdbid&gt;73312&lt;/tvdbid&gt;
 			&lt;showname&gt;Dirty Pair Flash&lt;/showname&gt;
 			&lt;showlink&gt;http://www.bierdopje.com/shows/dirty-pair-flash&lt;/showlink&gt;
-			&lt;firstaired&gt;01 januari 1970 01:00:00&lt;/firstaired&gt;
-			&lt;lastaired&gt;01 januari 1970 00:00:00&lt;/lastaired&gt;
-			&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
+			&lt;firstaired&gt;&lt;/firstaired&gt;
+			&lt;lastaired&gt;1970-01-01&lt;/lastaired&gt;
+
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
 			&lt;seasons&gt;1&lt;/seasons&gt;
-			&lt;episodes&gt;16&lt;/episodes&gt;
+			&lt;episodes&gt;0&lt;/episodes&gt;
 			&lt;genres&gt;
 
 			&lt;/genres&gt;
 			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
 			&lt;network&gt;&lt;/network&gt;
+
 			&lt;airtime&gt;9:00 PM&lt;/airtime&gt;
 			&lt;runtime&gt;30&lt;/runtime&gt;
 			&lt;score&gt;0&lt;/score&gt;
 			&lt;favorites&gt;0&lt;/favorites&gt;
 			&lt;has_translators&gt;false&lt;/has_translators&gt;
-			&lt;summary&gt;Dirty Pair Flash is related to the original Dirty Pair, with the same characters but there are some changes. Dirty Pair Flash was released later but it is something of a prequel, showing the two main characters on their first assignments. It contains animated violence and mayhem, some profanity and a small amount of nudity. The DVD release is rated 15 and up. The Pair consists of two 17-year-old junior level ''Trouble Consultants'', a cross between a trouble-shooter and a secret agent. They work for an organization called World Welfare &amp;#38; Works Association or the 3WA which handles problems galaxy-wide. Their codename is ''Lovely Angels'' but it''s easy to see why they are eventually known as the Dirty Pair, not in a naughty way, but because they tend to leave ruination wherever they go. Yuri is the purple-haired and perky team member, she is occasionally zany and a bit distracted. Yuri tends to rely on her feminine wiles to get out of trouble, rarely plans ahead and is obsessed wit&lt;/summary&gt;
+			&lt;updated&gt;1275724460&lt;/updated&gt;
 
-		&lt;/genre&gt;
+			&lt;summary&gt;Dirty Pair Flash is related to the original Dirty Pair, with the same characters but there are some changes. Dirty Pair Flash was released later but it is something of a prequel, showing the two main characters on their first assignments. It contains animated violence and mayhem, some profanity and a small amount of nudity. The DVD release is rated 15 and up. The Pair consists of two 17-year-old junior level 'Trouble Consultants', a cross between a trouble-shooter and a secret agent. They work for an organization called World Welfare &amp;#38;amp;amp; Works Association or the 3WA which handles problems galaxy-wide. Their codename is 'Lovely Angels' but it's easy to see why they are eventually known as the Dirty Pair, not in a naughty way, but because they tend to leave ruination wherever they go. Yuri is the purple-haired and perky team member, she is occasionally zany and a bit distracted. Yuri tends to rely on her feminine wiles to get out of trouble, rarely plans ahead and is obsessed wit&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;showid&gt;3208&lt;/showid&gt;
+			&lt;tvdbid&gt;80531&lt;/tvdbid&gt;
+			&lt;showname&gt;Flash Gordon's Trip to Mars&lt;/showname&gt;
+
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordons-trip-to-mars&lt;/showlink&gt;
+			&lt;firstaired&gt;&lt;/firstaired&gt;
+			&lt;lastaired&gt;1970-01-01&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+			&lt;seasons&gt;1&lt;/seasons&gt;
+			&lt;episodes&gt;0&lt;/episodes&gt;
+			&lt;genres&gt;
+
+			&lt;/genres&gt;
+			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
+			&lt;network&gt;&lt;/network&gt;
+			&lt;airtime&gt;&lt;/airtime&gt;
+			&lt;runtime&gt;0&lt;/runtime&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;favorites&gt;0&lt;/favorites&gt;
+
+			&lt;has_translators&gt;false&lt;/has_translators&gt;
+			&lt;updated&gt;1258637860&lt;/updated&gt;
+			&lt;summary&gt;Flash, Dale, Zarkhov and, stowaway reporter, Happy Hapgood travel to Mars to find the source of a ray that is stealing the nitron from the Earth's atmosphere. They soon find out that it is Emperor Ming, with the help of Queen Azura of Mars who is behind this. With the aid of the Clay People and Prince Barin, Flash and his friends are triumphant in destroying the ray and putting an end to the scheme of Ming the Merciless.&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;showid&gt;3209&lt;/showid&gt;
+
+			&lt;tvdbid&gt;80532&lt;/tvdbid&gt;
+			&lt;showname&gt;Flash Gordon: Space Soldiers&lt;/showname&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-space-soldiers&lt;/showlink&gt;
+			&lt;firstaired&gt;&lt;/firstaired&gt;
+			&lt;lastaired&gt;1970-01-01&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+			&lt;seasons&gt;1&lt;/seasons&gt;
+
+			&lt;episodes&gt;0&lt;/episodes&gt;
+			&lt;genres&gt;
+
+			&lt;/genres&gt;
+			&lt;showstatus&gt;Onbekend&lt;/showstatus&gt;
+			&lt;network&gt;&lt;/network&gt;
+			&lt;airtime&gt;&lt;/airtime&gt;
+			&lt;runtime&gt;0&lt;/runtime&gt;
+
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;favorites&gt;0&lt;/favorites&gt;
+			&lt;has_translators&gt;false&lt;/has_translators&gt;
+			&lt;updated&gt;1258636944&lt;/updated&gt;
+			&lt;summary&gt;A rogue planet is 'rushing madly toward the earth.' Impending doom creates worldwide pandemonium. But maverick scientist Dr. Zarkov hopes to stay disaster by travelling to the new planet in his experimental rocket. Two chance-met strangers, athletic Flash Gordon and damsel in distress Dale Arden, go with him. Arrived, the trio find Mongo to be a planet of wonders, warring factions, and deadly perils, its orbit controlled by Emperor Ming who has his own sinister plans for earth. Can our heroes, armed only with science and sex appeal, stop him?&lt;/summary&gt;
+
+		&lt;/result&gt;
+
+	&lt;/results&gt;
+&lt;/response&gt;
+&lt;/bierdopje&gt;</value>
+  </data>
+  <data name="FindShowsByNameNotCached" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;bierdopje&gt;
+&lt;response&gt;
+	&lt;status&gt;true&lt;/status&gt;
+	&lt;cached&gt;false&lt;/cached&gt;
+	&lt;apiversion&gt;201003031200&lt;/apiversion&gt;
+	&lt;results&gt;
+		&lt;result&gt;
+			&lt;showid&gt;13673&lt;/showid&gt;
+
+			&lt;tvdbid&gt;77954&lt;/tvdbid&gt;
+			&lt;showname&gt;Flash Forward&lt;/showname&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;firstaired&gt;1997-01-05&lt;/firstaired&gt;
+			&lt;lastaired&gt;1997-01-05&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+
+			&lt;seasons&gt;1&lt;/seasons&gt;
+			&lt;episodes&gt;0&lt;/episodes&gt;
+			&lt;genres&gt;
+				&lt;result&gt;comedy&lt;/result&gt;
+				&lt;result&gt;children&lt;/result&gt;
+
+			&lt;/genres&gt;
+
+			&lt;showstatus&gt;Terugkomende serie&lt;/showstatus&gt;
+			&lt;network&gt;&lt;/network&gt;
+			&lt;airtime&gt;21:10&lt;/airtime&gt;
+			&lt;runtime&gt;30&lt;/runtime&gt;
+			&lt;score&gt;9&lt;/score&gt;
+			&lt;favorites&gt;101&lt;/favorites&gt;
+
+			&lt;has_translators&gt;false&lt;/has_translators&gt;
+			&lt;updated&gt;1280762838&lt;/updated&gt;
+			&lt;summary&gt;Becca Fisher and Tucker James are two 13 year-olds who have been best friends since birth. They live next door to each other and have shared birthday parties, babysitters and backyard swings. But now, Becca and Tucker are beginning the rite of passage known as the eighth grade. Suddenly, they are teenagers, testing the bounds of their new independence while struggling to hang on the their past.&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;showid&gt;9636&lt;/showid&gt;
+
+			&lt;tvdbid&gt;78650&lt;/tvdbid&gt;
+			&lt;showname&gt;The Flash&lt;/showname&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/the-flash&lt;/showlink&gt;
+			&lt;firstaired&gt;1990-09-20&lt;/firstaired&gt;
+			&lt;lastaired&gt;1991-05-18&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+
+			&lt;seasons&gt;1&lt;/seasons&gt;
+			&lt;episodes&gt;0&lt;/episodes&gt;
+			&lt;genres&gt;
+				&lt;result&gt;action and adventure&lt;/result&gt;
+
+			&lt;/genres&gt;
+			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
+
+			&lt;network&gt;&lt;/network&gt;
+			&lt;airtime&gt;8:00 PM&lt;/airtime&gt;
+			&lt;runtime&gt;60&lt;/runtime&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;favorites&gt;0&lt;/favorites&gt;
+			&lt;has_translators&gt;false&lt;/has_translators&gt;
+
+			&lt;updated&gt;1267896505&lt;/updated&gt;
+			&lt;summary&gt;The Flash is the story of Barry Allen, a police scientist who is the victim of a freak accident.  While working late, his lab is hit by lightning.  The blast shatters a number of vials, so Barry is both electrocuted and bathed in dozens of chemicals.When he recovers, Barry finds that he has gained the ability to move at almost incomprehensible speed.  Fellow scientist Christina (Tina) McGee works with Barry to help him control his newfound powers, even constructing a suit for him which will not be destroyed by his speed.  Donning the red and yellow suit, Barry hides his identity from the world as he uses his powers to fight those who the police cannot catch.  In doing so he begins to create the legend of the anonymous scarlet speedster known only as The Flash.&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;showid&gt;3207&lt;/showid&gt;
+			&lt;tvdbid&gt;80533&lt;/tvdbid&gt;
+
+			&lt;showname&gt;Flash Gordon Conquers the Universe&lt;/showname&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-conquers-the-universe&lt;/showlink&gt;
+			&lt;firstaired&gt;1940-03-03&lt;/firstaired&gt;
+			&lt;lastaired&gt;1940-03-03&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+			&lt;seasons&gt;1&lt;/seasons&gt;
+
+			&lt;episodes&gt;0&lt;/episodes&gt;
+			&lt;genres&gt;
+				&lt;result&gt;science-fiction&lt;/result&gt;
+
+			&lt;/genres&gt;
+			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
+			&lt;network&gt;&lt;/network&gt;
+			&lt;airtime&gt;&lt;/airtime&gt;
+
+			&lt;runtime&gt;16&lt;/runtime&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;favorites&gt;0&lt;/favorites&gt;
+			&lt;has_translators&gt;false&lt;/has_translators&gt;
+			&lt;updated&gt;1268301613&lt;/updated&gt;
+			&lt;summary&gt;A mysterious plague, the Purple Death, ravages the earth. Dr. Zarkov, investigating in his spaceship, finds a ship from planet Mongo seeding the atmosphere with dust. Sure enough, Ming the Merciless is up to his old tricks. So it's back to Mongo for Flash, Dale, and Zarkov, this time with ready-made allies waiting: Prince Barin of Arboria and Queen Fria of the frozen northern land of Frigia; where, it so happens, is found polarite, antidote to the plague. But Ming will use all his forces to keep our heroes from thwarting his plans of conquest.&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;showid&gt;9637&lt;/showid&gt;
+			&lt;tvdbid&gt;81666&lt;/tvdbid&gt;
+			&lt;showname&gt;The Flashing Blade&lt;/showname&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/the-flashing-blade&lt;/showlink&gt;
+
+			&lt;firstaired&gt;1969-03-31&lt;/firstaired&gt;
+			&lt;lastaired&gt;1969-06-16&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+			&lt;seasons&gt;1&lt;/seasons&gt;
+			&lt;episodes&gt;0&lt;/episodes&gt;
+			&lt;genres&gt;
+				&lt;result&gt;action and adventure&lt;/result&gt;
+
+			&lt;/genres&gt;
+			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
+			&lt;network&gt;&lt;/network&gt;
+			&lt;airtime&gt;&lt;/airtime&gt;
+			&lt;runtime&gt;25&lt;/runtime&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;favorites&gt;0&lt;/favorites&gt;
+
+			&lt;has_translators&gt;false&lt;/has_translators&gt;
+			&lt;updated&gt;1268235499&lt;/updated&gt;
+			&lt;summary&gt;The Flashing Blade (Le Chevalier Temp&amp;#38;amp;ecirc;te) is a French television serial made in the late 1960s, which was broadcast in the UK on BBC children's television during the 1960s, with several re-runs in the 1970s.
+
+Dubbed from French into English, the action was set in 17th century France, during a period of war between France and Spain. The plot involves a besieged French garrison in a castle (Fort Casal) on the Savoie border, and the efforts of a dashing spy to engineer their rescue.&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;showid&gt;3206&lt;/showid&gt;
+
+			&lt;tvdbid&gt;80441&lt;/tvdbid&gt;
+			&lt;showname&gt;Flash Gordon (2007)&lt;/showname&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-2007&lt;/showlink&gt;
+			&lt;firstaired&gt;2001-09-07&lt;/firstaired&gt;
+			&lt;lastaired&gt;2008-02-08&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+
+			&lt;seasons&gt;1&lt;/seasons&gt;
+			&lt;episodes&gt;0&lt;/episodes&gt;
+			&lt;genres&gt;
+				&lt;result&gt;science-fiction&lt;/result&gt;
+
+			&lt;/genres&gt;
+			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
+
+			&lt;network&gt;&lt;/network&gt;
+			&lt;airtime&gt;9:00 PM&lt;/airtime&gt;
+			&lt;runtime&gt;60&lt;/runtime&gt;
+			&lt;score&gt;7&lt;/score&gt;
+			&lt;favorites&gt;17&lt;/favorites&gt;
+			&lt;has_translators&gt;true&lt;/has_translators&gt;
+
+			&lt;updated&gt;1278424230&lt;/updated&gt;
+			&lt;summary&gt;This new series brings the famed comic strip character to the small screen for a contemporary look at his intergalactic adventures. Look for beloved characters like Ming, Dale Arden, and Dr. Hans Zarkov!&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;showid&gt;10287&lt;/showid&gt;
+			&lt;tvdbid&gt;82452&lt;/tvdbid&gt;
+
+			&lt;showname&gt;The New Animated Adventures of Flash Gordon&lt;/showname&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/the-new-animated-adventures-of-flash-gordon&lt;/showlink&gt;
+			&lt;firstaired&gt;1982-08-21&lt;/firstaired&gt;
+			&lt;lastaired&gt;1982-08-21&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+			&lt;seasons&gt;2&lt;/seasons&gt;
+
+			&lt;episodes&gt;0&lt;/episodes&gt;
+			&lt;genres&gt;
+
+			&lt;/genres&gt;
+			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
+			&lt;network&gt;&lt;/network&gt;
+			&lt;airtime&gt;&lt;/airtime&gt;
+			&lt;runtime&gt;30&lt;/runtime&gt;
+
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;favorites&gt;0&lt;/favorites&gt;
+			&lt;has_translators&gt;false&lt;/has_translators&gt;
+			&lt;updated&gt;1229257779&lt;/updated&gt;
+			&lt;summary&gt;Flash Gordon blasts off to the planet Mongo with girlfriend Dale Arden and scientist Hans Zarkov to prevent evil dictator Ming the Merciless from dominating the universe. In attempting to put an end to Ming's villainy, Flash receives the aid (and often the hindrance) of Prince Barin of Arboria, the Hawk Men led by King Vultan, Queen Fria of the ice-covered land of Frigia, Thun the Lion Man and Ming's sexy, scantily-clad daughter Aura, who has a powerful attraction for Flash&lt;/summary&gt;
+
+		&lt;/result&gt;
+
+		&lt;result&gt;
+			&lt;showid&gt;3204&lt;/showid&gt;
+			&lt;tvdbid&gt;70331&lt;/tvdbid&gt;
+			&lt;showname&gt;Flash Gordon (1954)&lt;/showname&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-1954&lt;/showlink&gt;
+			&lt;firstaired&gt;1954-12-10&lt;/firstaired&gt;
+
+			&lt;lastaired&gt;1998-05-05&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+			&lt;seasons&gt;2&lt;/seasons&gt;
+			&lt;episodes&gt;0&lt;/episodes&gt;
+			&lt;genres&gt;
+				&lt;result&gt;action and adventure&lt;/result&gt;
+
+			&lt;/genres&gt;
+			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
+			&lt;network&gt;&lt;/network&gt;
+			&lt;airtime&gt;&lt;/airtime&gt;
+			&lt;runtime&gt;30&lt;/runtime&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;favorites&gt;0&lt;/favorites&gt;
+
+			&lt;has_translators&gt;false&lt;/has_translators&gt;
+			&lt;updated&gt;1241121734&lt;/updated&gt;
+			&lt;summary&gt;Geen summary beschikbaar!&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;showid&gt;3205&lt;/showid&gt;
+
+			&lt;tvdbid&gt;72679&lt;/tvdbid&gt;
+			&lt;showname&gt;Flash Gordon (1996)&lt;/showname&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-1996&lt;/showlink&gt;
+			&lt;firstaired&gt;&lt;/firstaired&gt;
+			&lt;lastaired&gt;1970-01-01&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+			&lt;seasons&gt;1&lt;/seasons&gt;
+
+			&lt;episodes&gt;0&lt;/episodes&gt;
+			&lt;genres&gt;
+
+			&lt;/genres&gt;
+			&lt;showstatus&gt;Onbekend&lt;/showstatus&gt;
+			&lt;network&gt;&lt;/network&gt;
+			&lt;airtime&gt;&lt;/airtime&gt;
+			&lt;runtime&gt;30&lt;/runtime&gt;
+
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;favorites&gt;0&lt;/favorites&gt;
+			&lt;has_translators&gt;false&lt;/has_translators&gt;
+			&lt;updated&gt;&lt;/updated&gt;
+			&lt;summary&gt;In this animated space adventure, Flash Gordon takes on the evil Ming the Merciless.&lt;/summary&gt;
+
+		&lt;/result&gt;
+
+		&lt;result&gt;
+			&lt;showid&gt;2512&lt;/showid&gt;
+			&lt;tvdbid&gt;73312&lt;/tvdbid&gt;
+			&lt;showname&gt;Dirty Pair Flash&lt;/showname&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/dirty-pair-flash&lt;/showlink&gt;
+			&lt;firstaired&gt;&lt;/firstaired&gt;
+			&lt;lastaired&gt;1970-01-01&lt;/lastaired&gt;
+
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+			&lt;seasons&gt;1&lt;/seasons&gt;
+			&lt;episodes&gt;0&lt;/episodes&gt;
+			&lt;genres&gt;
+
+			&lt;/genres&gt;
+			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
+			&lt;network&gt;&lt;/network&gt;
+
+			&lt;airtime&gt;9:00 PM&lt;/airtime&gt;
+			&lt;runtime&gt;30&lt;/runtime&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;favorites&gt;0&lt;/favorites&gt;
+			&lt;has_translators&gt;false&lt;/has_translators&gt;
+			&lt;updated&gt;1275724460&lt;/updated&gt;
+
+			&lt;summary&gt;Dirty Pair Flash is related to the original Dirty Pair, with the same characters but there are some changes. Dirty Pair Flash was released later but it is something of a prequel, showing the two main characters on their first assignments. It contains animated violence and mayhem, some profanity and a small amount of nudity. The DVD release is rated 15 and up. The Pair consists of two 17-year-old junior level 'Trouble Consultants', a cross between a trouble-shooter and a secret agent. They work for an organization called World Welfare &amp;#38;amp;amp; Works Association or the 3WA which handles problems galaxy-wide. Their codename is 'Lovely Angels' but it's easy to see why they are eventually known as the Dirty Pair, not in a naughty way, but because they tend to leave ruination wherever they go. Yuri is the purple-haired and perky team member, she is occasionally zany and a bit distracted. Yuri tends to rely on her feminine wiles to get out of trouble, rarely plans ahead and is obsessed wit&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;showid&gt;3208&lt;/showid&gt;
+			&lt;tvdbid&gt;80531&lt;/tvdbid&gt;
+			&lt;showname&gt;Flash Gordon's Trip to Mars&lt;/showname&gt;
+
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordons-trip-to-mars&lt;/showlink&gt;
+			&lt;firstaired&gt;&lt;/firstaired&gt;
+			&lt;lastaired&gt;1970-01-01&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+			&lt;seasons&gt;1&lt;/seasons&gt;
+			&lt;episodes&gt;0&lt;/episodes&gt;
+			&lt;genres&gt;
+
+			&lt;/genres&gt;
+			&lt;showstatus&gt;Afgelopen&lt;/showstatus&gt;
+			&lt;network&gt;&lt;/network&gt;
+			&lt;airtime&gt;&lt;/airtime&gt;
+			&lt;runtime&gt;0&lt;/runtime&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;favorites&gt;0&lt;/favorites&gt;
+
+			&lt;has_translators&gt;false&lt;/has_translators&gt;
+			&lt;updated&gt;1258637860&lt;/updated&gt;
+			&lt;summary&gt;Flash, Dale, Zarkhov and, stowaway reporter, Happy Hapgood travel to Mars to find the source of a ray that is stealing the nitron from the Earth's atmosphere. They soon find out that it is Emperor Ming, with the help of Queen Azura of Mars who is behind this. With the aid of the Clay People and Prince Barin, Flash and his friends are triumphant in destroying the ray and putting an end to the scheme of Ming the Merciless.&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;showid&gt;3209&lt;/showid&gt;
+
+			&lt;tvdbid&gt;80532&lt;/tvdbid&gt;
+			&lt;showname&gt;Flash Gordon: Space Soldiers&lt;/showname&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-gordon-space-soldiers&lt;/showlink&gt;
+			&lt;firstaired&gt;&lt;/firstaired&gt;
+			&lt;lastaired&gt;1970-01-01&lt;/lastaired&gt;
+			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+			&lt;seasons&gt;1&lt;/seasons&gt;
+
+			&lt;episodes&gt;0&lt;/episodes&gt;
+			&lt;genres&gt;
+
+			&lt;/genres&gt;
+			&lt;showstatus&gt;Onbekend&lt;/showstatus&gt;
+			&lt;network&gt;&lt;/network&gt;
+			&lt;airtime&gt;&lt;/airtime&gt;
+			&lt;runtime&gt;0&lt;/runtime&gt;
+
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;favorites&gt;0&lt;/favorites&gt;
+			&lt;has_translators&gt;false&lt;/has_translators&gt;
+			&lt;updated&gt;1258636944&lt;/updated&gt;
+			&lt;summary&gt;A rogue planet is 'rushing madly toward the earth.' Impending doom creates worldwide pandemonium. But maverick scientist Dr. Zarkov hopes to stay disaster by travelling to the new planet in his experimental rocket. Two chance-met strangers, athletic Flash Gordon and damsel in distress Dale Arden, go with him. Arrived, the trio find Mongo to be a planet of wonders, warring factions, and deadly perils, its orbit controlled by Emperor Ming who has his own sinister plans for earth. Can our heroes, armed only with science and sex appeal, stop him?&lt;/summary&gt;
+
+		&lt;/result&gt;
 
 	&lt;/results&gt;
 &lt;/response&gt;
 &lt;/bierdopje&gt;</value>
   </data>
   <data name="GetAllEpisodesForShowCached" xml:space="preserve">
-    <value>&lt;bierdopje&gt;
-&lt;response&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;418319&lt;/episodeid&gt;
-		&lt;tvdbid&gt;428750&lt;/tvdbid&gt;
-		&lt;title&gt;No More Good Days&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E01&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;1&lt;/episode&gt;
-		&lt;epnumber&gt;1&lt;/epnumber&gt;
-		&lt;wip&gt;true&lt;/wip&gt;
-		&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-		&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-		&lt;score&gt;9,71&lt;/score&gt;
-		&lt;votes&gt;7&lt;/votes&gt;
-		&lt;airdate&gt;24-09-2009&lt;/airdate&gt;
-		&lt;formatted&gt;S01E01&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;true&lt;/subsnl&gt;
-		&lt;subsen&gt;true&lt;/subsen&gt;
-		&lt;summary&gt;Everyone on Earth blacks out for exactly two minutes and 17 seconds, during which they see snippets from their futures six months ahead. For FBI agent Mark Benford (Joseph Fiennes) and his partner, Demetri Noh (John Cho), the event occurs during a high-speed chase and they find themselves investigating the phenomenon. Meanwhile, Benford's wife, Olivia (Sonya Walger), a doctor, wakes up on the floor of the OR.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;443182&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1062201&lt;/tvdbid&gt;
-		&lt;title&gt;White to Play&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E02&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;2&lt;/episode&gt;
-		&lt;epnumber&gt;2&lt;/epnumber&gt;
-		&lt;wip&gt;true&lt;/wip&gt;
-		&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-		&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-		&lt;score&gt;9,83&lt;/score&gt;
-		&lt;votes&gt;6&lt;/votes&gt;
-		&lt;airdate&gt;01-10-2009&lt;/airdate&gt;
-		&lt;formatted&gt;S01E02&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;true&lt;/subsnl&gt;
-		&lt;subsen&gt;true&lt;/subsen&gt;
-		&lt;summary&gt;Mark and Demetri go to Utah to investigate a lead on a suspect who might have a connection to the global blackout. Olivia sees the man from her flashforward, while her daughter Charlie is having trouble dealing with hers.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;443183&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1062211&lt;/tvdbid&gt;
-		&lt;title&gt;137 Sekunden&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E03&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;3&lt;/episode&gt;
-		&lt;epnumber&gt;3&lt;/epnumber&gt;
-		&lt;wip&gt;true&lt;/wip&gt;
-		&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-		&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-		&lt;score&gt;8,75&lt;/score&gt;
-		&lt;votes&gt;8&lt;/votes&gt;
-		&lt;airdate&gt;08-10-2009&lt;/airdate&gt;
-		&lt;formatted&gt;S01E03&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;true&lt;/subsnl&gt;
-		&lt;subsen&gt;true&lt;/subsen&gt;
-		&lt;summary&gt;Mark and Janis arrive in Germany to discuss the past events regarding the blackouts. Demetri fears about his future. Meanwhile, Aaron tries to get Mark to help him with an appeal.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;443184&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1062221&lt;/tvdbid&gt;
-		&lt;title&gt;Black Swan&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E04&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;4&lt;/episode&gt;
-		&lt;epnumber&gt;4&lt;/epnumber&gt;
-		&lt;wip&gt;true&lt;/wip&gt;
-		&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-		&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-		&lt;score&gt;9,33&lt;/score&gt;
-		&lt;votes&gt;3&lt;/votes&gt;
-		&lt;airdate&gt;15-10-2009&lt;/airdate&gt;
-		&lt;formatted&gt;S01E04&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;true&lt;/subsnl&gt;
-		&lt;subsen&gt;true&lt;/subsen&gt;
-		&lt;summary&gt;Olivia struggles to accept Bryce's suggestion that a patient's flashforward holds the key to a correct diagnosis and treatment. Meanwhile, Demetri accuses Mark of waiting for the future he saw in his flashforward to come true without incident, while Mark feels Demetri is letting his fear of what he witnessed envelop his life; and Nicole returns to work as Mark and Olivia's daughter's baby-sitter, and discloses her shocking future vision &amp;#226; involving a murder.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;443185&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1062231&lt;/tvdbid&gt;
-		&lt;title&gt;Gimme Some Truth&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E05&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;5&lt;/episode&gt;
-		&lt;epnumber&gt;5&lt;/epnumber&gt;
-		&lt;wip&gt;true&lt;/wip&gt;
-		&lt;wippercentage&gt;0&lt;/wippercentage&gt;
-		&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-		&lt;score&gt;9&lt;/score&gt;
-		&lt;votes&gt;1&lt;/votes&gt;
-		&lt;airdate&gt;22-10-2009&lt;/airdate&gt;
-		&lt;formatted&gt;S01E05&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;false&lt;/subsnl&gt;
-		&lt;subsen&gt;true&lt;/subsen&gt;
-		&lt;summary&gt;Mark finds himself on the defense while being questioned about the details of his flashforward during a Senate Intelligence Committee hearing, which will decide whether to continue funding Wedeck's team. Meanwhile, Janis wonders how her flashforward will affect her current romantic relationship, and Olivia receives an anonymous message relating to Mark's flashforward.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;443186&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1062241&lt;/tvdbid&gt;
-		&lt;title&gt;Scary Monsters And Super Creeps&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E06&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;6&lt;/episode&gt;
-		&lt;epnumber&gt;6&lt;/epnumber&gt;
-		&lt;wip&gt;false&lt;/wip&gt;
-		&lt;wippercentage&gt;0&lt;/wippercentage&gt;
-		&lt;wipuser&gt;&lt;/wipuser&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;votes&gt;0&lt;/votes&gt;
-		&lt;airdate&gt;29-10-2009&lt;/airdate&gt;
-		&lt;formatted&gt;S01E06&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;false&lt;/subsnl&gt;
-		&lt;subsen&gt;false&lt;/subsen&gt;
-		&lt;summary&gt;Mark, Demetri and Wedeck try to connect Janis' attack with a separate attack made on them; Olivia confronts Mark about his flashforward; Demetri and Gough track down a clue from Mark's flash; Dylan goes missing from the hospital&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;443187&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1062251&lt;/tvdbid&gt;
-		&lt;title&gt;The Gift&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E07&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;7&lt;/episode&gt;
-		&lt;epnumber&gt;7&lt;/epnumber&gt;
-		&lt;wip&gt;false&lt;/wip&gt;
-		&lt;wippercentage&gt;0&lt;/wippercentage&gt;
-		&lt;wipuser&gt;&lt;/wipuser&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;votes&gt;0&lt;/votes&gt;
-		&lt;airdate&gt;05-11-2009&lt;/airdate&gt;
-		&lt;formatted&gt;S01E07&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;false&lt;/subsnl&gt;
-		&lt;subsen&gt;false&lt;/subsen&gt;
-		&lt;summary&gt;Mark, Demetri, Gough and MI6 agent Fiona Banks investigate a Blue Hand club and its possible connection to some recent suicides. Meanwhile, Aaron receives a surprise visit from a former army buddy of his late daughter's, Demetri comes clean with Zoey about his lack of a flashforward, and Nicole helps Bryce uncover the mystery of his flashforward while volunteering at the hospital.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;443188&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1062261&lt;/tvdbid&gt;
-		&lt;title&gt;Playing Cards With Coyote&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E08&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;8&lt;/episode&gt;
-		&lt;epnumber&gt;8&lt;/epnumber&gt;
-		&lt;wip&gt;false&lt;/wip&gt;
-		&lt;wippercentage&gt;0&lt;/wippercentage&gt;
-		&lt;wipuser&gt;&lt;/wipuser&gt;
-		&lt;score&gt;10&lt;/score&gt;
-		&lt;votes&gt;1&lt;/votes&gt;
-		&lt;airdate&gt;12-11-2009&lt;/airdate&gt;
-		&lt;formatted&gt;S01E08&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;false&lt;/subsnl&gt;
-		&lt;subsen&gt;false&lt;/subsen&gt;
-		&lt;summary&gt;&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;449673&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1183431&lt;/tvdbid&gt;
-		&lt;title&gt;Believe&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E09&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;9&lt;/episode&gt;
-		&lt;epnumber&gt;9&lt;/epnumber&gt;
-		&lt;wip&gt;false&lt;/wip&gt;
-		&lt;wippercentage&gt;0&lt;/wippercentage&gt;
-		&lt;wipuser&gt;&lt;/wipuser&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;votes&gt;0&lt;/votes&gt;
-		&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
-		&lt;formatted&gt;S01E09&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;false&lt;/subsnl&gt;
-		&lt;subsen&gt;false&lt;/subsen&gt;
-		&lt;summary&gt;&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;449674&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1183441&lt;/tvdbid&gt;
-		&lt;title&gt;A561984&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E10&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;10&lt;/episode&gt;
-		&lt;epnumber&gt;10&lt;/epnumber&gt;
-		&lt;wip&gt;false&lt;/wip&gt;
-		&lt;wippercentage&gt;0&lt;/wippercentage&gt;
-		&lt;wipuser&gt;&lt;/wipuser&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;votes&gt;0&lt;/votes&gt;
-		&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
-		&lt;formatted&gt;S01E10&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;false&lt;/subsnl&gt;
-		&lt;subsen&gt;false&lt;/subsen&gt;
-		&lt;summary&gt;&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;449675&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1183451&lt;/tvdbid&gt;
-		&lt;title&gt;Buddha In The Ruins&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E11&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;11&lt;/episode&gt;
-		&lt;epnumber&gt;11&lt;/epnumber&gt;
-		&lt;wip&gt;false&lt;/wip&gt;
-		&lt;wippercentage&gt;0&lt;/wippercentage&gt;
-		&lt;wipuser&gt;&lt;/wipuser&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;votes&gt;0&lt;/votes&gt;
-		&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
-		&lt;formatted&gt;S01E11&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;false&lt;/subsnl&gt;
-		&lt;subsen&gt;false&lt;/subsen&gt;
-		&lt;summary&gt;&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;cached&gt;true&lt;/cached&gt;
-	&lt;status&gt;true&lt;/status&gt;
-&lt;/response&gt;
-&lt;/bierdopje&gt;</value>
-  </data>
-  <data name="GetAllEpisodesForShowNotCached" xml:space="preserve">
-    <value>&lt;bierdopje&gt;
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;bierdopje&gt;
 &lt;response&gt;
 	&lt;status&gt;true&lt;/status&gt;
 	&lt;cached&gt;false&lt;/cached&gt;
+	&lt;apiversion&gt;201003031200&lt;/apiversion&gt;
+	&lt;cachelife&gt;1281546573&lt;/cachelife&gt;
 	&lt;results&gt;
+
 		&lt;result&gt;
-			&lt;episodeid&gt;418319&lt;/episodeid&gt;
-			&lt;tvdbid&gt;428750&lt;/tvdbid&gt;
-			&lt;title&gt;No More Good Days&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E01&lt;/episodelink&gt;
+			&lt;episodeid&gt;449199&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266088&lt;/tvdbid&gt;
+			&lt;title&gt;Fresh Start All Over Again&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E01&lt;/episodelink&gt;
+
 			&lt;season&gt;1&lt;/season&gt;
 			&lt;episode&gt;1&lt;/episode&gt;
 			&lt;epnumber&gt;1&lt;/epnumber&gt;
-			&lt;wip&gt;true&lt;/wip&gt;
-			&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-			&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-			&lt;score&gt;9,71&lt;/score&gt;
-			&lt;votes&gt;7&lt;/votes&gt;
-			&lt;airdate&gt;24-09-2009&lt;/airdate&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+			&lt;airdate&gt;05-01-1997&lt;/airdate&gt;
 			&lt;formatted&gt;S01E01&lt;/formatted&gt;
 			&lt;is_special&gt;false&lt;/is_special&gt;
 			&lt;subsnl&gt;true&lt;/subsnl&gt;
-			&lt;subsen&gt;true&lt;/subsen&gt;
-			&lt;summary&gt;Everyone on Earth blacks out for exactly two minutes and 17 seconds, during which they see snippets from their futures six months ahead. For FBI agent Mark Benford (Joseph Fiennes) and his partner, Demetri Noh (John Cho), the event occurs during a high-speed chase and they find themselves investigating the phenomenon. Meanwhile, Benford's wife, Olivia (Sonya Walger), a doctor, wakes up on the floor of the OR.&lt;/summary&gt;
+
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381233&lt;/updated&gt;
+			&lt;summary&gt;&lt;/summary&gt;
 
 		&lt;/result&gt;
 		&lt;result&gt;
-			&lt;episodeid&gt;443182&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1062201&lt;/tvdbid&gt;
-			&lt;title&gt;White to Play&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E02&lt;/episodelink&gt;
+			&lt;episodeid&gt;449200&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266089&lt;/tvdbid&gt;
+
+			&lt;title&gt;I''m OK, You''re A Jerk&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E02&lt;/episodelink&gt;
 			&lt;season&gt;1&lt;/season&gt;
 			&lt;episode&gt;2&lt;/episode&gt;
 			&lt;epnumber&gt;2&lt;/epnumber&gt;
-			&lt;wip&gt;true&lt;/wip&gt;
-			&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-			&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-			&lt;score&gt;9,83&lt;/score&gt;
-			&lt;votes&gt;6&lt;/votes&gt;
-			&lt;airdate&gt;01-10-2009&lt;/airdate&gt;
+
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
+
 			&lt;formatted&gt;S01E02&lt;/formatted&gt;
 			&lt;is_special&gt;false&lt;/is_special&gt;
 			&lt;subsnl&gt;true&lt;/subsnl&gt;
-			&lt;subsen&gt;true&lt;/subsen&gt;
-			&lt;summary&gt;Mark and Demetri go to Utah to investigate a lead on a suspect who might have a connection to the global blackout. Olivia sees the man from her flashforward, while her daughter Charlie is having trouble dealing with hers.&lt;/summary&gt;
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381134&lt;/updated&gt;
+			&lt;summary&gt;&lt;/summary&gt;
 
 		&lt;/result&gt;
 		&lt;result&gt;
-			&lt;episodeid&gt;443183&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1062211&lt;/tvdbid&gt;
-			&lt;title&gt;137 Sekunden&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E03&lt;/episodelink&gt;
+			&lt;episodeid&gt;449201&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266090&lt;/tvdbid&gt;
+			&lt;title&gt;House Party&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E03&lt;/episodelink&gt;
 			&lt;season&gt;1&lt;/season&gt;
 			&lt;episode&gt;3&lt;/episode&gt;
 			&lt;epnumber&gt;3&lt;/epnumber&gt;
-			&lt;wip&gt;true&lt;/wip&gt;
-			&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-			&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-			&lt;score&gt;8,75&lt;/score&gt;
-			&lt;votes&gt;8&lt;/votes&gt;
-			&lt;airdate&gt;08-10-2009&lt;/airdate&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
 			&lt;formatted&gt;S01E03&lt;/formatted&gt;
 			&lt;is_special&gt;false&lt;/is_special&gt;
+
 			&lt;subsnl&gt;true&lt;/subsnl&gt;
-			&lt;subsen&gt;true&lt;/subsen&gt;
-			&lt;summary&gt;Mark and Janis arrive in Germany to discuss the past events regarding the blackouts. Demetri fears about his future. Meanwhile, Aaron tries to get Mark to help him with an appeal.&lt;/summary&gt;
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381143&lt;/updated&gt;
+			&lt;summary&gt;&lt;/summary&gt;
 
 		&lt;/result&gt;
 		&lt;result&gt;
-			&lt;episodeid&gt;443184&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1062221&lt;/tvdbid&gt;
-			&lt;title&gt;Black Swan&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E04&lt;/episodelink&gt;
+			&lt;episodeid&gt;449202&lt;/episodeid&gt;
+
+			&lt;tvdbid&gt;266091&lt;/tvdbid&gt;
+			&lt;title&gt;Cool Book&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E04&lt;/episodelink&gt;
 			&lt;season&gt;1&lt;/season&gt;
 			&lt;episode&gt;4&lt;/episode&gt;
+
 			&lt;epnumber&gt;4&lt;/epnumber&gt;
-			&lt;wip&gt;true&lt;/wip&gt;
-			&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-			&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-			&lt;score&gt;9,33&lt;/score&gt;
-			&lt;votes&gt;3&lt;/votes&gt;
-			&lt;airdate&gt;15-10-2009&lt;/airdate&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
 			&lt;formatted&gt;S01E04&lt;/formatted&gt;
 			&lt;is_special&gt;false&lt;/is_special&gt;
 			&lt;subsnl&gt;true&lt;/subsnl&gt;
-			&lt;subsen&gt;true&lt;/subsen&gt;
-			&lt;summary&gt;Olivia struggles to accept Bryce's suggestion that a patient's flashforward holds the key to a correct diagnosis and treatment. Meanwhile, Demetri accuses Mark of waiting for the future he saw in his flashforward to come true without incident, while Mark feels Demetri is letting his fear of what he witnessed envelop his life; and Nicole returns to work as Mark and Olivia's daughter's baby-sitter, and discloses her shocking future vision &amp;#226; involving a murder.&lt;/summary&gt;
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381153&lt;/updated&gt;
+
+			&lt;summary&gt;&lt;/summary&gt;
 
 		&lt;/result&gt;
 		&lt;result&gt;
-			&lt;episodeid&gt;443185&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1062231&lt;/tvdbid&gt;
-			&lt;title&gt;Gimme Some Truth&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E05&lt;/episodelink&gt;
+			&lt;episodeid&gt;449203&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266092&lt;/tvdbid&gt;
+			&lt;title&gt;On Your Toes&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E05&lt;/episodelink&gt;
 			&lt;season&gt;1&lt;/season&gt;
 			&lt;episode&gt;5&lt;/episode&gt;
 			&lt;epnumber&gt;5&lt;/epnumber&gt;
-			&lt;wip&gt;true&lt;/wip&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
 			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
-			&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-			&lt;score&gt;9&lt;/score&gt;
-			&lt;votes&gt;1&lt;/votes&gt;
-			&lt;airdate&gt;22-10-2009&lt;/airdate&gt;
+
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
 			&lt;formatted&gt;S01E05&lt;/formatted&gt;
 			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;false&lt;/subsnl&gt;
-			&lt;subsen&gt;true&lt;/subsen&gt;
-			&lt;summary&gt;Mark finds himself on the defense while being questioned about the details of his flashforward during a Senate Intelligence Committee hearing, which will decide whether to continue funding Wedeck's team. Meanwhile, Janis wonders how her flashforward will affect her current romantic relationship, and Olivia receives an anonymous message relating to Mark's flashforward.&lt;/summary&gt;
+
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381178&lt;/updated&gt;
+			&lt;summary&gt;&lt;/summary&gt;
 
 		&lt;/result&gt;
 		&lt;result&gt;
-			&lt;episodeid&gt;443186&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1062241&lt;/tvdbid&gt;
-			&lt;title&gt;Scary Monsters And Super Creeps&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E06&lt;/episodelink&gt;
+			&lt;episodeid&gt;449204&lt;/episodeid&gt;
+
+			&lt;tvdbid&gt;266093&lt;/tvdbid&gt;
+			&lt;title&gt;Speechless&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E06&lt;/episodelink&gt;
 			&lt;season&gt;1&lt;/season&gt;
 			&lt;episode&gt;6&lt;/episode&gt;
+
 			&lt;epnumber&gt;6&lt;/epnumber&gt;
 			&lt;wip&gt;false&lt;/wip&gt;
 			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
 			&lt;wipuser&gt;&lt;/wipuser&gt;
 			&lt;score&gt;0&lt;/score&gt;
 			&lt;votes&gt;0&lt;/votes&gt;
-			&lt;airdate&gt;29-10-2009&lt;/airdate&gt;
+
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
 			&lt;formatted&gt;S01E06&lt;/formatted&gt;
 			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;false&lt;/subsnl&gt;
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
 			&lt;subsen&gt;false&lt;/subsen&gt;
-			&lt;summary&gt;Mark, Demetri and Wedeck try to connect Janis' attack with a separate attack made on them; Olivia confronts Mark about his flashforward; Demetri and Gough track down a clue from Mark's flash; Dylan goes missing from the hospital&lt;/summary&gt;
+			&lt;updated&gt;1255381203&lt;/updated&gt;
+
+			&lt;summary&gt;&lt;/summary&gt;
 
 		&lt;/result&gt;
 		&lt;result&gt;
-			&lt;episodeid&gt;443187&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1062251&lt;/tvdbid&gt;
-			&lt;title&gt;The Gift&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E07&lt;/episodelink&gt;
+			&lt;episodeid&gt;449205&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266094&lt;/tvdbid&gt;
+			&lt;title&gt;Scalpers&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E07&lt;/episodelink&gt;
 			&lt;season&gt;1&lt;/season&gt;
 			&lt;episode&gt;7&lt;/episode&gt;
 			&lt;epnumber&gt;7&lt;/epnumber&gt;
 			&lt;wip&gt;false&lt;/wip&gt;
 			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+
 			&lt;wipuser&gt;&lt;/wipuser&gt;
 			&lt;score&gt;0&lt;/score&gt;
 			&lt;votes&gt;0&lt;/votes&gt;
-			&lt;airdate&gt;05-11-2009&lt;/airdate&gt;
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
 			&lt;formatted&gt;S01E07&lt;/formatted&gt;
 			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;false&lt;/subsnl&gt;
+
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
 			&lt;subsen&gt;false&lt;/subsen&gt;
-			&lt;summary&gt;Mark, Demetri, Gough and MI6 agent Fiona Banks investigate a Blue Hand club and its possible connection to some recent suicides. Meanwhile, Aaron receives a surprise visit from a former army buddy of his late daughter's, Demetri comes clean with Zoey about his lack of a flashforward, and Nicole helps Bryce uncover the mystery of his flashforward while volunteering at the hospital.&lt;/summary&gt;
+			&lt;updated&gt;1255381209&lt;/updated&gt;
+			&lt;summary&gt;&lt;/summary&gt;
 
 		&lt;/result&gt;
 		&lt;result&gt;
-			&lt;episodeid&gt;443188&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1062261&lt;/tvdbid&gt;
-			&lt;title&gt;Playing Cards With Coyote&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E08&lt;/episodelink&gt;
+			&lt;episodeid&gt;449206&lt;/episodeid&gt;
+
+			&lt;tvdbid&gt;266095&lt;/tvdbid&gt;
+			&lt;title&gt;Dog Day After Lunch&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E08&lt;/episodelink&gt;
 			&lt;season&gt;1&lt;/season&gt;
 			&lt;episode&gt;8&lt;/episode&gt;
+
 			&lt;epnumber&gt;8&lt;/epnumber&gt;
 			&lt;wip&gt;false&lt;/wip&gt;
 			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
 			&lt;wipuser&gt;&lt;/wipuser&gt;
-			&lt;score&gt;10&lt;/score&gt;
-			&lt;votes&gt;1&lt;/votes&gt;
-			&lt;airdate&gt;12-11-2009&lt;/airdate&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
 			&lt;formatted&gt;S01E08&lt;/formatted&gt;
 			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;false&lt;/subsnl&gt;
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
 			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381215&lt;/updated&gt;
+
+			&lt;summary&gt;&lt;/summary&gt;
+
+		&lt;/result&gt;
+
+	&lt;/results&gt;
+&lt;/response&gt;
+&lt;/bierdopje&gt;</value>
+  </data>
+  <data name="GetAllEpisodesForShowNotCached" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;bierdopje&gt;
+&lt;response&gt;
+	&lt;status&gt;true&lt;/status&gt;
+	&lt;cached&gt;false&lt;/cached&gt;
+	&lt;apiversion&gt;201003031200&lt;/apiversion&gt;
+	&lt;cachelife&gt;1281546573&lt;/cachelife&gt;
+	&lt;results&gt;
+
+		&lt;result&gt;
+			&lt;episodeid&gt;449199&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266088&lt;/tvdbid&gt;
+			&lt;title&gt;Fresh Start All Over Again&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E01&lt;/episodelink&gt;
+
+			&lt;season&gt;1&lt;/season&gt;
+			&lt;episode&gt;1&lt;/episode&gt;
+			&lt;epnumber&gt;1&lt;/epnumber&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+			&lt;airdate&gt;05-01-1997&lt;/airdate&gt;
+			&lt;formatted&gt;S01E01&lt;/formatted&gt;
+			&lt;is_special&gt;false&lt;/is_special&gt;
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
+
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381233&lt;/updated&gt;
 			&lt;summary&gt;&lt;/summary&gt;
 
 		&lt;/result&gt;
 		&lt;result&gt;
-			&lt;episodeid&gt;449673&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1183431&lt;/tvdbid&gt;
-			&lt;title&gt;Believe&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E09&lt;/episodelink&gt;
+			&lt;episodeid&gt;449200&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266089&lt;/tvdbid&gt;
+
+			&lt;title&gt;I''m OK, You''re A Jerk&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E02&lt;/episodelink&gt;
 			&lt;season&gt;1&lt;/season&gt;
-			&lt;episode&gt;9&lt;/episode&gt;
-			&lt;epnumber&gt;9&lt;/epnumber&gt;
+			&lt;episode&gt;2&lt;/episode&gt;
+			&lt;epnumber&gt;2&lt;/epnumber&gt;
+
 			&lt;wip&gt;false&lt;/wip&gt;
 			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
 			&lt;wipuser&gt;&lt;/wipuser&gt;
 			&lt;score&gt;0&lt;/score&gt;
 			&lt;votes&gt;0&lt;/votes&gt;
 			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
-			&lt;formatted&gt;S01E09&lt;/formatted&gt;
+
+			&lt;formatted&gt;S01E02&lt;/formatted&gt;
 			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;false&lt;/subsnl&gt;
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
 			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381134&lt;/updated&gt;
 			&lt;summary&gt;&lt;/summary&gt;
 
 		&lt;/result&gt;
 		&lt;result&gt;
-			&lt;episodeid&gt;449674&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1183441&lt;/tvdbid&gt;
-			&lt;title&gt;A561984&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E10&lt;/episodelink&gt;
+			&lt;episodeid&gt;449201&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266090&lt;/tvdbid&gt;
+			&lt;title&gt;House Party&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E03&lt;/episodelink&gt;
 			&lt;season&gt;1&lt;/season&gt;
-			&lt;episode&gt;10&lt;/episode&gt;
-			&lt;epnumber&gt;10&lt;/epnumber&gt;
+			&lt;episode&gt;3&lt;/episode&gt;
+			&lt;epnumber&gt;3&lt;/epnumber&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
+			&lt;formatted&gt;S01E03&lt;/formatted&gt;
+			&lt;is_special&gt;false&lt;/is_special&gt;
+
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381143&lt;/updated&gt;
+			&lt;summary&gt;&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;episodeid&gt;449202&lt;/episodeid&gt;
+
+			&lt;tvdbid&gt;266091&lt;/tvdbid&gt;
+			&lt;title&gt;Cool Book&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E04&lt;/episodelink&gt;
+			&lt;season&gt;1&lt;/season&gt;
+			&lt;episode&gt;4&lt;/episode&gt;
+
+			&lt;epnumber&gt;4&lt;/epnumber&gt;
 			&lt;wip&gt;false&lt;/wip&gt;
 			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
 			&lt;wipuser&gt;&lt;/wipuser&gt;
 			&lt;score&gt;0&lt;/score&gt;
 			&lt;votes&gt;0&lt;/votes&gt;
+
 			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
-			&lt;formatted&gt;S01E10&lt;/formatted&gt;
+			&lt;formatted&gt;S01E04&lt;/formatted&gt;
 			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;false&lt;/subsnl&gt;
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
 			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381153&lt;/updated&gt;
+
 			&lt;summary&gt;&lt;/summary&gt;
 
 		&lt;/result&gt;
 		&lt;result&gt;
-			&lt;episodeid&gt;449675&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1183451&lt;/tvdbid&gt;
-			&lt;title&gt;Buddha In The Ruins&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E11&lt;/episodelink&gt;
+			&lt;episodeid&gt;449203&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266092&lt;/tvdbid&gt;
+			&lt;title&gt;On Your Toes&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E05&lt;/episodelink&gt;
 			&lt;season&gt;1&lt;/season&gt;
-			&lt;episode&gt;11&lt;/episode&gt;
-			&lt;epnumber&gt;11&lt;/epnumber&gt;
+			&lt;episode&gt;5&lt;/episode&gt;
+			&lt;epnumber&gt;5&lt;/epnumber&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
+			&lt;formatted&gt;S01E05&lt;/formatted&gt;
+			&lt;is_special&gt;false&lt;/is_special&gt;
+
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381178&lt;/updated&gt;
+			&lt;summary&gt;&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;episodeid&gt;449204&lt;/episodeid&gt;
+
+			&lt;tvdbid&gt;266093&lt;/tvdbid&gt;
+			&lt;title&gt;Speechless&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E06&lt;/episodelink&gt;
+			&lt;season&gt;1&lt;/season&gt;
+			&lt;episode&gt;6&lt;/episode&gt;
+
+			&lt;epnumber&gt;6&lt;/epnumber&gt;
 			&lt;wip&gt;false&lt;/wip&gt;
 			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
 			&lt;wipuser&gt;&lt;/wipuser&gt;
 			&lt;score&gt;0&lt;/score&gt;
 			&lt;votes&gt;0&lt;/votes&gt;
+
 			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
-			&lt;formatted&gt;S01E11&lt;/formatted&gt;
+			&lt;formatted&gt;S01E06&lt;/formatted&gt;
 			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;false&lt;/subsnl&gt;
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
 			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381203&lt;/updated&gt;
+
+			&lt;summary&gt;&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;episodeid&gt;449205&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266094&lt;/tvdbid&gt;
+			&lt;title&gt;Scalpers&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E07&lt;/episodelink&gt;
+			&lt;season&gt;1&lt;/season&gt;
+			&lt;episode&gt;7&lt;/episode&gt;
+			&lt;epnumber&gt;7&lt;/epnumber&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
+			&lt;formatted&gt;S01E07&lt;/formatted&gt;
+			&lt;is_special&gt;false&lt;/is_special&gt;
+
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381209&lt;/updated&gt;
+			&lt;summary&gt;&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;episodeid&gt;449206&lt;/episodeid&gt;
+
+			&lt;tvdbid&gt;266095&lt;/tvdbid&gt;
+			&lt;title&gt;Dog Day After Lunch&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E08&lt;/episodelink&gt;
+			&lt;season&gt;1&lt;/season&gt;
+			&lt;episode&gt;8&lt;/episode&gt;
+
+			&lt;epnumber&gt;8&lt;/epnumber&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
+			&lt;formatted&gt;S01E08&lt;/formatted&gt;
+			&lt;is_special&gt;false&lt;/is_special&gt;
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381215&lt;/updated&gt;
+
 			&lt;summary&gt;&lt;/summary&gt;
 
 		&lt;/result&gt;
@@ -1137,57 +1212,52 @@ Dubbed from French into English, the action was set in 17th century France, duri
 &lt;/bierdopje&gt;</value>
   </data>
   <data name="GetAllSubsForEpisodeCached" xml:space="preserve">
-    <value>&lt;bierdopje&gt;
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;bierdopje&gt;
 &lt;response&gt;
-	&lt;result&gt;
-		&lt;filename&gt;FlashForward.S01E05.HDTV.XviD-2HD&lt;/filename&gt;
-		&lt;filesize&gt;62095&lt;/filesize&gt;
-		&lt;uploader&gt;Waarez&lt;/uploader&gt;
-		&lt;pubdate&gt;Thu, 01 Jan 1970 01:00:00&lt;/pubdate&gt;
-		&lt;numreplies&gt;3&lt;/numreplies&gt;
-		&lt;numdownloads&gt;249&lt;/numdownloads&gt;
-		&lt;downloadlink&gt;http://www.bierdopje.com/download/sub/26294/FlashForward.S01E05.HDTV.XviD-2HD&lt;/downloadlink&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;filename&gt;Flashforward.S01E05.720p.HDTV.x264-RED&lt;/filename&gt;
-		&lt;filesize&gt;57638&lt;/filesize&gt;
-		&lt;uploader&gt;muter&lt;/uploader&gt;
-		&lt;pubdate&gt;Thu, 01 Jan 1970 01:00:00&lt;/pubdate&gt;
-		&lt;numreplies&gt;0&lt;/numreplies&gt;
-		&lt;numdownloads&gt;457&lt;/numdownloads&gt;
-		&lt;downloadlink&gt;http://www.bierdopje.com/download/sub/26316/Flashforward.S01E05.720p.HDTV.x264-RED&lt;/downloadlink&gt;
-
-	&lt;/result&gt;
-	&lt;cached&gt;true&lt;/cached&gt;
 	&lt;status&gt;true&lt;/status&gt;
+	&lt;cached&gt;true&lt;/cached&gt;
+	&lt;apiversion&gt;201003031200&lt;/apiversion&gt;
+	&lt;results&gt;
+		&lt;result&gt;
+			&lt;filename&gt;flash.forward.s01e01.hdtv.xvid-2hd&lt;/filename&gt;
+
+			&lt;filesize&gt;40801&lt;/filesize&gt;
+			&lt;uploader&gt;roelschilderman&lt;/uploader&gt;
+			&lt;uploaderprofile&gt;http://www.bierdopje.com/users/roelschilderman/profile&lt;/uploaderprofile&gt;
+			&lt;pubdate&gt;1277588133&lt;/pubdate&gt;
+			&lt;numreplies&gt;0&lt;/numreplies&gt;
+			&lt;numdownloads&gt;116&lt;/numdownloads&gt;
+
+			&lt;exclusive&gt;false&lt;/exclusive&gt;
+			&lt;downloadlink&gt;http://www.bierdopje.com/downloads/sub/41451/flash.forward.s01e01.hdtv.xvid-2hd/apikey/51AFBB7D64B937E1&lt;/downloadlink&gt;
+
+		&lt;/result&gt;
+
+	&lt;/results&gt;
 &lt;/response&gt;
 &lt;/bierdopje&gt;</value>
   </data>
   <data name="GetAllSubsForEpisodeNotCached" xml:space="preserve">
-    <value>&lt;bierdopje&gt;
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;bierdopje&gt;
 &lt;response&gt;
-	&lt;cached&gt;false&lt;/cached&gt;
 	&lt;status&gt;true&lt;/status&gt;
+	&lt;cached&gt;false&lt;/cached&gt;
+	&lt;apiversion&gt;201003031200&lt;/apiversion&gt;
 	&lt;results&gt;
 		&lt;result&gt;
-			&lt;filename&gt;FlashForward.S01E05.HDTV.XviD-2HD&lt;/filename&gt;
-			&lt;filesize&gt;62095&lt;/filesize&gt;
-			&lt;uploader&gt;Waarez&lt;/uploader&gt;
-			&lt;pubdate&gt;Thu, 01 Jan 1970 01:00:00&lt;/pubdate&gt;
-			&lt;numreplies&gt;3&lt;/numreplies&gt;
-			&lt;numdownloads&gt;249&lt;/numdownloads&gt;
-			&lt;downloadlink&gt;http://www.bierdopje.com/download/sub/26294/FlashForward.S01E05.HDTV.XviD-2HD&lt;/downloadlink&gt;
+			&lt;filename&gt;flash.forward.s01e01.hdtv.xvid-2hd&lt;/filename&gt;
 
-		&lt;/result&gt;
-		&lt;result&gt;
-			&lt;filename&gt;Flashforward.S01E05.720p.HDTV.x264-RED&lt;/filename&gt;
-			&lt;filesize&gt;57638&lt;/filesize&gt;
-			&lt;uploader&gt;muter&lt;/uploader&gt;
-			&lt;pubdate&gt;Thu, 01 Jan 1970 01:00:00&lt;/pubdate&gt;
+			&lt;filesize&gt;40801&lt;/filesize&gt;
+			&lt;uploader&gt;roelschilderman&lt;/uploader&gt;
+			&lt;uploaderprofile&gt;http://www.bierdopje.com/users/roelschilderman/profile&lt;/uploaderprofile&gt;
+			&lt;pubdate&gt;1277588133&lt;/pubdate&gt;
 			&lt;numreplies&gt;0&lt;/numreplies&gt;
-			&lt;numdownloads&gt;457&lt;/numdownloads&gt;
-			&lt;downloadlink&gt;http://www.bierdopje.com/download/sub/26316/Flashforward.S01E05.720p.HDTV.x264-RED&lt;/downloadlink&gt;
+			&lt;numdownloads&gt;116&lt;/numdownloads&gt;
+
+			&lt;exclusive&gt;false&lt;/exclusive&gt;
+			&lt;downloadlink&gt;http://www.bierdopje.com/downloads/sub/41451/flash.forward.s01e01.hdtv.xvid-2hd/apikey/51AFBB7D64B937E1&lt;/downloadlink&gt;
 
 		&lt;/result&gt;
 
@@ -1250,478 +1320,449 @@ Dubbed from French into English, the action was set in 17th century France, duri
 &lt;/bierdopje&gt;</value>
   </data>
   <data name="GetEpisodesForSeasonCached" xml:space="preserve">
-    <value>&lt;bierdopje&gt;
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;bierdopje&gt;
 &lt;response&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;418319&lt;/episodeid&gt;
-		&lt;tvdbid&gt;428750&lt;/tvdbid&gt;
-		&lt;title&gt;No More Good Days&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E01&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;1&lt;/episode&gt;
-		&lt;epnumber&gt;1&lt;/epnumber&gt;
-		&lt;wip&gt;true&lt;/wip&gt;
-		&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-		&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-		&lt;score&gt;9,71&lt;/score&gt;
-		&lt;votes&gt;7&lt;/votes&gt;
-		&lt;airdate&gt;24-09-2009&lt;/airdate&gt;
-		&lt;formatted&gt;S01E01&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;true&lt;/subsnl&gt;
-		&lt;subsen&gt;true&lt;/subsen&gt;
-		&lt;summary&gt;Everyone on Earth blacks out for exactly two minutes and 17 seconds, during which they see snippets from their futures six months ahead. For FBI agent Mark Benford (Joseph Fiennes) and his partner, Demetri Noh (John Cho), the event occurs during a high-speed chase and they find themselves investigating the phenomenon. Meanwhile, Benford's wife, Olivia (Sonya Walger), a doctor, wakes up on the floor of the OR.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;443182&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1062201&lt;/tvdbid&gt;
-		&lt;title&gt;White to Play&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E02&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;2&lt;/episode&gt;
-		&lt;epnumber&gt;2&lt;/epnumber&gt;
-		&lt;wip&gt;true&lt;/wip&gt;
-		&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-		&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-		&lt;score&gt;9,83&lt;/score&gt;
-		&lt;votes&gt;6&lt;/votes&gt;
-		&lt;airdate&gt;01-10-2009&lt;/airdate&gt;
-		&lt;formatted&gt;S01E02&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;true&lt;/subsnl&gt;
-		&lt;subsen&gt;true&lt;/subsen&gt;
-		&lt;summary&gt;Mark and Demetri go to Utah to investigate a lead on a suspect who might have a connection to the global blackout. Olivia sees the man from her flashforward, while her daughter Charlie is having trouble dealing with hers.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;443183&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1062211&lt;/tvdbid&gt;
-		&lt;title&gt;137 Sekunden&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E03&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;3&lt;/episode&gt;
-		&lt;epnumber&gt;3&lt;/epnumber&gt;
-		&lt;wip&gt;true&lt;/wip&gt;
-		&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-		&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-		&lt;score&gt;8,71&lt;/score&gt;
-		&lt;votes&gt;7&lt;/votes&gt;
-		&lt;airdate&gt;08-10-2009&lt;/airdate&gt;
-		&lt;formatted&gt;S01E03&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;true&lt;/subsnl&gt;
-		&lt;subsen&gt;true&lt;/subsen&gt;
-		&lt;summary&gt;Mark and Janis arrive in Germany to discuss the past events regarding the blackouts. Demetri fears about his future. Meanwhile, Aaron tries to get Mark to help him with an appeal.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;443184&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1062221&lt;/tvdbid&gt;
-		&lt;title&gt;Black Swan&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E04&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;4&lt;/episode&gt;
-		&lt;epnumber&gt;4&lt;/epnumber&gt;
-		&lt;wip&gt;true&lt;/wip&gt;
-		&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-		&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-		&lt;score&gt;10&lt;/score&gt;
-		&lt;votes&gt;2&lt;/votes&gt;
-		&lt;airdate&gt;15-10-2009&lt;/airdate&gt;
-		&lt;formatted&gt;S01E04&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;true&lt;/subsnl&gt;
-		&lt;subsen&gt;true&lt;/subsen&gt;
-		&lt;summary&gt;Olivia struggles to accept Bryce's suggestion that a patient's flashforward holds the key to a correct diagnosis and treatment. Meanwhile, Demetri accuses Mark of waiting for the future he saw in his flashforward to come true without incident, while Mark feels Demetri is letting his fear of what he witnessed envelop his life; and Nicole returns to work as Mark and Olivia's daughter's baby-sitter, and discloses her shocking future vision &amp;#226; involving a murder.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;443185&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1062231&lt;/tvdbid&gt;
-		&lt;title&gt;Gimme Some Truth&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E05&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;5&lt;/episode&gt;
-		&lt;epnumber&gt;5&lt;/epnumber&gt;
-		&lt;wip&gt;true&lt;/wip&gt;
-		&lt;wippercentage&gt;0&lt;/wippercentage&gt;
-		&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;votes&gt;0&lt;/votes&gt;
-		&lt;airdate&gt;22-10-2009&lt;/airdate&gt;
-		&lt;formatted&gt;S01E05&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;false&lt;/subsnl&gt;
-		&lt;subsen&gt;false&lt;/subsen&gt;
-		&lt;summary&gt;Mark finds himself on the defense while being questioned about the details of his flashforward during a Senate Intelligence Committee hearing, which will decide whether to continue funding Wedeck's team. Meanwhile, Janis wonders how her flashforward will affect her current romantic relationship, and Olivia receives an anonymous message relating to Mark's flashforward.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;443186&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1062241&lt;/tvdbid&gt;
-		&lt;title&gt;Scary Monsters And Super Creeps&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E06&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;6&lt;/episode&gt;
-		&lt;epnumber&gt;6&lt;/epnumber&gt;
-		&lt;wip&gt;false&lt;/wip&gt;
-		&lt;wippercentage&gt;0&lt;/wippercentage&gt;
-		&lt;wipuser&gt;&lt;/wipuser&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;votes&gt;0&lt;/votes&gt;
-		&lt;airdate&gt;29-10-2009&lt;/airdate&gt;
-		&lt;formatted&gt;S01E06&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;false&lt;/subsnl&gt;
-		&lt;subsen&gt;false&lt;/subsen&gt;
-		&lt;summary&gt;Mark, Demetri and Wedeck try to connect Janis' attack with a separate attack made on them; Olivia confronts Mark about his flashforward; Demetri and Gough track down a clue from Mark's flash; Dylan goes missing from the hospital&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;443187&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1062251&lt;/tvdbid&gt;
-		&lt;title&gt;The Gift&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E07&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;7&lt;/episode&gt;
-		&lt;epnumber&gt;7&lt;/epnumber&gt;
-		&lt;wip&gt;false&lt;/wip&gt;
-		&lt;wippercentage&gt;0&lt;/wippercentage&gt;
-		&lt;wipuser&gt;&lt;/wipuser&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;votes&gt;0&lt;/votes&gt;
-		&lt;airdate&gt;05-11-2009&lt;/airdate&gt;
-		&lt;formatted&gt;S01E07&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;false&lt;/subsnl&gt;
-		&lt;subsen&gt;false&lt;/subsen&gt;
-		&lt;summary&gt;Mark, Demetri, Gough and MI6 agent Fiona Banks investigate a Blue Hand club and its possible connection to some recent suicides. Meanwhile, Aaron receives a surprise visit from a former army buddy of his late daughter's, Demetri comes clean with Zoey about his lack of a flashforward, and Nicole helps Bryce uncover the mystery of his flashforward while volunteering at the hospital.&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;443188&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1062261&lt;/tvdbid&gt;
-		&lt;title&gt;Playing Cards With Coyote&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E08&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;8&lt;/episode&gt;
-		&lt;epnumber&gt;8&lt;/epnumber&gt;
-		&lt;wip&gt;false&lt;/wip&gt;
-		&lt;wippercentage&gt;0&lt;/wippercentage&gt;
-		&lt;wipuser&gt;&lt;/wipuser&gt;
-		&lt;score&gt;10&lt;/score&gt;
-		&lt;votes&gt;1&lt;/votes&gt;
-		&lt;airdate&gt;12-11-2009&lt;/airdate&gt;
-		&lt;formatted&gt;S01E08&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;false&lt;/subsnl&gt;
-		&lt;subsen&gt;false&lt;/subsen&gt;
-		&lt;summary&gt;&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;449673&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1183431&lt;/tvdbid&gt;
-		&lt;title&gt;Believe&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E09&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;9&lt;/episode&gt;
-		&lt;epnumber&gt;9&lt;/epnumber&gt;
-		&lt;wip&gt;false&lt;/wip&gt;
-		&lt;wippercentage&gt;0&lt;/wippercentage&gt;
-		&lt;wipuser&gt;&lt;/wipuser&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;votes&gt;0&lt;/votes&gt;
-		&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
-		&lt;formatted&gt;S01E09&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;false&lt;/subsnl&gt;
-		&lt;subsen&gt;false&lt;/subsen&gt;
-		&lt;summary&gt;&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;449674&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1183441&lt;/tvdbid&gt;
-		&lt;title&gt;A561984&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E10&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;10&lt;/episode&gt;
-		&lt;epnumber&gt;10&lt;/epnumber&gt;
-		&lt;wip&gt;false&lt;/wip&gt;
-		&lt;wippercentage&gt;0&lt;/wippercentage&gt;
-		&lt;wipuser&gt;&lt;/wipuser&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;votes&gt;0&lt;/votes&gt;
-		&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
-		&lt;formatted&gt;S01E10&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;false&lt;/subsnl&gt;
-		&lt;subsen&gt;false&lt;/subsen&gt;
-		&lt;summary&gt;&lt;/summary&gt;
-
-	&lt;/result&gt;
-	&lt;result&gt;
-		&lt;episodeid&gt;449675&lt;/episodeid&gt;
-		&lt;tvdbid&gt;1183451&lt;/tvdbid&gt;
-		&lt;title&gt;Buddha In The Ruins&lt;/title&gt;
-		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E11&lt;/episodelink&gt;
-		&lt;season&gt;1&lt;/season&gt;
-		&lt;episode&gt;11&lt;/episode&gt;
-		&lt;epnumber&gt;11&lt;/epnumber&gt;
-		&lt;wip&gt;false&lt;/wip&gt;
-		&lt;wippercentage&gt;0&lt;/wippercentage&gt;
-		&lt;wipuser&gt;&lt;/wipuser&gt;
-		&lt;score&gt;0&lt;/score&gt;
-		&lt;votes&gt;0&lt;/votes&gt;
-		&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
-		&lt;formatted&gt;S01E11&lt;/formatted&gt;
-		&lt;is_special&gt;false&lt;/is_special&gt;
-		&lt;subsnl&gt;false&lt;/subsnl&gt;
-		&lt;subsen&gt;false&lt;/subsen&gt;
-		&lt;summary&gt;&lt;/summary&gt;
-
-	&lt;/result&gt;
+	&lt;status&gt;true&lt;/status&gt;
 	&lt;cached&gt;true&lt;/cached&gt;
-	&lt;status&gt;true&lt;/status&gt;
-&lt;/response&gt;
-&lt;/bierdopje&gt;</value>
-  </data>
-  <data name="GetEpisodesForSeasonNotCached" xml:space="preserve">
-    <value>&lt;bierdopje&gt;
-&lt;response&gt;
-	&lt;status&gt;true&lt;/status&gt;
-	&lt;cached&gt;false&lt;/cached&gt;
+	&lt;apiversion&gt;201003031200&lt;/apiversion&gt;
 	&lt;results&gt;
 		&lt;result&gt;
-			&lt;episodeid&gt;418319&lt;/episodeid&gt;
-			&lt;tvdbid&gt;428750&lt;/tvdbid&gt;
-			&lt;title&gt;No More Good Days&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E01&lt;/episodelink&gt;
+			&lt;episodeid&gt;449199&lt;/episodeid&gt;
+
+			&lt;tvdbid&gt;266088&lt;/tvdbid&gt;
+			&lt;title&gt;Fresh Start All Over Again&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E01&lt;/episodelink&gt;
 			&lt;season&gt;1&lt;/season&gt;
 			&lt;episode&gt;1&lt;/episode&gt;
+
 			&lt;epnumber&gt;1&lt;/epnumber&gt;
-			&lt;wip&gt;true&lt;/wip&gt;
-			&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-			&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-			&lt;score&gt;9,71&lt;/score&gt;
-			&lt;votes&gt;7&lt;/votes&gt;
-			&lt;airdate&gt;24-09-2009&lt;/airdate&gt;
-			&lt;formatted&gt;S01E01&lt;/formatted&gt;
-			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;true&lt;/subsnl&gt;
-			&lt;subsen&gt;true&lt;/subsen&gt;
-			&lt;summary&gt;Everyone on Earth blacks out for exactly two minutes and 17 seconds, during which they see snippets from their futures six months ahead. For FBI agent Mark Benford (Joseph Fiennes) and his partner, Demetri Noh (John Cho), the event occurs during a high-speed chase and they find themselves investigating the phenomenon. Meanwhile, Benford's wife, Olivia (Sonya Walger), a doctor, wakes up on the floor of the OR.&lt;/summary&gt;
-
-		&lt;/result&gt;
-		&lt;result&gt;
-			&lt;episodeid&gt;443182&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1062201&lt;/tvdbid&gt;
-			&lt;title&gt;White to Play&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E02&lt;/episodelink&gt;
-			&lt;season&gt;1&lt;/season&gt;
-			&lt;episode&gt;2&lt;/episode&gt;
-			&lt;epnumber&gt;2&lt;/epnumber&gt;
-			&lt;wip&gt;true&lt;/wip&gt;
-			&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-			&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-			&lt;score&gt;9,83&lt;/score&gt;
-			&lt;votes&gt;6&lt;/votes&gt;
-			&lt;airdate&gt;01-10-2009&lt;/airdate&gt;
-			&lt;formatted&gt;S01E02&lt;/formatted&gt;
-			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;true&lt;/subsnl&gt;
-			&lt;subsen&gt;true&lt;/subsen&gt;
-			&lt;summary&gt;Mark and Demetri go to Utah to investigate a lead on a suspect who might have a connection to the global blackout. Olivia sees the man from her flashforward, while her daughter Charlie is having trouble dealing with hers.&lt;/summary&gt;
-
-		&lt;/result&gt;
-		&lt;result&gt;
-			&lt;episodeid&gt;443183&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1062211&lt;/tvdbid&gt;
-			&lt;title&gt;137 Sekunden&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E03&lt;/episodelink&gt;
-			&lt;season&gt;1&lt;/season&gt;
-			&lt;episode&gt;3&lt;/episode&gt;
-			&lt;epnumber&gt;3&lt;/epnumber&gt;
-			&lt;wip&gt;true&lt;/wip&gt;
-			&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-			&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-			&lt;score&gt;8,71&lt;/score&gt;
-			&lt;votes&gt;7&lt;/votes&gt;
-			&lt;airdate&gt;08-10-2009&lt;/airdate&gt;
-			&lt;formatted&gt;S01E03&lt;/formatted&gt;
-			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;true&lt;/subsnl&gt;
-			&lt;subsen&gt;true&lt;/subsen&gt;
-			&lt;summary&gt;Mark and Janis arrive in Germany to discuss the past events regarding the blackouts. Demetri fears about his future. Meanwhile, Aaron tries to get Mark to help him with an appeal.&lt;/summary&gt;
-
-		&lt;/result&gt;
-		&lt;result&gt;
-			&lt;episodeid&gt;443184&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1062221&lt;/tvdbid&gt;
-			&lt;title&gt;Black Swan&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E04&lt;/episodelink&gt;
-			&lt;season&gt;1&lt;/season&gt;
-			&lt;episode&gt;4&lt;/episode&gt;
-			&lt;epnumber&gt;4&lt;/epnumber&gt;
-			&lt;wip&gt;true&lt;/wip&gt;
-			&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-			&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-			&lt;score&gt;10&lt;/score&gt;
-			&lt;votes&gt;2&lt;/votes&gt;
-			&lt;airdate&gt;15-10-2009&lt;/airdate&gt;
-			&lt;formatted&gt;S01E04&lt;/formatted&gt;
-			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;true&lt;/subsnl&gt;
-			&lt;subsen&gt;true&lt;/subsen&gt;
-			&lt;summary&gt;Olivia struggles to accept Bryce's suggestion that a patient's flashforward holds the key to a correct diagnosis and treatment. Meanwhile, Demetri accuses Mark of waiting for the future he saw in his flashforward to come true without incident, while Mark feels Demetri is letting his fear of what he witnessed envelop his life; and Nicole returns to work as Mark and Olivia's daughter's baby-sitter, and discloses her shocking future vision &amp;#226; involving a murder.&lt;/summary&gt;
-
-		&lt;/result&gt;
-		&lt;result&gt;
-			&lt;episodeid&gt;443185&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1062231&lt;/tvdbid&gt;
-			&lt;title&gt;Gimme Some Truth&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E05&lt;/episodelink&gt;
-			&lt;season&gt;1&lt;/season&gt;
-			&lt;episode&gt;5&lt;/episode&gt;
-			&lt;epnumber&gt;5&lt;/epnumber&gt;
-			&lt;wip&gt;true&lt;/wip&gt;
-			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
-			&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-			&lt;score&gt;0&lt;/score&gt;
-			&lt;votes&gt;0&lt;/votes&gt;
-			&lt;airdate&gt;22-10-2009&lt;/airdate&gt;
-			&lt;formatted&gt;S01E05&lt;/formatted&gt;
-			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;false&lt;/subsnl&gt;
-			&lt;subsen&gt;false&lt;/subsen&gt;
-			&lt;summary&gt;Mark finds himself on the defense while being questioned about the details of his flashforward during a Senate Intelligence Committee hearing, which will decide whether to continue funding Wedeck's team. Meanwhile, Janis wonders how her flashforward will affect her current romantic relationship, and Olivia receives an anonymous message relating to Mark's flashforward.&lt;/summary&gt;
-
-		&lt;/result&gt;
-		&lt;result&gt;
-			&lt;episodeid&gt;443186&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1062241&lt;/tvdbid&gt;
-			&lt;title&gt;Scary Monsters And Super Creeps&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E06&lt;/episodelink&gt;
-			&lt;season&gt;1&lt;/season&gt;
-			&lt;episode&gt;6&lt;/episode&gt;
-			&lt;epnumber&gt;6&lt;/epnumber&gt;
 			&lt;wip&gt;false&lt;/wip&gt;
 			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
 			&lt;wipuser&gt;&lt;/wipuser&gt;
 			&lt;score&gt;0&lt;/score&gt;
 			&lt;votes&gt;0&lt;/votes&gt;
-			&lt;airdate&gt;29-10-2009&lt;/airdate&gt;
-			&lt;formatted&gt;S01E06&lt;/formatted&gt;
+
+			&lt;airdate&gt;05-01-1997&lt;/airdate&gt;
+			&lt;formatted&gt;S01E01&lt;/formatted&gt;
 			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;false&lt;/subsnl&gt;
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
 			&lt;subsen&gt;false&lt;/subsen&gt;
-			&lt;summary&gt;Mark, Demetri and Wedeck try to connect Janis' attack with a separate attack made on them; Olivia confronts Mark about his flashforward; Demetri and Gough track down a clue from Mark's flash; Dylan goes missing from the hospital&lt;/summary&gt;
+			&lt;updated&gt;1255381233&lt;/updated&gt;
+
+			&lt;summary&gt;&lt;/summary&gt;
 
 		&lt;/result&gt;
 		&lt;result&gt;
-			&lt;episodeid&gt;443187&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1062251&lt;/tvdbid&gt;
-			&lt;title&gt;The Gift&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E07&lt;/episodelink&gt;
+			&lt;episodeid&gt;449200&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266089&lt;/tvdbid&gt;
+			&lt;title&gt;I''m OK, You''re A Jerk&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E02&lt;/episodelink&gt;
+			&lt;season&gt;1&lt;/season&gt;
+			&lt;episode&gt;2&lt;/episode&gt;
+			&lt;epnumber&gt;2&lt;/epnumber&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
+			&lt;formatted&gt;S01E02&lt;/formatted&gt;
+			&lt;is_special&gt;false&lt;/is_special&gt;
+
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381134&lt;/updated&gt;
+			&lt;summary&gt;&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;episodeid&gt;449201&lt;/episodeid&gt;
+
+			&lt;tvdbid&gt;266090&lt;/tvdbid&gt;
+			&lt;title&gt;House Party&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E03&lt;/episodelink&gt;
+			&lt;season&gt;1&lt;/season&gt;
+			&lt;episode&gt;3&lt;/episode&gt;
+
+			&lt;epnumber&gt;3&lt;/epnumber&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
+			&lt;formatted&gt;S01E03&lt;/formatted&gt;
+			&lt;is_special&gt;false&lt;/is_special&gt;
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381143&lt;/updated&gt;
+
+			&lt;summary&gt;&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;episodeid&gt;449202&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266091&lt;/tvdbid&gt;
+			&lt;title&gt;Cool Book&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E04&lt;/episodelink&gt;
+			&lt;season&gt;1&lt;/season&gt;
+			&lt;episode&gt;4&lt;/episode&gt;
+			&lt;epnumber&gt;4&lt;/epnumber&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
+			&lt;formatted&gt;S01E04&lt;/formatted&gt;
+			&lt;is_special&gt;false&lt;/is_special&gt;
+
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381153&lt;/updated&gt;
+			&lt;summary&gt;&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;episodeid&gt;449203&lt;/episodeid&gt;
+
+			&lt;tvdbid&gt;266092&lt;/tvdbid&gt;
+			&lt;title&gt;On Your Toes&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E05&lt;/episodelink&gt;
+			&lt;season&gt;1&lt;/season&gt;
+			&lt;episode&gt;5&lt;/episode&gt;
+
+			&lt;epnumber&gt;5&lt;/epnumber&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
+			&lt;formatted&gt;S01E05&lt;/formatted&gt;
+			&lt;is_special&gt;false&lt;/is_special&gt;
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381178&lt;/updated&gt;
+
+			&lt;summary&gt;&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;episodeid&gt;449204&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266093&lt;/tvdbid&gt;
+			&lt;title&gt;Speechless&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E06&lt;/episodelink&gt;
+			&lt;season&gt;1&lt;/season&gt;
+			&lt;episode&gt;6&lt;/episode&gt;
+			&lt;epnumber&gt;6&lt;/epnumber&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
+			&lt;formatted&gt;S01E06&lt;/formatted&gt;
+			&lt;is_special&gt;false&lt;/is_special&gt;
+
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381203&lt;/updated&gt;
+			&lt;summary&gt;&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;episodeid&gt;449205&lt;/episodeid&gt;
+
+			&lt;tvdbid&gt;266094&lt;/tvdbid&gt;
+			&lt;title&gt;Scalpers&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E07&lt;/episodelink&gt;
 			&lt;season&gt;1&lt;/season&gt;
 			&lt;episode&gt;7&lt;/episode&gt;
+
 			&lt;epnumber&gt;7&lt;/epnumber&gt;
 			&lt;wip&gt;false&lt;/wip&gt;
 			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
 			&lt;wipuser&gt;&lt;/wipuser&gt;
 			&lt;score&gt;0&lt;/score&gt;
 			&lt;votes&gt;0&lt;/votes&gt;
-			&lt;airdate&gt;05-11-2009&lt;/airdate&gt;
+
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
 			&lt;formatted&gt;S01E07&lt;/formatted&gt;
 			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;false&lt;/subsnl&gt;
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
 			&lt;subsen&gt;false&lt;/subsen&gt;
-			&lt;summary&gt;Mark, Demetri, Gough and MI6 agent Fiona Banks investigate a Blue Hand club and its possible connection to some recent suicides. Meanwhile, Aaron receives a surprise visit from a former army buddy of his late daughter's, Demetri comes clean with Zoey about his lack of a flashforward, and Nicole helps Bryce uncover the mystery of his flashforward while volunteering at the hospital.&lt;/summary&gt;
+			&lt;updated&gt;1255381209&lt;/updated&gt;
+
+			&lt;summary&gt;&lt;/summary&gt;
 
 		&lt;/result&gt;
 		&lt;result&gt;
-			&lt;episodeid&gt;443188&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1062261&lt;/tvdbid&gt;
-			&lt;title&gt;Playing Cards With Coyote&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E08&lt;/episodelink&gt;
+			&lt;episodeid&gt;449206&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266095&lt;/tvdbid&gt;
+			&lt;title&gt;Dog Day After Lunch&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E08&lt;/episodelink&gt;
 			&lt;season&gt;1&lt;/season&gt;
 			&lt;episode&gt;8&lt;/episode&gt;
 			&lt;epnumber&gt;8&lt;/epnumber&gt;
 			&lt;wip&gt;false&lt;/wip&gt;
 			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+
 			&lt;wipuser&gt;&lt;/wipuser&gt;
-			&lt;score&gt;10&lt;/score&gt;
-			&lt;votes&gt;1&lt;/votes&gt;
-			&lt;airdate&gt;12-11-2009&lt;/airdate&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
 			&lt;formatted&gt;S01E08&lt;/formatted&gt;
 			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;false&lt;/subsnl&gt;
+
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
 			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381215&lt;/updated&gt;
+			&lt;summary&gt;&lt;/summary&gt;
+
+		&lt;/result&gt;
+
+	&lt;/results&gt;
+
+&lt;/response&gt;
+&lt;/bierdopje&gt;</value>
+  </data>
+  <data name="GetEpisodesForSeasonNotCached" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;bierdopje&gt;
+&lt;response&gt;
+	&lt;status&gt;true&lt;/status&gt;
+	&lt;cached&gt;false&lt;/cached&gt;
+	&lt;apiversion&gt;201003031200&lt;/apiversion&gt;
+	&lt;cachelife&gt;1281547956&lt;/cachelife&gt;
+	&lt;results&gt;
+
+		&lt;result&gt;
+			&lt;episodeid&gt;449199&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266088&lt;/tvdbid&gt;
+			&lt;title&gt;Fresh Start All Over Again&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E01&lt;/episodelink&gt;
+
+			&lt;season&gt;1&lt;/season&gt;
+			&lt;episode&gt;1&lt;/episode&gt;
+			&lt;epnumber&gt;1&lt;/epnumber&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+			&lt;airdate&gt;05-01-1997&lt;/airdate&gt;
+			&lt;formatted&gt;S01E01&lt;/formatted&gt;
+			&lt;is_special&gt;false&lt;/is_special&gt;
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
+
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381233&lt;/updated&gt;
 			&lt;summary&gt;&lt;/summary&gt;
 
 		&lt;/result&gt;
 		&lt;result&gt;
-			&lt;episodeid&gt;449673&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1183431&lt;/tvdbid&gt;
-			&lt;title&gt;Believe&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E09&lt;/episodelink&gt;
+			&lt;episodeid&gt;449200&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266089&lt;/tvdbid&gt;
+
+			&lt;title&gt;I''m OK, You''re A Jerk&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E02&lt;/episodelink&gt;
 			&lt;season&gt;1&lt;/season&gt;
-			&lt;episode&gt;9&lt;/episode&gt;
-			&lt;epnumber&gt;9&lt;/epnumber&gt;
+			&lt;episode&gt;2&lt;/episode&gt;
+			&lt;epnumber&gt;2&lt;/epnumber&gt;
+
 			&lt;wip&gt;false&lt;/wip&gt;
 			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
 			&lt;wipuser&gt;&lt;/wipuser&gt;
 			&lt;score&gt;0&lt;/score&gt;
 			&lt;votes&gt;0&lt;/votes&gt;
 			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
-			&lt;formatted&gt;S01E09&lt;/formatted&gt;
+
+			&lt;formatted&gt;S01E02&lt;/formatted&gt;
 			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;false&lt;/subsnl&gt;
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
 			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381134&lt;/updated&gt;
 			&lt;summary&gt;&lt;/summary&gt;
 
 		&lt;/result&gt;
 		&lt;result&gt;
-			&lt;episodeid&gt;449674&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1183441&lt;/tvdbid&gt;
-			&lt;title&gt;A561984&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E10&lt;/episodelink&gt;
+			&lt;episodeid&gt;449201&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266090&lt;/tvdbid&gt;
+			&lt;title&gt;House Party&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E03&lt;/episodelink&gt;
 			&lt;season&gt;1&lt;/season&gt;
-			&lt;episode&gt;10&lt;/episode&gt;
-			&lt;epnumber&gt;10&lt;/epnumber&gt;
+			&lt;episode&gt;3&lt;/episode&gt;
+			&lt;epnumber&gt;3&lt;/epnumber&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
+			&lt;formatted&gt;S01E03&lt;/formatted&gt;
+			&lt;is_special&gt;false&lt;/is_special&gt;
+
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381143&lt;/updated&gt;
+			&lt;summary&gt;&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;episodeid&gt;449202&lt;/episodeid&gt;
+
+			&lt;tvdbid&gt;266091&lt;/tvdbid&gt;
+			&lt;title&gt;Cool Book&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E04&lt;/episodelink&gt;
+			&lt;season&gt;1&lt;/season&gt;
+			&lt;episode&gt;4&lt;/episode&gt;
+
+			&lt;epnumber&gt;4&lt;/epnumber&gt;
 			&lt;wip&gt;false&lt;/wip&gt;
 			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
 			&lt;wipuser&gt;&lt;/wipuser&gt;
 			&lt;score&gt;0&lt;/score&gt;
 			&lt;votes&gt;0&lt;/votes&gt;
+
 			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
-			&lt;formatted&gt;S01E10&lt;/formatted&gt;
+			&lt;formatted&gt;S01E04&lt;/formatted&gt;
 			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;false&lt;/subsnl&gt;
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
 			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381153&lt;/updated&gt;
+
 			&lt;summary&gt;&lt;/summary&gt;
 
 		&lt;/result&gt;
 		&lt;result&gt;
-			&lt;episodeid&gt;449675&lt;/episodeid&gt;
-			&lt;tvdbid&gt;1183451&lt;/tvdbid&gt;
-			&lt;title&gt;Buddha In The Ruins&lt;/title&gt;
-			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E11&lt;/episodelink&gt;
+			&lt;episodeid&gt;449203&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266092&lt;/tvdbid&gt;
+			&lt;title&gt;On Your Toes&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E05&lt;/episodelink&gt;
 			&lt;season&gt;1&lt;/season&gt;
-			&lt;episode&gt;11&lt;/episode&gt;
-			&lt;epnumber&gt;11&lt;/epnumber&gt;
+			&lt;episode&gt;5&lt;/episode&gt;
+			&lt;epnumber&gt;5&lt;/epnumber&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
+			&lt;formatted&gt;S01E05&lt;/formatted&gt;
+			&lt;is_special&gt;false&lt;/is_special&gt;
+
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381178&lt;/updated&gt;
+			&lt;summary&gt;&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;episodeid&gt;449204&lt;/episodeid&gt;
+
+			&lt;tvdbid&gt;266093&lt;/tvdbid&gt;
+			&lt;title&gt;Speechless&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E06&lt;/episodelink&gt;
+			&lt;season&gt;1&lt;/season&gt;
+			&lt;episode&gt;6&lt;/episode&gt;
+
+			&lt;epnumber&gt;6&lt;/epnumber&gt;
 			&lt;wip&gt;false&lt;/wip&gt;
 			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
 			&lt;wipuser&gt;&lt;/wipuser&gt;
 			&lt;score&gt;0&lt;/score&gt;
 			&lt;votes&gt;0&lt;/votes&gt;
+
 			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
-			&lt;formatted&gt;S01E11&lt;/formatted&gt;
+			&lt;formatted&gt;S01E06&lt;/formatted&gt;
 			&lt;is_special&gt;false&lt;/is_special&gt;
-			&lt;subsnl&gt;false&lt;/subsnl&gt;
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
 			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381203&lt;/updated&gt;
+
+			&lt;summary&gt;&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;episodeid&gt;449205&lt;/episodeid&gt;
+			&lt;tvdbid&gt;266094&lt;/tvdbid&gt;
+			&lt;title&gt;Scalpers&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E07&lt;/episodelink&gt;
+			&lt;season&gt;1&lt;/season&gt;
+			&lt;episode&gt;7&lt;/episode&gt;
+			&lt;epnumber&gt;7&lt;/epnumber&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
+			&lt;formatted&gt;S01E07&lt;/formatted&gt;
+			&lt;is_special&gt;false&lt;/is_special&gt;
+
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381209&lt;/updated&gt;
+			&lt;summary&gt;&lt;/summary&gt;
+
+		&lt;/result&gt;
+		&lt;result&gt;
+			&lt;episodeid&gt;449206&lt;/episodeid&gt;
+
+			&lt;tvdbid&gt;266095&lt;/tvdbid&gt;
+			&lt;title&gt;Dog Day After Lunch&lt;/title&gt;
+			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E08&lt;/episodelink&gt;
+			&lt;season&gt;1&lt;/season&gt;
+			&lt;episode&gt;8&lt;/episode&gt;
+
+			&lt;epnumber&gt;8&lt;/epnumber&gt;
+			&lt;wip&gt;false&lt;/wip&gt;
+			&lt;wippercentage&gt;0&lt;/wippercentage&gt;
+			&lt;wipuser&gt;&lt;/wipuser&gt;
+			&lt;score&gt;0&lt;/score&gt;
+			&lt;votes&gt;0&lt;/votes&gt;
+
+			&lt;airdate&gt;01-01-1970&lt;/airdate&gt;
+			&lt;formatted&gt;S01E08&lt;/formatted&gt;
+			&lt;is_special&gt;false&lt;/is_special&gt;
+			&lt;subsnl&gt;true&lt;/subsnl&gt;
+			&lt;subsen&gt;false&lt;/subsen&gt;
+			&lt;updated&gt;1255381215&lt;/updated&gt;
+
 			&lt;summary&gt;&lt;/summary&gt;
 
 		&lt;/result&gt;

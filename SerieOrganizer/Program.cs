@@ -8,13 +8,12 @@ namespace Chalk.SerieOrganizer
    {
       static void Main(string[] args)
       {
-
          OrganisationConfigurationReader reader = new OrganisationConfigurationReader();
          OrganisationConfigurationType configuration = reader.Read();
          if (configuration != null)
          {
             Console.WriteLine("Reading {0}", configuration.DirectoryToOrganize);
-            SerieCollector collector = new SerieCollector(configuration);
+            SerieCollector collector = new SerieCollector(configuration.DirectoryToOrganize);
             SerieMover mover = new SerieMover(configuration);
             SubtitleService subtitleService = SubtitleServiceFactory.CreateSubtitleService();
             SerieOrganizer organizer = new SerieOrganizer(collector, mover, subtitleService);

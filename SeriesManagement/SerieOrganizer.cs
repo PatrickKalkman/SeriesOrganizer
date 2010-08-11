@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using Chalk.SubtitlesManagement;
 
 namespace Chalk.SerieOrganizer
@@ -26,7 +27,7 @@ namespace Chalk.SerieOrganizer
             if (serie.IsValid)
             {
                Console.WriteLine("Processing {0}", serie.FileName);
-               subtitleService.DownloadSubtitle(serie.Name, serie.FullName); 
+               subtitleService.DownloadSubtitle(serie.Name, new FileInfo(serie.FullName).DirectoryName, serie.Episode, serie.Season); 
                serieMover.Move(serie);
             }
             else

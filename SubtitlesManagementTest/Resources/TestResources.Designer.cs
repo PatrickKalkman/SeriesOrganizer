@@ -61,24 +61,27 @@ namespace Chalk.SubtitlesManagement.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;bierdopje&gt;
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot;?&gt;
+        ///&lt;bierdopje&gt;
         ///&lt;response&gt;
-        ///	&lt;result&gt;
-        ///		&lt;showid&gt;13673&lt;/showid&gt;
-        ///		&lt;tvdbid&gt;77954&lt;/tvdbid&gt;
-        ///		&lt;showname&gt;Flash Forward&lt;/showname&gt;
-        ///		&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
-        ///		&lt;firstaired&gt;05 januari 1997 00:00:00&lt;/firstaired&gt;
-        ///		&lt;lastaired&gt;05 januari 1997 00:00:00&lt;/lastaired&gt;
-        ///		&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
-        ///		&lt;seasons&gt;1&lt;/seasons&gt;
-        ///		&lt;episodes&gt;8&lt;/episodes&gt;
-        ///		&lt;genres&gt;
-        ///			&lt;result&gt;comedy&lt;/result&gt;
-        ///			&lt;result&gt;children&lt;/result&gt;
+        ///	&lt;status&gt;true&lt;/status&gt;
+        ///	&lt;cached&gt;true&lt;/cached&gt;
+        ///	&lt;apiversion&gt;201003031200&lt;/apiversion&gt;
+        ///	&lt;results&gt;
+        ///		&lt;result&gt;
+        ///			&lt;showid&gt;13673&lt;/showid&gt;
         ///
-        ///		&lt;/genres&gt;
-        ///		&lt;showstatus&gt;Terugkome [rest of string was truncated]&quot;;.
+        ///			&lt;tvdbid&gt;77954&lt;/tvdbid&gt;
+        ///			&lt;showname&gt;Flash Forward&lt;/showname&gt;
+        ///			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+        ///			&lt;firstaired&gt;1997-01-05&lt;/firstaired&gt;
+        ///			&lt;lastaired&gt;1997-01-05&lt;/lastaired&gt;
+        ///			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+        ///
+        ///			&lt;seasons&gt;1&lt;/seasons&gt;
+        ///			&lt;episodes&gt;0&lt;/episodes&gt;
+        ///			&lt;genres&gt;
+        ///				&lt;resul [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string FindShowsByNameCached {
             get {
@@ -87,23 +90,27 @@ namespace Chalk.SubtitlesManagement.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;bierdopje&gt;
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot;?&gt;
+        ///&lt;bierdopje&gt;
         ///&lt;response&gt;
         ///	&lt;status&gt;true&lt;/status&gt;
+        ///	&lt;cached&gt;false&lt;/cached&gt;
+        ///	&lt;apiversion&gt;201003031200&lt;/apiversion&gt;
         ///	&lt;results&gt;
-        ///		&lt;genre&gt;
+        ///		&lt;result&gt;
         ///			&lt;showid&gt;13673&lt;/showid&gt;
+        ///
         ///			&lt;tvdbid&gt;77954&lt;/tvdbid&gt;
         ///			&lt;showname&gt;Flash Forward&lt;/showname&gt;
         ///			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
-        ///			&lt;firstaired&gt;05 januari 1997 00:00:00&lt;/firstaired&gt;
-        ///			&lt;lastaired&gt;05 januari 1997 00:00:00&lt;/lastaired&gt;
-        ///			&lt;nextepisode&gt;01 januari 1970 01:00:00&lt;/nextepisode&gt;
+        ///			&lt;firstaired&gt;1997-01-05&lt;/firstaired&gt;
+        ///			&lt;lastaired&gt;1997-01-05&lt;/lastaired&gt;
+        ///			&lt;nextepisode&gt;&lt;/nextepisode&gt;
+        ///
         ///			&lt;seasons&gt;1&lt;/seasons&gt;
-        ///			&lt;episodes&gt;8&lt;/episodes&gt;
+        ///			&lt;episodes&gt;0&lt;/episodes&gt;
         ///			&lt;genres&gt;
-        ///				&lt;genre&gt;comedy&lt;/genre&gt;
-        ///				&lt;genre&gt;children&lt;/ge [rest of string was truncated]&quot;;.
+        ///				&lt;resu [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string FindShowsByNameNotCached {
             get {
@@ -112,24 +119,24 @@ namespace Chalk.SubtitlesManagement.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;bierdopje&gt;
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot;?&gt;
+        ///&lt;bierdopje&gt;
         ///&lt;response&gt;
-        ///	&lt;result&gt;
-        ///		&lt;episodeid&gt;418319&lt;/episodeid&gt;
-        ///		&lt;tvdbid&gt;428750&lt;/tvdbid&gt;
-        ///		&lt;title&gt;No More Good Days&lt;/title&gt;
-        ///		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E01&lt;/episodelink&gt;
-        ///		&lt;season&gt;1&lt;/season&gt;
-        ///		&lt;episode&gt;1&lt;/episode&gt;
-        ///		&lt;epnumber&gt;1&lt;/epnumber&gt;
-        ///		&lt;wip&gt;true&lt;/wip&gt;
-        ///		&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-        ///		&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-        ///		&lt;score&gt;9,71&lt;/score&gt;
-        ///		&lt;votes&gt;7&lt;/votes&gt;
-        ///		&lt;airdate&gt;24-09-2009&lt;/airdate&gt;
-        ///		&lt;formatted&gt;S01E01&lt;/formatted&gt;
-        ///		&lt;is_special&gt;false&lt;/i [rest of string was truncated]&quot;;.
+        ///	&lt;status&gt;true&lt;/status&gt;
+        ///	&lt;cached&gt;false&lt;/cached&gt;
+        ///	&lt;apiversion&gt;201003031200&lt;/apiversion&gt;
+        ///	&lt;cachelife&gt;1281546573&lt;/cachelife&gt;
+        ///	&lt;results&gt;
+        ///
+        ///		&lt;result&gt;
+        ///			&lt;episodeid&gt;449199&lt;/episodeid&gt;
+        ///			&lt;tvdbid&gt;266088&lt;/tvdbid&gt;
+        ///			&lt;title&gt;Fresh Start All Over Again&lt;/title&gt;
+        ///			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+        ///			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E01&lt;/episodelink&gt;
+        ///
+        ///			&lt;season&gt;1&lt;/season&gt;
+        ///			&lt;episode&gt;1&lt;/epis [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string GetAllEpisodesForShowCached {
             get {
@@ -138,25 +145,24 @@ namespace Chalk.SubtitlesManagement.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;bierdopje&gt;
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot;?&gt;
+        ///&lt;bierdopje&gt;
         ///&lt;response&gt;
         ///	&lt;status&gt;true&lt;/status&gt;
         ///	&lt;cached&gt;false&lt;/cached&gt;
+        ///	&lt;apiversion&gt;201003031200&lt;/apiversion&gt;
+        ///	&lt;cachelife&gt;1281546573&lt;/cachelife&gt;
         ///	&lt;results&gt;
+        ///
         ///		&lt;result&gt;
-        ///			&lt;episodeid&gt;418319&lt;/episodeid&gt;
-        ///			&lt;tvdbid&gt;428750&lt;/tvdbid&gt;
-        ///			&lt;title&gt;No More Good Days&lt;/title&gt;
-        ///			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E01&lt;/episodelink&gt;
+        ///			&lt;episodeid&gt;449199&lt;/episodeid&gt;
+        ///			&lt;tvdbid&gt;266088&lt;/tvdbid&gt;
+        ///			&lt;title&gt;Fresh Start All Over Again&lt;/title&gt;
+        ///			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+        ///			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E01&lt;/episodelink&gt;
+        ///
         ///			&lt;season&gt;1&lt;/season&gt;
-        ///			&lt;episode&gt;1&lt;/episode&gt;
-        ///			&lt;epnumber&gt;1&lt;/epnumber&gt;
-        ///			&lt;wip&gt;true&lt;/wip&gt;
-        ///			&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-        ///			&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-        ///			&lt;score&gt;9,71&lt;/score&gt;
-        ///			&lt;votes&gt;7&lt;/votes&gt;
-        ///			&lt;airdate&gt;24 [rest of string was truncated]&quot;;.
+        ///			&lt;episode&gt;1&lt;/epis [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string GetAllEpisodesForShowNotCached {
             get {
@@ -165,22 +171,24 @@ namespace Chalk.SubtitlesManagement.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;bierdopje&gt;
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot;?&gt;
+        ///&lt;bierdopje&gt;
         ///&lt;response&gt;
-        ///	&lt;result&gt;
-        ///		&lt;filename&gt;FlashForward.S01E05.HDTV.XviD-2HD&lt;/filename&gt;
-        ///		&lt;filesize&gt;62095&lt;/filesize&gt;
-        ///		&lt;uploader&gt;Waarez&lt;/uploader&gt;
-        ///		&lt;pubdate&gt;Thu, 01 Jan 1970 01:00:00&lt;/pubdate&gt;
-        ///		&lt;numreplies&gt;3&lt;/numreplies&gt;
-        ///		&lt;numdownloads&gt;249&lt;/numdownloads&gt;
-        ///		&lt;downloadlink&gt;http://www.bierdopje.com/download/sub/26294/FlashForward.S01E05.HDTV.XviD-2HD&lt;/downloadlink&gt;
+        ///	&lt;status&gt;true&lt;/status&gt;
+        ///	&lt;cached&gt;true&lt;/cached&gt;
+        ///	&lt;apiversion&gt;201003031200&lt;/apiversion&gt;
+        ///	&lt;results&gt;
+        ///		&lt;result&gt;
+        ///			&lt;filename&gt;flash.forward.s01e01.hdtv.xvid-2hd&lt;/filename&gt;
         ///
-        ///	&lt;/result&gt;
-        ///	&lt;result&gt;
-        ///		&lt;filename&gt;Flashforward.S01E05.720p.HDTV.x264-RED&lt;/filename&gt;
-        ///		&lt;filesize&gt;57638&lt;/filesize&gt;
-        ///		&lt;uploader&gt;mut [rest of string was truncated]&quot;;.
+        ///			&lt;filesize&gt;40801&lt;/filesize&gt;
+        ///			&lt;uploader&gt;roelschilderman&lt;/uploader&gt;
+        ///			&lt;uploaderprofile&gt;http://www.bierdopje.com/users/roelschilderman/profile&lt;/uploaderprofile&gt;
+        ///			&lt;pubdate&gt;1277588133&lt;/pubdate&gt;
+        ///			&lt;numreplies&gt;0&lt;/numreplies&gt;
+        ///			&lt;numdownloads&gt;116&lt;/numdownloads&gt;
+        ///
+        ///			&lt;exclusive&gt;false&lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string GetAllSubsForEpisodeCached {
             get {
@@ -189,23 +197,24 @@ namespace Chalk.SubtitlesManagement.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;bierdopje&gt;
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot;?&gt;
+        ///&lt;bierdopje&gt;
         ///&lt;response&gt;
-        ///	&lt;cached&gt;false&lt;/cached&gt;
         ///	&lt;status&gt;true&lt;/status&gt;
+        ///	&lt;cached&gt;false&lt;/cached&gt;
+        ///	&lt;apiversion&gt;201003031200&lt;/apiversion&gt;
         ///	&lt;results&gt;
         ///		&lt;result&gt;
-        ///			&lt;filename&gt;FlashForward.S01E05.HDTV.XviD-2HD&lt;/filename&gt;
-        ///			&lt;filesize&gt;62095&lt;/filesize&gt;
-        ///			&lt;uploader&gt;Waarez&lt;/uploader&gt;
-        ///			&lt;pubdate&gt;Thu, 01 Jan 1970 01:00:00&lt;/pubdate&gt;
-        ///			&lt;numreplies&gt;3&lt;/numreplies&gt;
-        ///			&lt;numdownloads&gt;249&lt;/numdownloads&gt;
-        ///			&lt;downloadlink&gt;http://www.bierdopje.com/download/sub/26294/FlashForward.S01E05.HDTV.XviD-2HD&lt;/downloadlink&gt;
+        ///			&lt;filename&gt;flash.forward.s01e01.hdtv.xvid-2hd&lt;/filename&gt;
         ///
-        ///		&lt;/result&gt;
-        ///		&lt;result&gt;
-        ///			&lt;filename&gt;Flashforward.S01E05.720p [rest of string was truncated]&quot;;.
+        ///			&lt;filesize&gt;40801&lt;/filesize&gt;
+        ///			&lt;uploader&gt;roelschilderman&lt;/uploader&gt;
+        ///			&lt;uploaderprofile&gt;http://www.bierdopje.com/users/roelschilderman/profile&lt;/uploaderprofile&gt;
+        ///			&lt;pubdate&gt;1277588133&lt;/pubdate&gt;
+        ///			&lt;numreplies&gt;0&lt;/numreplies&gt;
+        ///			&lt;numdownloads&gt;116&lt;/numdownloads&gt;
+        ///
+        ///			&lt;exclusive&gt;false [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string GetAllSubsForEpisodeNotCached {
             get {
@@ -231,7 +240,7 @@ namespace Chalk.SubtitlesManagement.Resources {
         ///	&lt;votes&gt;7&lt;/votes&gt;
         ///	&lt;airdate&gt;24-09-2009&lt;/airdate&gt;
         ///	&lt;formatted&gt;S01E01&lt;/formatted&gt;
-        ///	&lt;is_specia [rest of string was truncated]&quot;;.
+        ///	&lt;is_special&gt;false&lt;/is_speci [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string GetEpisodeByIdCached {
             get {
@@ -257,7 +266,7 @@ namespace Chalk.SubtitlesManagement.Resources {
         ///	&lt;votes&gt;7&lt;/votes&gt;
         ///	&lt;airdate&gt;24-09-2009&lt;/airdate&gt;
         ///	&lt;formatted&gt;S01E01&lt;/formatted&gt;
-        ///	&lt;is_specia [rest of string was truncated]&quot;;.
+        ///	&lt;is_special&gt;false&lt;/is_speci [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string GetEpisodeByIdNotCached {
             get {
@@ -266,24 +275,25 @@ namespace Chalk.SubtitlesManagement.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;bierdopje&gt;
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot;?&gt;
+        ///&lt;bierdopje&gt;
         ///&lt;response&gt;
-        ///	&lt;result&gt;
-        ///		&lt;episodeid&gt;418319&lt;/episodeid&gt;
-        ///		&lt;tvdbid&gt;428750&lt;/tvdbid&gt;
-        ///		&lt;title&gt;No More Good Days&lt;/title&gt;
-        ///		&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E01&lt;/episodelink&gt;
-        ///		&lt;season&gt;1&lt;/season&gt;
-        ///		&lt;episode&gt;1&lt;/episode&gt;
-        ///		&lt;epnumber&gt;1&lt;/epnumber&gt;
-        ///		&lt;wip&gt;true&lt;/wip&gt;
-        ///		&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-        ///		&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-        ///		&lt;score&gt;9,71&lt;/score&gt;
-        ///		&lt;votes&gt;7&lt;/votes&gt;
-        ///		&lt;airdate&gt;24-09-2009&lt;/airdate&gt;
-        ///		&lt;formatted&gt;S01E01&lt;/formatted&gt;
-        ///		&lt;is_special&gt;false&lt;/i [rest of string was truncated]&quot;;.
+        ///	&lt;status&gt;true&lt;/status&gt;
+        ///	&lt;cached&gt;true&lt;/cached&gt;
+        ///	&lt;apiversion&gt;201003031200&lt;/apiversion&gt;
+        ///	&lt;results&gt;
+        ///		&lt;result&gt;
+        ///			&lt;episodeid&gt;449199&lt;/episodeid&gt;
+        ///
+        ///			&lt;tvdbid&gt;266088&lt;/tvdbid&gt;
+        ///			&lt;title&gt;Fresh Start All Over Again&lt;/title&gt;
+        ///			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+        ///			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E01&lt;/episodelink&gt;
+        ///			&lt;season&gt;1&lt;/season&gt;
+        ///			&lt;episode&gt;1&lt;/episode&gt;
+        ///
+        ///			&lt;epnumber&gt;1&lt;/epnumber&gt;
+        ///			&lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string GetEpisodesForSeasonCached {
             get {
@@ -292,25 +302,24 @@ namespace Chalk.SubtitlesManagement.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;bierdopje&gt;
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot;?&gt;
+        ///&lt;bierdopje&gt;
         ///&lt;response&gt;
         ///	&lt;status&gt;true&lt;/status&gt;
         ///	&lt;cached&gt;false&lt;/cached&gt;
+        ///	&lt;apiversion&gt;201003031200&lt;/apiversion&gt;
+        ///	&lt;cachelife&gt;1281547956&lt;/cachelife&gt;
         ///	&lt;results&gt;
+        ///
         ///		&lt;result&gt;
-        ///			&lt;episodeid&gt;418319&lt;/episodeid&gt;
-        ///			&lt;tvdbid&gt;428750&lt;/tvdbid&gt;
-        ///			&lt;title&gt;No More Good Days&lt;/title&gt;
-        ///			&lt;episodelink&gt;http://www.bierdopje.com/shows/flashforward/episode/S01E01&lt;/episodelink&gt;
+        ///			&lt;episodeid&gt;449199&lt;/episodeid&gt;
+        ///			&lt;tvdbid&gt;266088&lt;/tvdbid&gt;
+        ///			&lt;title&gt;Fresh Start All Over Again&lt;/title&gt;
+        ///			&lt;showlink&gt;http://www.bierdopje.com/shows/flash-forward&lt;/showlink&gt;
+        ///			&lt;episodelink&gt;http://www.bierdopje.com/shows/flash-forward/episode/S01E01&lt;/episodelink&gt;
+        ///
         ///			&lt;season&gt;1&lt;/season&gt;
-        ///			&lt;episode&gt;1&lt;/episode&gt;
-        ///			&lt;epnumber&gt;1&lt;/epnumber&gt;
-        ///			&lt;wip&gt;true&lt;/wip&gt;
-        ///			&lt;wippercentage&gt;100&lt;/wippercentage&gt;
-        ///			&lt;wipuser&gt;rickth64&lt;/wipuser&gt;
-        ///			&lt;score&gt;9,71&lt;/score&gt;
-        ///			&lt;votes&gt;7&lt;/votes&gt;
-        ///			&lt;airdate&gt;24 [rest of string was truncated]&quot;;.
+        ///			&lt;episode&gt;1&lt;/epis [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string GetEpisodesForSeasonNotCached {
             get {
@@ -335,7 +344,8 @@ namespace Chalk.SubtitlesManagement.Resources {
         ///		&lt;result&gt;science-fiction&lt;/result&gt;
         ///
         ///	&lt;/genres&gt;
-        ///	&lt;showstatus&gt;Terugkomende serie&lt;/showst [rest of string was truncated]&quot;;.
+        ///	&lt;showstatus&gt;Terugkomende serie&lt;/showstatus&gt;
+        ///	&lt;network&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string SingleShowCached {
             get {
@@ -360,7 +370,8 @@ namespace Chalk.SubtitlesManagement.Resources {
         ///		&lt;genre&gt;science-fiction&lt;/genre&gt;
         ///
         ///	&lt;/genres&gt;
-        ///	&lt;showstatus&gt;Terugkomende serie&lt;/showstatus [rest of string was truncated]&quot;;.
+        ///	&lt;showstatus&gt;Terugkomende serie&lt;/showstatus&gt;
+        ///	&lt;network&gt;&lt;/ne [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string SingleShowNotCached {
             get {

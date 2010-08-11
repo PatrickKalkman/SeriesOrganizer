@@ -12,7 +12,8 @@ namespace Chalk.SerieOrganizer
 
       public static Regex fileNameRegularExpression = new Regex("[a-zA-Z0-9]*.|[a-zA-Z0-9]*-", RegexOptions.CultureInvariant | RegexOptions.Compiled);
       public static Regex seasonRegularExpression = new Regex("[sS]\\d+[eE]+\\d+", RegexOptions.CultureInvariant | RegexOptions.Compiled);
-      public static Regex resolutionRegularExpression = new Regex("1080[PpiI]{0,1}|720[Pp]{0,1}", RegexOptions.CultureInvariant| RegexOptions.Compiled);
+      public static Regex minimalSeasonRegularExpression = new Regex("[.]\\d+[.]", RegexOptions.CultureInvariant | RegexOptions.Compiled);
+      public static Regex resolutionRegularExpression = new Regex("1080[PpiI]{0,1}|720[Pp]{0,1}", RegexOptions.CultureInvariant | RegexOptions.Compiled);
 
       private string seasonAndEpisode;
 
@@ -92,7 +93,7 @@ namespace Chalk.SerieOrganizer
       {
          if (!string.IsNullOrEmpty(seasonAndEpisode))
          {
-            if (token == seasonAndEpisode)
+            if (token == seasonAndEpisode || seasonAndEpisode.Contains(token))
                return true;
 
             int smallSeasonAndEpisode;
@@ -119,6 +120,12 @@ namespace Chalk.SerieOrganizer
                Episode = Int32.Parse(numbers[1]);
                Season = Int32.Parse(numbers[0]);
             }
+            if (numbers.Length == 1)
+            {
+               string seasonAndEpisodeString = numbers[0].Replace(".", string.Empty);
+               Season = Int32.Parse(seasonAndEpisodeString.Substring(0, 1));
+               Episode = Int32.Parse(seasonAndEpisodeString.Substring(1));
+            }
          }
       }
 
@@ -135,6 +142,14 @@ namespace Chalk.SerieOrganizer
             if (match.Success)
             {
                seasonAndEpisode = match.Value;
+            }
+            else
+            {
+               match = minimalSeasonRegularExpression.Match(fileName);
+               if (match.Success)
+               {
+                  seasonAndEpisode = match.Value;
+               }
             }
          }
       }

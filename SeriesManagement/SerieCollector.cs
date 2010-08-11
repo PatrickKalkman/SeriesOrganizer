@@ -7,9 +7,9 @@ namespace Chalk.SerieOrganizer
    {
       private readonly string startDirectoryName;
 
-      public SerieCollector(OrganisationConfigurationType configuration)
+      public SerieCollector(string directoryToCollect)
       {
-         startDirectoryName = configuration.DirectoryToOrganize;
+         startDirectoryName = directoryToCollect;
       }
 
       public List<Serie> Collect()

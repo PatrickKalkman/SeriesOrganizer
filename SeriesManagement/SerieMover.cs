@@ -22,6 +22,15 @@ namespace Chalk.SerieOrganizer
                File.Delete(destinationFileName);
 
             File.Move(serie.FullName, destinationFileName);
+            string sourceDirectory = new FileInfo(serie.FullName).DirectoryName;
+            if (sourceDirectory != null)
+            {
+               FileInfo[] subTitles = new DirectoryInfo(sourceDirectory).GetFiles("*.srt");
+               foreach (FileInfo subTitle in subTitles)
+               {
+                  File.Move(subTitle.FullName, Path.Combine(destinationDirectory, subTitle.Name));
+               }
+            }
          }
       }
 

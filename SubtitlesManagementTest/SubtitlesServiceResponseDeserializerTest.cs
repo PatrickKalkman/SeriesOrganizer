@@ -54,7 +54,7 @@ namespace Chalk.SubtitlesManagement
       {
          SubtitleServiceResponseDeserializer subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
          List<TvShowEpisode> episodes = subtitlesServiceResponseParser.GetTvShowEpisodes(TestResources.GetEpisodesForSeasonNotCached);
-         Assert.AreEqual(11, episodes.Count);
+         Assert.AreEqual(8, episodes.Count);
       }
 
       [Test]
@@ -62,7 +62,7 @@ namespace Chalk.SubtitlesManagement
       {
          SubtitleServiceResponseDeserializer subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
          List<TvShowEpisode> episodes = subtitlesServiceResponseParser.GetTvShowEpisodes(TestResources.GetEpisodesForSeasonCached);
-         Assert.AreEqual(11, episodes.Count);
+         Assert.AreEqual(8, episodes.Count);
       }
 
       [Test]
@@ -70,7 +70,7 @@ namespace Chalk.SubtitlesManagement
       {
          SubtitleServiceResponseDeserializer subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
          List<TvShowEpisode> episodes = subtitlesServiceResponseParser.GetTvShowEpisodes(TestResources.GetAllEpisodesForShowNotCached);
-         Assert.AreEqual(11, episodes.Count);
+         Assert.AreEqual(8, episodes.Count);
       }
 
       [Test]
@@ -78,7 +78,7 @@ namespace Chalk.SubtitlesManagement
       {
          SubtitleServiceResponseDeserializer subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
          List<TvShowEpisode> episodes = subtitlesServiceResponseParser.GetTvShowEpisodes(TestResources.GetAllEpisodesForShowCached);
-         Assert.AreEqual(11, episodes.Count);
+         Assert.AreEqual(8, episodes.Count);
       }
 
       [Test]
@@ -102,7 +102,7 @@ namespace Chalk.SubtitlesManagement
       {
          SubtitleServiceResponseDeserializer subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
          List<TvShowEpisodeSubtitle> tvShowEpisodeSubtitles = subtitlesServiceResponseParser.GetTvShowEpisodeSubtitles(TestResources.GetAllSubsForEpisodeNotCached);
-         Assert.AreEqual(2, tvShowEpisodeSubtitles.Count);
+         Assert.AreEqual(1, tvShowEpisodeSubtitles.Count);
       }
 
       [Test]
@@ -110,7 +110,7 @@ namespace Chalk.SubtitlesManagement
       {
          SubtitleServiceResponseDeserializer subtitlesServiceResponseParser = CreateSubtitlesServiceResponseParser();
          List<TvShowEpisodeSubtitle> tvShowEpisodeSubtitles = subtitlesServiceResponseParser.GetTvShowEpisodeSubtitles(TestResources.GetAllSubsForEpisodeCached);
-         Assert.AreEqual(2, tvShowEpisodeSubtitles.Count);
+         Assert.AreEqual(1, tvShowEpisodeSubtitles.Count);
       }
 
       [Test]
