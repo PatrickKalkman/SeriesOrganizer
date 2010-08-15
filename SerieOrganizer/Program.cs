@@ -12,17 +12,19 @@ namespace Chalk.SerieOrganizer
          OrganisationConfigurationType configuration = reader.Read();
          if (configuration != null)
          {
-            Console.WriteLine("Reading {0}", configuration.DirectoryToOrganize);
+            Console.WriteLine("Starting Organizing {0}", configuration.DirectoryToOrganize);
             SerieCollector collector = new SerieCollector(configuration.DirectoryToOrganize);
             SerieMover mover = new SerieMover(configuration);
             SubtitleService subtitleService = SubtitleServiceFactory.CreateSubtitleService();
-            SerieOrganizer organizer = new SerieOrganizer(collector, mover, subtitleService);
+            SubtitleDownloader subtitleDownloader = new SubtitleDownloader(subtitleService);
+            SerieOrganizer organizer = new SerieOrganizer(collector, mover, subtitleDownloader);
             organizer.Organize();
             SerieCleaner cleaner = new SerieCleaner(configuration);
             cleaner.RemoveNfoFiles();
             cleaner.CleanSrrFiles();
             cleaner.RemoveSampleFiles();
             cleaner.CleanEmptyDirectories();
+            Console.WriteLine("Finished Organizing {0}", configuration.DirectoryToOrganize);
          }
          else
          {

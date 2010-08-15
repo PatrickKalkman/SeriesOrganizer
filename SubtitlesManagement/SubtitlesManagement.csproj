@@ -71,6 +71,7 @@
     <Compile Include="Models\TvShowEpisodeSubtitleResult.cs" />
     <Compile Include="ITvSeries.cs" />
     <Compile Include="ServiceChannelFactory.cs" />
+    <Compile Include="SubtitleDownloader.cs" />
     <Compile Include="SubtitlesConfiguration.cs">
       <DependentUpon>SubtitlesConfiguration.xsd</DependentUpon>
     </Compile>

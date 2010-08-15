@@ -9,13 +9,13 @@ namespace Chalk.SerieOrganizer
    {
       private readonly SerieCollector serieCollector;
       private readonly SerieMover serieMover;
-      private readonly SubtitleService subtitleService;
+      private readonly SubtitleDownloader subtitleDownloader;
 
-      public SerieOrganizer(SerieCollector serieCollector, SerieMover serieMover, SubtitleService subtitleService)
+      public SerieOrganizer(SerieCollector serieCollector, SerieMover serieMover, SubtitleDownloader subtitleDownloader)
       {
          this.serieCollector = serieCollector;
          this.serieMover = serieMover;
-         this.subtitleService = subtitleService;
+         this.subtitleDownloader = subtitleDownloader;
       }
 
       public void Organize()
@@ -26,13 +26,10 @@ namespace Chalk.SerieOrganizer
          {
             if (serie.IsValid)
             {
-               Console.WriteLine("Processing {0}", serie.FileName);
-               subtitleService.DownloadSubtitle(serie.Name, new FileInfo(serie.FullName).DirectoryName, serie.Episode, serie.Season); 
+               Console.WriteLine("Downloading Subtitles for {0}.", serie.FileName);
+               subtitleDownloader.DownloadSubtitle(serie.Name, new FileInfo(serie.FullName).DirectoryName, serie.Episode, serie.Season);
+               Console.WriteLine("Moving {0} to right location.", serie.FileName);
                serieMover.Move(serie);
-            }
-            else
-            {
-               Console.WriteLine("Serie {0} is not a valid serie", serie.FileName);
             }
          }
       }
