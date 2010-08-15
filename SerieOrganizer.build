@@ -41,7 +41,8 @@
             <include name="SubtitlesConfigurationType.cs"/>
             <include name="ServiceChannelFactory.cs" />
             <include name="SubtitlesConfigurationReader.cs" />
-            <include name="SubtitlesConfiguration.cs" />
+	    <include name="SubtitlesConfiguration.cs" />
+	    <include name="SubtitleDownloader.cs" />
             <include name="SubtitleService.cs" />
             <include name="SubtitleServiceFactory.cs" />
             <include name="SubtitleServiceResponseDeserializer.cs" />
