@@ -37,6 +37,7 @@ namespace Chalk.SubtitlesManagement
                         DownloadSubtitleForEpisode(tvShowEpisode, pathToStoreSubtitle, "nl");
                         break;
                      }
+
                      if (tvShowEpisode.subsen)
                      {
                         Console.WriteLine("Downloading english subtitles for {0}.", tvShowEpisode.title);
@@ -61,7 +62,15 @@ namespace Chalk.SubtitlesManagement
          {
             foreach (TvShowEpisodeSubtitle tvShowEpisodeSubtitle in episodeSubtitles)
             {
-               webClient.DownloadFile(tvShowEpisodeSubtitle.downloadLink, Path.Combine(pathToStoreSubtitle, tvShowEpisodeSubtitle.fileName) + ".srt");
+               string subTitlePath = Path.Combine(pathToStoreSubtitle, tvShowEpisodeSubtitle.fileName) + ".srt";
+               if (!File.Exists(subTitlePath))
+               {
+                  webClient.DownloadFile(tvShowEpisodeSubtitle.downloadLink, subTitlePath);
+               }
+               else
+               {
+                  Console.WriteLine("Skipping file {0}, the file was already downloaded.", tvShowEpisodeSubtitle.fileName);
+               }
             }
          }
       }
