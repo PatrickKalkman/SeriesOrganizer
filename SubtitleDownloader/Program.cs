@@ -9,13 +9,7 @@ namespace Chalk.SubtitleDownload
    {
       static void Main(string[] args)
       {
-         DirectoryInfo directoryInfo = new DirectoryInfo(args[0]);
-         DirectoryInfo[] directories = directoryInfo.GetDirectories();
-         DownloadSubtitlesForDirectory(directoryInfo);
-         foreach (DirectoryInfo directory in directories)
-         {
-            DownloadSubtitlesForDirectory(directory);
-         }
+         DownloadSubtitlesForDirectory(new DirectoryInfo(args[0]));
       }
 
       private static void DownloadSubtitlesForDirectory(DirectoryInfo directory)
