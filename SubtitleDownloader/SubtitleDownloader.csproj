@@ -8,7 +8,7 @@
     <ProjectGuid>{0D22E8F0-CB55-4173-A890-BA2950B710BD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SubtitleDownloader</RootNamespace>
+    <RootNamespace>Chalk.SubtitleDownload</RootNamespace>
     <AssemblyName>SubtitleDownloader</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
