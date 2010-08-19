@@ -9,9 +9,9 @@
          uri = string.Format("{0}/{1}", configuration.BierdopjeUrl, configuration.BierdopjeApiKey);
       }
 
-      internal virtual ITvSeries CreateChannel()
+      internal virtual ITvShows CreateChannel()
       {
-         return new TvSeriesService(uri);
+         return new TvShowsService(uri);
       }
    }
 }

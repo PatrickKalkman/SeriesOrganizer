@@ -2,7 +2,7 @@
 using System.IO;
 using System.Xml.Serialization;
 
-namespace Chalk.SerieOrganizer
+namespace Chalk.ShowOrganizer
 {
    /// <summary>
    /// This class acts as a base class for reading XML configuration files.

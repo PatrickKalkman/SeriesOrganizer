@@ -1,13 +1,13 @@
 using System;
 using System.IO;
 
-namespace Chalk.SerieOrganizer
+namespace Chalk.ShowOrganizer
 {
-   public class SerieCleaner 
+   public class ShowCleaner 
    {
       private readonly OrganisationConfigurationType configuration;
 
-      public SerieCleaner(OrganisationConfigurationType configuration)
+      public ShowCleaner(OrganisationConfigurationType configuration)
       {
          this.configuration = configuration;
       }

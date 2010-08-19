@@ -2,10 +2,10 @@
 using NUnit.Framework;
 using Rhino.Mocks;
 
-namespace Chalk.SerieOrganizer
+namespace Chalk.ShowOrganizer
 {
    [TestFixture]
-   public class SerieOrganizerTest
+   public class ShowOrganizerTest
    {
 
    }

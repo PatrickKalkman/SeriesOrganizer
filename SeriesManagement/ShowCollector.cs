@@ -1,32 +1,32 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace Chalk.SerieOrganizer
+namespace Chalk.ShowOrganizer
 {
-   public class SerieCollector
+   public class ShowCollector
    {
       private readonly string startDirectoryName;
 
-      public SerieCollector(string directoryToCollect)
+      public ShowCollector(string directoryToCollect)
       {
          startDirectoryName = directoryToCollect;
       }
 
-      public List<Serie> Collect()
+      public List<Show> Collect()
       {
          DirectoryInfo directoryInfo = new DirectoryInfo(startDirectoryName);
          FileInfo[] files = directoryInfo.GetFiles("*.mkv", SearchOption.AllDirectories);
-         return ConvertToSeries(files);
+         return ConvertToShows(files);
       }
 
-      private static List<Serie> ConvertToSeries(IEnumerable<FileInfo> infos)
+      private static List<Show> ConvertToShows(IEnumerable<FileInfo> infos)
       {
-         List<Serie> series = new List<Serie>();
+         List<Show> Shows = new List<Show>();
          foreach (FileInfo fileInfo in infos)
          {
-            series.Add(new Serie(fileInfo.FullName));
+            Shows.Add(new Show(fileInfo.FullName));
          }
-         return series;
+         return Shows;
       }
    }
 }

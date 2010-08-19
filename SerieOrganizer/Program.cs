@@ -2,7 +2,7 @@ using System;
 using Chalk.SubtitlesManagement;
 using Chalk.SubtitlesManagement.Models;
 
-namespace Chalk.SerieOrganizer
+namespace Chalk.ShowOrganizer
 {
    class Program
    {
@@ -13,13 +13,13 @@ namespace Chalk.SerieOrganizer
          if (configuration != null)
          {
             Console.WriteLine("Starting Organizing {0}", configuration.DirectoryToOrganize);
-            SerieCollector collector = new SerieCollector(configuration.DirectoryToOrganize);
-            SerieMover mover = new SerieMover(configuration);
-            SubtitleService subtitleService = SubtitleServiceFactory.CreateSubtitleService();
+            ShowCollector collector = new ShowCollector(configuration.DirectoryToOrganize);
+            ShowMover mover = new ShowMover(configuration);
+            ShowService subtitleService = SubtitleServiceFactory.CreateSubtitleService();
             SubtitleDownloader subtitleDownloader = new SubtitleDownloader(subtitleService);
-            SerieOrganizer organizer = new SerieOrganizer(collector, mover, subtitleDownloader);
+            ShowOrganizer organizer = new ShowOrganizer(collector, mover, subtitleDownloader);
             organizer.Organize();
-            SerieCleaner cleaner = new SerieCleaner(configuration);
+            ShowCleaner cleaner = new ShowCleaner(configuration);
             cleaner.RemoveNfoFiles();
             cleaner.CleanSrrFiles();
             cleaner.RemoveSampleFiles();

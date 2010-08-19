@@ -1,26 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerieOrganizer", "SerieOrganizer\SerieOrganizer.csproj", "{F0B54FDE-2A72-4B33-9229-64852AA17983}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowOrganizer", "SerieOrganizer\ShowOrganizer.csproj", "{F0B54FDE-2A72-4B33-9229-64852AA17983}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerieManagement", "SeriesManagement\SerieManagement.csproj", "{97F0A3DE-19E0-402B-82CF-44DE64BCCBEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowManagement", "SeriesManagement\ShowManagement.csproj", "{97F0A3DE-19E0-402B-82CF-44DE64BCCBEA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F6E5985B-1A75-4A4E-9C2C-8328D2B974A1}"
 	ProjectSection(SolutionItems) = preProject
-		SerieOrganizer.build = SerieOrganizer.build
+		ShowOrganizer.build = ShowOrganizer.build
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtitlesManagement", "SubtitlesManagement\SubtitlesManagement.csproj", "{533AFA38-0442-4DDF-863E-C5D537D0C39F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerieManagementTest", "SeriesManagementTest\SerieManagementTest.csproj", "{4B018014-90C7-4018-AB60-3CECF5545B33}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowManagementTest", "SeriesManagementTest\ShowManagementTest.csproj", "{4B018014-90C7-4018-AB60-3CECF5545B33}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtitlesManagementTest", "SubtitlesManagementTest\SubtitlesManagementTest.csproj", "{F80E9F04-1136-41EB-87F2-A8B76C06D452}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtitleDownloader", "SubtitleDownloader\SubtitleDownloader.csproj", "{0D22E8F0-CB55-4173-A890-BA2950B710BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerieOrganizerCache", "SerieOrganizerCache\SerieOrganizerCache.csproj", "{12BFB3D7-75CD-4D7B-85F2-4EF04E560D71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowOrganizerCache", "SerieOrganizerCache\ShowOrganizerCache.csproj", "{12BFB3D7-75CD-4D7B-85F2-4EF04E560D71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerieOrganizerCacheTest", "SerieOrganizerCacheTest\SerieOrganizerCacheTest.csproj", "{EC75C348-817D-4C2A-A125-C1EA609B7C09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowOrganizerCacheTest", "SerieOrganizerCacheTest\ShowOrganizerCacheTest.csproj", "{EC75C348-817D-4C2A-A125-C1EA609B7C09}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Include", "Include", "{34F73EBE-EE1F-4F71-8A19-FCACF6747675}"
 EndProject

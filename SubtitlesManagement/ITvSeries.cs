@@ -4,7 +4,7 @@ namespace Chalk.SubtitlesManagement
    /// This interface describes the api that is offered by www.bierdopje.com for interacting with
    /// the content of the website. 
    /// </summary>
-   internal interface ITvSeries
+   internal interface ITvShows
    {
       string GetShowById(string showId);
 

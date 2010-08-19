@@ -1,22 +1,22 @@
 ﻿using NUnit.Framework;
 using System.IO;
 
-namespace Chalk.SerieOrganizer
+namespace Chalk.ShowOrganizer
 {
    [TestFixture]
-   public class SerieMoverTest
+   public class ShowMoverTest
    {
       private readonly string destinationFolder = Path.Combine(Path.GetTempPath(), "Destination");
       private readonly string sourceFolder = Path.Combine(Path.GetTempPath(), "Source");
       private const string SourceFilename = "Dark.Blue.S01E04.720p.HDTV.X264-DIMENSION.mkv";
       private readonly string sourceFileNameAndPath;
 
-      public SerieMoverTest()
+      public ShowMoverTest()
       {
          sourceFileNameAndPath = Path.Combine(sourceFolder, SourceFilename);
       }
 
-      private const string SerieName = "Dark Blue";
+      private const string ShowName = "Dark Blue";
 
       [SetUp]
       public void SetUp()
@@ -34,14 +34,14 @@ namespace Chalk.SerieOrganizer
       }
 
       [Test]
-      public void ShouldSucceedWhenSerieIsMovedToTheCorrectLocation()
+      public void ShouldSucceedWhenShowIsMovedToTheCorrectLocation()
       {
-         Serie serieToMove = new Serie(sourceFileNameAndPath);
+         Show ShowToMove = new Show(sourceFileNameAndPath);
          
 
-         SerieMover seriesMover = new SerieMover(CreateOrganisationConfiguration());
-         seriesMover.Move(serieToMove);
-         string destinationFilenameAndPath = Path.Combine(Path.Combine(destinationFolder, SerieName), SourceFilename);
+         ShowMover ShowsMover = new ShowMover(CreateOrganisationConfiguration());
+         ShowsMover.Move(ShowToMove);
+         string destinationFilenameAndPath = Path.Combine(Path.Combine(destinationFolder, ShowName), SourceFilename);
          Assert.AreEqual(true, File.Exists(destinationFilenameAndPath));
       }
 

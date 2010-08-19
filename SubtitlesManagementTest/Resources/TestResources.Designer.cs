@@ -344,7 +344,7 @@ namespace Chalk.SubtitlesManagement.Resources {
         ///		&lt;result&gt;science-fiction&lt;/result&gt;
         ///
         ///	&lt;/genres&gt;
-        ///	&lt;showstatus&gt;Terugkomende serie&lt;/showstatus&gt;
+        ///	&lt;showstatus&gt;Terugkomende Show&lt;/showstatus&gt;
         ///	&lt;network&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string SingleShowCached {
@@ -370,7 +370,7 @@ namespace Chalk.SubtitlesManagement.Resources {
         ///		&lt;genre&gt;science-fiction&lt;/genre&gt;
         ///
         ///	&lt;/genres&gt;
-        ///	&lt;showstatus&gt;Terugkomende serie&lt;/showstatus&gt;
+        ///	&lt;showstatus&gt;Terugkomende Show&lt;/showstatus&gt;
         ///	&lt;network&gt;&lt;/ne [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string SingleShowNotCached {

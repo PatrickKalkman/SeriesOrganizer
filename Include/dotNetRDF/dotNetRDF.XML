@@ -3105,7 +3105,7 @@
             </summary>
             <remarks>
             <para>
-            An Event Generator is a class which takes an input stream which contains XML and generates a series of events from it
+            An Event Generator is a class which takes an input stream which contains XML and generates a Shows of events from it
             </para>
             <para>
             This interface is a marker interface which indicates that the class is an event generator, implementations should implement one of the concrete derived interfaces as appropriate to their mode of operation.
@@ -5718,7 +5718,7 @@
             <param name="firstSelector">Selector Class which does the initial Selection</param>
             <param name="selectorChain">Chain of Dependent Selectors to perform the Selection</param>
             <returns>Zero/More Triples</returns>
-            <remarks>This method is used to apply a series of Selectors where each filter is applied to the entire Graph but is initialised with the results of the previous Selector in the chain.  This means that something eliminated in a given step can potentially be selected by a later Selector in the Chain.</remarks>
+            <remarks>This method is used to apply a Shows of Selectors where each filter is applied to the entire Graph but is initialised with the results of the previous Selector in the chain.  This means that something eliminated in a given step can potentially be selected by a later Selector in the Chain.</remarks>
         </member>
         <member name="M:VDS.RDF.BaseGraph.GetTriples(System.Collections.Generic.List{VDS.RDF.ISelector{VDS.RDF.Triple}})">
             <summary>
@@ -5726,7 +5726,7 @@
             </summary>
             <param name="selectorChain">Chain of Selector Classes to perform the Selection</param>
             <returns>Zero/More Triples</returns>
-            <remarks>This method is used to apply a series of Selectors where each filters the results of the previous.  Each application of a Selector potentially reduces the results set, anything eliminated in a given step cannot possibly be selected by a later Selector in the Chain.</remarks>
+            <remarks>This method is used to apply a Shows of Selectors where each filters the results of the previous.  Each application of a Selector potentially reduces the results set, anything eliminated in a given step cannot possibly be selected by a later Selector in the Chain.</remarks>
         </member>
         <member name="M:VDS.RDF.BaseGraph.GetTriples(System.Uri)">
             <summary>
@@ -6207,7 +6207,7 @@
             </summary>
             <param name="selectorChain">Chain of Selector Classes to perform the Selection</param>
             <returns>Zero/More Triples</returns>
-            <remarks>This method is used to apply a series of Selectors where each filters the results of the previous.  Each application of a Selector potentially reduces the results set, anything eliminated in a given step cannot possibly be selected by a later Selector in the Chain.</remarks>
+            <remarks>This method is used to apply a Shows of Selectors where each filters the results of the previous.  Each application of a Selector potentially reduces the results set, anything eliminated in a given step cannot possibly be selected by a later Selector in the Chain.</remarks>
         </member>
         <member name="M:VDS.RDF.Graph.GetTriples(VDS.RDF.ISelector{VDS.RDF.Triple},System.Collections.Generic.List{VDS.RDF.IDependentSelector{VDS.RDF.Triple}})">
             <summary>
@@ -6216,7 +6216,7 @@
             <param name="firstSelector">Selector Class which does the initial Selection</param>
             <param name="selectorChain">Chain of Dependent Selectors to perform the Selection</param>
             <returns>Zero/More Triples</returns>
-            <remarks>This method is used to apply a series of Selectors where each filter is applied to the entire Graph but is initialised with the results of the previous Selector in the chain.  This means that something eliminated in a given step can potentially be selected by a later Selector in the Chain.</remarks>
+            <remarks>This method is used to apply a Shows of Selectors where each filter is applied to the entire Graph but is initialised with the results of the previous Selector in the chain.  This means that something eliminated in a given step can potentially be selected by a later Selector in the Chain.</remarks>
         </member>
         <member name="M:VDS.RDF.Graph.GetTriples(System.Collections.Generic.IEnumerable{VDS.RDF.Triple},VDS.RDF.ISelector{VDS.RDF.Triple})">
             <summary>
@@ -9098,7 +9098,7 @@
             <param name="firstSelector">Selector Class which does the initial Selection</param>
             <param name="selectorChain">Chain of Dependent Selectors to perform the Selection</param>
             <returns>Zero/More Triples</returns>
-            <remarks>This method is used to apply a series of Selectors where each filter is applied to the entire Graph but is initialised with the results of the previous Selector in the chain.  This means that something eliminated in a given step can potentially be selected by a later Selector in the Chain.</remarks>
+            <remarks>This method is used to apply a Shows of Selectors where each filter is applied to the entire Graph but is initialised with the results of the previous Selector in the chain.  This means that something eliminated in a given step can potentially be selected by a later Selector in the Chain.</remarks>
         </member>
         <member name="M:VDS.RDF.ThreadSafeGraph.GetTriples(VDS.RDF.ISelector{VDS.RDF.Triple})">
             <summary>
@@ -9113,7 +9113,7 @@
             </summary>
             <param name="selectorChain">Chain of Selector Classes to perform the Selection</param>
             <returns>Zero/More Triples</returns>
-            <remarks>This method is used to apply a series of Selectors where each filters the results of the previous.  Each application of a Selector potentially reduces the results set, anything eliminated in a given step cannot possibly be selected by a later Selector in the Chain.</remarks>
+            <remarks>This method is used to apply a Shows of Selectors where each filters the results of the previous.  Each application of a Selector potentially reduces the results set, anything eliminated in a given step cannot possibly be selected by a later Selector in the Chain.</remarks>
         </member>
         <member name="M:VDS.RDF.ThreadSafeGraph.GetTriples(System.Uri)">
             <summary>
@@ -28697,7 +28697,7 @@
             }
             </code>
             <para>
-            Calling a Set method to set a parameter that has already been set changes that value and the new value will be used next time you call <see cref="M:VDS.RDF.Query.SparqlParameterizedString.ToString">ToString()</see> - this may be useful if you plan to execute a series of queries using a series of values since you need not instantiate a completely new parameterized string each time
+            Calling a Set method to set a parameter that has already been set changes that value and the new value will be used next time you call <see cref="M:VDS.RDF.Query.SparqlParameterizedString.ToString">ToString()</see> - this may be useful if you plan to execute a Shows of queries using a Shows of values since you need not instantiate a completely new parameterized string each time
             </para>
             <para>
             This class was added to a library based on a suggestion by Alexander Sidorov and ideas from slides from <a href="http://www.slideshare.net/Morelab/sparqlrdqlsparul-injection">Slideshare</a> by Almedia et al
@@ -35699,7 +35699,7 @@
         </member>
         <member name="M:VDS.RDF.SubGraphMatcher.TryRulesBasedMapping(VDS.RDF.IGraph,VDS.RDF.IGraph,System.Collections.Generic.Dictionary{VDS.RDF.INode,System.Int32},System.Collections.Generic.Dictionary{VDS.RDF.INode,System.Int32},System.Collections.Generic.Dictionary{System.Int32,System.Int32},System.Collections.Generic.Dictionary{System.Int32,System.Int32})">
             <summary>
-            Uses a series of Rules to attempt to generate a mapping without the need for brute force guessing
+            Uses a Shows of Rules to attempt to generate a mapping without the need for brute force guessing
             </summary>
             <param name="subgraph">1st Graph</param>
             <param name="parent">2nd Graph</param>
@@ -37967,7 +37967,7 @@
         </member>
         <member name="M:VDS.RDF.GraphMatcher.TryRulesBasedMapping(VDS.RDF.IGraph,VDS.RDF.IGraph,System.Collections.Generic.Dictionary{VDS.RDF.INode,System.Int32},System.Collections.Generic.Dictionary{VDS.RDF.INode,System.Int32},System.Collections.Generic.Dictionary{System.Int32,System.Int32},System.Collections.Generic.Dictionary{System.Int32,System.Int32})">
             <summary>
-            Uses a series of Rules to attempt to generate a mapping without the need for brute force guessing
+            Uses a Shows of Rules to attempt to generate a mapping without the need for brute force guessing
             </summary>
             <param name="g">1st Graph</param>
             <param name="h">2nd Graph</param>

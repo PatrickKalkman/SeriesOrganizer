@@ -1,27 +1,27 @@
 <?xml version="1.0"?>
-<project name="SerieOrganizer" default="build" basedir=".">
-   <description>Build script for the Serie Organizer</description>
+<project name="ShowOrganizer" default="build" basedir=".">
+   <description>Build script for the Show Organizer</description>
    <property name="debug" value="true" overwrite="false" />
 
    <target name="clean" description="remove all generated files">
-      <delete file="SerieOrganizer.exe" failonerror="false" />
-      <delete file="SerieOrganizer.pdb" failonerror="false" />
+      <delete file="ShowOrganizer.exe" failonerror="false" />
+      <delete file="ShowOrganizer.pdb" failonerror="false" />
       <delete file="SubtitleDownloader.exe" failonerror="false" /> 
       <delete file="SubtitleDownloader.pdb" failonerror="false" />
-      <delete file="Chalk.SerieManagement.dll" failonerror="false" />
-      <delete file="Chalk.SerieManagement.pdb" failonerror="false" />
-      <delete file="Chalk.SerieManagementTest.dll" failonerror="false" />
-      <delete file="Chalk.SerieManagementTest.pdb" failonerror="false" />
+      <delete file="Chalk.ShowManagement.dll" failonerror="false" />
+      <delete file="Chalk.ShowManagement.pdb" failonerror="false" />
+      <delete file="Chalk.ShowManagementTest.dll" failonerror="false" />
+      <delete file="Chalk.ShowManagementTest.pdb" failonerror="false" />
       <delete file="Chalk.SubtitleManagement.dll" failonerror="false" />
       <delete file="Chalk.SubtitleManagement.pdb" failonerror="false" />
       <delete file="Chalk.SubtitleManagementTest.dll" failonerror="false" />
       <delete file="Chalk.SubtitleManagementTest.pdb" failonerror="false" />
    </target>
 
-   <target name="install" description="install serie organizer">
-      <copy file="SerieOrganizer.exe" todir="/usr/bin/" />
+   <target name="install" description="install Show organizer">
+      <copy file="ShowOrganizer.exe" todir="/usr/bin/" />
       <copy file="SubtitleDownloader.exe" todir="/usr/bin" />
-      <copy file="Chalk.SerieManagement.dll" todir="/usr/bin/" />
+      <copy file="Chalk.ShowManagement.dll" todir="/usr/bin/" />
       <copy file="Chalk.SubtitleManagement.dll" todir="/usr/bin/" />
    </target>
 
@@ -36,8 +36,8 @@
             <include name="SubtitlesManagement/SubtitlesConfigurationType.xsd.cs" />
          </resources>
          <sources basedir="SubtitlesManagement">
-            <include name="ITvSeries.cs" />
-            <include name="TvSeriesService.cs" />
+            <include name="ITvShows.cs" />
+            <include name="TvShowsService.cs" />
             <include name="SubtitlesConfigurationType.cs"/>
             <include name="ServiceChannelFactory.cs" />
             <include name="SubtitlesConfigurationReader.cs" />
@@ -67,19 +67,19 @@
       </csc>
    
    
-     <csc target="library" output="Chalk.SerieManagement.dll" debug="${debug}">
+     <csc target="library" output="Chalk.ShowManagement.dll" debug="${debug}">
         <references>
             <include name="Chalk.SubtitleManagement.dll"/>
          </references>
          <resources>
-            <include name="SeriesManagement/OrganisationConfiguration.xsd.cs" />
+            <include name="ShowsManagement/OrganisationConfiguration.xsd.cs" />
          </resources>
-         <sources basedir="SeriesManagement">
-            <include name="Serie.cs" />
-            <include name="SerieCollector.cs" />
-            <include name="SerieMover.cs" />
-            <include name="SerieOrganizer.cs" />
-            <include name="SerieCleaner.cs" />
+         <sources basedir="ShowsManagement">
+            <include name="Show.cs" />
+            <include name="ShowCollector.cs" />
+            <include name="ShowMover.cs" />
+            <include name="ShowOrganizer.cs" />
+            <include name="ShowCleaner.cs" />
             <include name="XmlConfigurationReaderBase.cs" />
             <include name="OrganisationConfigurationReader.cs" />
             <include name="OrganisationConfiguration.cs" />
@@ -87,12 +87,12 @@
          </sources>
       </csc>
 
-      <csc target="exe" output="SerieOrganizer.exe" debug="${debug}">
+      <csc target="exe" output="ShowOrganizer.exe" debug="${debug}">
          <references>
-            <include name="Chalk.SerieManagement.dll"/>
+            <include name="Chalk.ShowManagement.dll"/>
             <include name="Chalk.SubtitleManagement.dll"/>
          </references>
-         <sources basedir="SerieOrganizer">
+         <sources basedir="ShowOrganizer">
             <include name="Program.cs" />
             <include name="Properties/AssemblyInfo.cs"/>
          </sources>
@@ -100,7 +100,7 @@
 
       <csc target="exe" output="SubtitleDownloader.exe" debug="${debug}" >
         <references>
-            <include name="Chalk.SerieManagement.dll"/>
+            <include name="Chalk.ShowManagement.dll"/>
             <include name="Chalk.SubtitleManagement.dll"/>
          </references>
          <sources basedir="SubtitleDownloader">
@@ -109,26 +109,26 @@
          </sources>
       </csc>
 
-      <csc target="library" output="Chalk.SerieManagementTest.dll" debug="${debug}">
+      <csc target="library" output="Chalk.ShowManagementTest.dll" debug="${debug}">
          <references>
-            <include name="SeriesManagementTest/Include/nunit.framework.dll"/>
-            <include name="SeriesManagementTest/Include/Rhino.Mocks.dll"/>
-            <include name="Chalk.SerieManagement.dll"/>
+            <include name="ShowsManagementTest/Include/nunit.framework.dll"/>
+            <include name="ShowsManagementTest/Include/Rhino.Mocks.dll"/>
+            <include name="Chalk.ShowManagement.dll"/>
          </references>
-         <sources basedir="SeriesManagementTest">
-            <include name="SerieTest.cs" />
-            <include name="SerieCollectorTest.cs" />
-            <include name="SerieMoverTest.cs" />
-            <include name="SerieOrganizerTest.cs" />
-            <include name="SerieCleanerTest.cs" />
+         <sources basedir="ShowsManagementTest">
+            <include name="ShowTest.cs" />
+            <include name="ShowCollectorTest.cs" />
+            <include name="ShowMoverTest.cs" />
+            <include name="ShowOrganizerTest.cs" />
+            <include name="ShowCleanerTest.cs" />
             <include name="Properties/AssemblyInfo.cs" />
          </sources>
       </csc>
 
       <csc target="library" output="Chalk.SubtitleManagementTest.dll" debug="${debug}">
          <references>
-            <include name="SeriesManagementTest/Include/nunit.framework.dll"/>
-            <include name="SeriesManagementTest/Include/Rhino.Mocks.dll"/>
+            <include name="ShowsManagementTest/Include/nunit.framework.dll"/>
+            <include name="ShowsManagementTest/Include/Rhino.Mocks.dll"/>
             <include name="Chalk.SubtitleManagement.dll"/>
          </references>
          <resources>

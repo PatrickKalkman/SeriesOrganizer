@@ -1,4 +1,4 @@
-﻿namespace Chalk.SerieOrganizer
+﻿namespace Chalk.ShowOrganizer
 {
    public class OrganisationConfigurationReader : XmlConfigurationReaderBase<OrganisationConfigurationType>
    {

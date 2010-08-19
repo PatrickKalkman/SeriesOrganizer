@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
-using Chalk.SerieOrganizer;
+using Chalk.ShowOrganizer;
 using Chalk.SubtitlesManagement;
 
 namespace Chalk.SubtitleDownload
@@ -14,15 +14,15 @@ namespace Chalk.SubtitleDownload
 
       private static void DownloadSubtitlesForDirectory(DirectoryInfo directory)
       {
-         SerieCollector serieCollector = new SerieCollector(directory.FullName);
-         List<Serie> series = serieCollector.Collect();
+         ShowCollector ShowCollector = new ShowCollector(directory.FullName);
+         List<Show> Shows = ShowCollector.Collect();
 
-         SubtitleService subTitleService = SubtitleServiceFactory.CreateSubtitleService();
+         ShowService subTitleService = SubtitleServiceFactory.CreateSubtitleService();
          SubtitleDownloader subTitleDownloader = new SubtitleDownloader(subTitleService);
-         foreach (Serie serie in series)
+         foreach (Show Show in Shows)
          {
-            string subtitleDirectory = new FileInfo(serie.FullName).DirectoryName;
-            subTitleDownloader.DownloadSubtitle(serie.Name, subtitleDirectory, serie.Episode, serie.Season);
+            string subtitleDirectory = new FileInfo(Show.FullName).DirectoryName;
+            subTitleDownloader.DownloadSubtitle(Show.Name, subtitleDirectory, Show.Episode, Show.Season);
          }
       }
    }

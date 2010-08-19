@@ -20,13 +20,13 @@ namespace Chalk.SubtitlesManagement
          SubtitleServiceResponseDeserializer responseParser = repository.DynamicMock<SubtitleServiceResponseDeserializer>();
          Expect.Call(responseParser.GetTvShows(ResponseString)).Return(new List<TvShow>());
 
-         ITvSeries tvSeries = repository.DynamicMock<ITvSeries>();
-         Expect.Call(tvSeries.FindShowByName(string.Empty)).Return(ResponseString).IgnoreArguments();
+         ITvShows tvShows = repository.DynamicMock<ITvShows>();
+         Expect.Call(tvShows.FindShowByName(string.Empty)).Return(ResponseString).IgnoreArguments();
 
          ServiceChannelFactory serviceChannelFactory = repository.DynamicMock<ServiceChannelFactory>(CreateSubtitlesConfiguration());
-         Expect.Call(serviceChannelFactory.CreateChannel()).Return(tvSeries);
+         Expect.Call(serviceChannelFactory.CreateChannel()).Return(tvShows);
 
-         SubtitleService subtitlesService = new SubtitleService(responseParser, serviceChannelFactory);
+         ShowService subtitlesService = new ShowService(responseParser, serviceChannelFactory);
          repository.ReplayAll();
          subtitlesService.FindShowsByName("Flash");
          repository.VerifyAll();

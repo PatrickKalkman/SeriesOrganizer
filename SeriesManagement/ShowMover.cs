@@ -1,28 +1,28 @@
 using System.IO;
 
-namespace Chalk.SerieOrganizer
+namespace Chalk.ShowOrganizer
 {
-   public class SerieMover
+   public class ShowMover
    {
       private readonly string destination;
 
-      public SerieMover(OrganisationConfigurationType configuration)
+      public ShowMover(OrganisationConfigurationType configuration)
       {
          this.destination = configuration.DestinationDirectory;
       }
 
-      public void Move(Serie serie)
+      public void Move(Show Show)
       {
-         if (serie.IsValid)
+         if (Show.IsValid)
          {
-            string destinationDirectory = CreateDestinationDirectory(serie);
+            string destinationDirectory = CreateDestinationDirectory(Show);
 
-            string destinationFileName = Path.Combine(destinationDirectory, serie.FileName);
+            string destinationFileName = Path.Combine(destinationDirectory, Show.FileName);
             if (File.Exists(destinationFileName))
                File.Delete(destinationFileName);
 
-            File.Move(serie.FullName, destinationFileName);
-            string sourceDirectory = new FileInfo(serie.FullName).DirectoryName;
+            File.Move(Show.FullName, destinationFileName);
+            string sourceDirectory = new FileInfo(Show.FullName).DirectoryName;
             if (sourceDirectory != null)
             {
                FileInfo[] subTitles = new DirectoryInfo(sourceDirectory).GetFiles("*.srt");
@@ -34,9 +34,9 @@ namespace Chalk.SerieOrganizer
          }
       }
 
-      private string CreateDestinationDirectory(Serie serie)
+      private string CreateDestinationDirectory(Show Show)
       {
-         string destinationDirectory = Path.Combine(destination, serie.Name);
+         string destinationDirectory = Path.Combine(destination, Show.Name);
          if (!Directory.Exists(destinationDirectory))
          {
             Directory.CreateDirectory(destinationDirectory);
