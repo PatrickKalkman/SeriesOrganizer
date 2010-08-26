@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{EC75C348-817D-4C2A-A125-C1EA609B7C09}</ProjectGuid>
+    <ProjectGuid>{CF996C8E-2E4E-48EC-8344-A442F17F112A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ShowOrganizerCacheTest</RootNamespace>
-    <AssemblyName>ShowOrganizerCacheTest</AssemblyName>
+    <RootNamespace>ShowConversion</RootNamespace>
+    <AssemblyName>ShowConversion</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,18 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="dotNetRDF.Mono, Version=0.3.0.20656, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Include\dotNetRDF\dotNetRDF.Mono.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework, Version=2.2.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Include\NUnit\nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Include\RhinoMocks\Rhino.Mocks.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -57,23 +45,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ShowReaderTest.cs" />
+    <Compile Include="TvShowRdfXmlConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShowStorageTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SerieOrganizerCache\ShowOrganizerCache.csproj">
-      <Project>{12BFB3D7-75CD-4D7B-85F2-4EF04E560D71}</Project>
-      <Name>ShowOrganizerCache</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SeriesManagement\ShowManagement.csproj">
-      <Project>{97F0A3DE-19E0-402B-82CF-44DE64BCCBEA}</Project>
-      <Name>ShowManagement</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ShowConversion\ShowConversion.csproj">
-      <Project>{CF996C8E-2E4E-48EC-8344-A442F17F112A}</Project>
-      <Name>ShowConversion</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SubtitlesManagement\SubtitlesManagement.csproj">
       <Project>{533AFA38-0442-4DDF-863E-C5D537D0C39F}</Project>
       <Name>SubtitlesManagement</Name>

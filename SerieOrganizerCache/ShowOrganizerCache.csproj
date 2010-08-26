@@ -54,6 +54,10 @@
     <Compile Include="ShowStorage.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ShowConversion\ShowConversion.csproj">
+      <Project>{CF996C8E-2E4E-48EC-8344-A442F17F112A}</Project>
+      <Name>ShowConversion</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SubtitlesManagement\SubtitlesManagement.csproj">
       <Project>{533AFA38-0442-4DDF-863E-C5D537D0C39F}</Project>
       <Name>SubtitlesManagement</Name>

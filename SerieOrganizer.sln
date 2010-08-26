@@ -47,6 +47,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RhinoMocks", "RhinoMocks", 
 		Include\RhinoMocks\Rhino.Mocks.dll = Include\RhinoMocks\Rhino.Mocks.dll
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowConversion", "ShowConversion\ShowConversion.csproj", "{CF996C8E-2E4E-48EC-8344-A442F17F112A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowConversionTest", "ShowConversionTest\ShowConversionTest.csproj", "{329D89A2-B9D7-4F7F-96E3-8BF120BDE96D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +89,14 @@ Global
 		{EC75C348-817D-4C2A-A125-C1EA609B7C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC75C348-817D-4C2A-A125-C1EA609B7C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC75C348-817D-4C2A-A125-C1EA609B7C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF996C8E-2E4E-48EC-8344-A442F17F112A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF996C8E-2E4E-48EC-8344-A442F17F112A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF996C8E-2E4E-48EC-8344-A442F17F112A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF996C8E-2E4E-48EC-8344-A442F17F112A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329D89A2-B9D7-4F7F-96E3-8BF120BDE96D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329D89A2-B9D7-4F7F-96E3-8BF120BDE96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329D89A2-B9D7-4F7F-96E3-8BF120BDE96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329D89A2-B9D7-4F7F-96E3-8BF120BDE96D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

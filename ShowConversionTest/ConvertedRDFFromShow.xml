@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:tv="http://www.semanticarchitecture.net/tv#">
+   <tv:Show rdf:about="http://www.semanticarchitecture.net/TvShow.rdf@TvShow1">
+      <tv:AirTime>12</tv:AirTime>
+      <tv:Favorites>1</tv:Favorites>
+      <tv:FirstAired>2010-12-01 10:10:10Z</tv:FirstAired>
+      <tv:Genre>Thriller</tv:Genre>
+      <tv:Genre>Comedy</tv:Genre>
+      <tv:HasTranslators>True</tv:HasTranslators>
+      <tv:Id>1</tv:Id>
+      <tv:IsValid>True</tv:IsValid>
+      <tv:LastAired>2010-12-01 10:10:10Z</tv:LastAired>
+      <tv:Network>CBS</tv:Network>
+      <tv:NextEpisode>2010-12-01 10:10:10Z</tv:NextEpisode>
+      <tv:NumberOfEpisodes>10</tv:NumberOfEpisodes>
+      <tv:Runtime>45</tv:Runtime>
+      <tv:Score>5.5</tv:Score>
+      <tv:Season>1</tv:Season>
+      <tv:Link>http://myshow</tv:Link>
+      <tv:ShowStatus>Running</tv:ShowStatus>
+      <tv:Status>Running</tv:Status>
+      <tv:Summary>The brown fox jumps over the lazy dog</tv:Summary>
+      <tv:Name>My Show</tv:Name>
+      <tv:TvDbId>12</tv:TvDbId>
+   </tv:Show>
+</rdf:RDF>

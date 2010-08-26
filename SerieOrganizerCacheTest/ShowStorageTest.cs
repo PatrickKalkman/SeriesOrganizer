@@ -2,6 +2,7 @@
 using Chalk.SubtitlesManagement.Models;
 using NUnit.Framework;
 using Rhino.Mocks;
+using ShowConversion;
 using VDS.RDF;
 
 namespace ShowOrganizerCacheTest
@@ -20,7 +21,7 @@ namespace ShowOrganizerCacheTest
          Expect.Call(() => tripleStore.ExecuteQuery("")).IgnoreArguments().Return(null);
          repository.ReplayAll();
 
-         ShowStorage showStorage = new ShowStorage(tripleStore);
+         ShowStorage showStorage = new ShowStorage(new TvShowRdfXmlConverter(), tripleStore);
          showStorage.Store(CreateTvShowToStore());
 
          TvShow tvShow;
