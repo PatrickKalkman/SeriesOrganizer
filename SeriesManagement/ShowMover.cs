@@ -28,7 +28,11 @@ namespace Chalk.ShowOrganizer
                FileInfo[] subTitles = new DirectoryInfo(sourceDirectory).GetFiles("*.srt");
                foreach (FileInfo subTitle in subTitles)
                {
-                  File.Move(subTitle.FullName, Path.Combine(destinationDirectory, subTitle.Name));
+                  string destinationSubFileName =  Path.Combine(destinationDirectory, subTitle.Name);
+		  if (!File.Exists(destinationSubFileName))
+                  {
+                     File.Move(subTitle.FullName, destinationSubFileName);
+                  }
                }
             }
          }
