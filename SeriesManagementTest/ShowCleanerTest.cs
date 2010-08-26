@@ -1,10 +1,10 @@
 ﻿using System.IO;
 using NUnit.Framework;
 
-namespace Chalk.SerieOrganizer
+namespace Chalk.ShowOrganizer
 {
    [TestFixture]
-   public class SerieCleanerTest
+   public class ShowCleanerTest
    {
       private DirectoryInfo directoryBase;
       private DirectoryInfo directoryToRemove;
@@ -12,7 +12,7 @@ namespace Chalk.SerieOrganizer
       [SetUp]
       public void SetUp()
       {
-         directoryBase = new DirectoryInfo(Path.Combine(Path.GetTempPath(), "Series"));
+         directoryBase = new DirectoryInfo(Path.Combine(Path.GetTempPath(), "Shows"));
          directoryBase.Create();
 
          directoryToRemove = new DirectoryInfo(Path.Combine(directoryBase.FullName, "WhareHouse13"));
@@ -31,7 +31,7 @@ namespace Chalk.SerieOrganizer
       [Test]
       public void ShouldSucceedWhenEmptyDirectoriesAreDeleted()
       {
-         SerieCleaner cleaner = new SerieCleaner(CreateOrganisationConfiguration());
+         ShowCleaner cleaner = new ShowCleaner(CreateOrganisationConfiguration());
          cleaner.CleanEmptyDirectories();
          Assert.AreEqual(false, directoryToRemove.Exists);
       }
@@ -40,7 +40,7 @@ namespace Chalk.SerieOrganizer
       public void ShouldSucceedWhenAllNfoFilesAreDeleted()
       {
          File.WriteAllText(Path.Combine(directoryToRemove.FullName, "myTestFile.nfo"), "nfo");
-         SerieCleaner cleaner = new SerieCleaner(CreateOrganisationConfiguration());
+         ShowCleaner cleaner = new ShowCleaner(CreateOrganisationConfiguration());
          cleaner.RemoveNfoFiles();
          Assert.AreEqual(0, directoryToRemove.GetFiles("*.nfo", SearchOption.AllDirectories).Length);
       }
@@ -49,7 +49,7 @@ namespace Chalk.SerieOrganizer
       public void ShouldSucceedWhenSampleFilesAreDeleted()
       {
          File.WriteAllText(Path.Combine(directoryToRemove.FullName, "myTest.Sample.File.mkv"), "nfo");
-         SerieCleaner cleaner = new SerieCleaner(CreateOrganisationConfiguration());
+         ShowCleaner cleaner = new ShowCleaner(CreateOrganisationConfiguration());
          cleaner.RemoveSampleFiles();
          Assert.AreEqual(0, directoryToRemove.GetFiles("*Sample*.mkv", SearchOption.AllDirectories).Length);
       }

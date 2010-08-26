@@ -80,7 +80,7 @@
     <Compile Include="SubtitleServiceFactory.cs" />
     <Compile Include="SubtitleService.cs" />
     <Compile Include="SubtitleServiceResponseDeserializer.cs" />
-    <Compile Include="TvSeriesService.cs" />
+    <Compile Include="TvShowService.cs" />
     <Compile Include="XmlConfigurationReaderBase.cs" />
   </ItemGroup>
   <ItemGroup>

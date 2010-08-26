@@ -2,11 +2,11 @@
 
 namespace Chalk.SubtitlesManagement
 {
-   public class TvSeriesService : ITvSeries
+   public class TvShowsService : ITvShows
    {
       private readonly string uri;
 
-      public TvSeriesService(string uri)
+      public TvShowsService(string uri)
       {
          this.uri = uri;
       }

@@ -1,13 +1,13 @@
 using System;
 using System.IO;
 
-namespace Chalk.SerieOrganizer
+namespace Chalk.ShowOrganizer
 {
-   public class SerieCleaner 
+   public class ShowCleaner 
    {
       private readonly OrganisationConfigurationType configuration;
 
-      public SerieCleaner(OrganisationConfigurationType configuration)
+      public ShowCleaner(OrganisationConfigurationType configuration)
       {
          this.configuration = configuration;
       }
@@ -45,33 +45,31 @@ namespace Chalk.SerieOrganizer
 
       public void CleanSrrFiles()
       {
-	 Console.WriteLine("Starting deleting srr files.");
-         DirectoryInfo directoryToOrganize = new DirectoryInfo(configuration.DirectoryToOrganize);
-         foreach (FileInfo srrFile in directoryToOrganize.GetFiles("*srr", SearchOption.AllDirectories))
-         {
-            Console.WriteLine("Deleting srr file {0}", srrFile.Name);
-            srrFile.Delete();
-         }
+         Console.WriteLine("Deleting srr files.");
+         DeleteFilesOfType("*srr");
       }
 
       public void RemoveNfoFiles()
       {
-         DirectoryInfo directoryToOrganize = new DirectoryInfo(configuration.DirectoryToOrganize);
-         foreach (FileInfo nfoFile in directoryToOrganize.GetFiles("*.nfo", SearchOption.AllDirectories))
-         {
-            Console.WriteLine("Deleting nfo file {0}", nfoFile.Name);
-            nfoFile.Delete();
-         }
+         Console.WriteLine("Deleting nfo files.");
+         DeleteFilesOfType("*.nfo");
       }
 
       public void RemoveSampleFiles()
       {
+         Console.WriteLine("Deleting sample files.");
+         DeleteFilesOfType("*sample*.mkv");
+      }
+
+      private void DeleteFilesOfType(string typeOfFiles)
+      {
          DirectoryInfo directoryToOrganize = new DirectoryInfo(configuration.DirectoryToOrganize);
-         foreach (FileInfo sampleFile in directoryToOrganize.GetFiles("*sample*.mkv", SearchOption.AllDirectories))
+         foreach (FileInfo file in directoryToOrganize.GetFiles(typeOfFiles, SearchOption.AllDirectories))
          {
-            Console.WriteLine("Deleting sample file {0}", sampleFile.Name);
-            sampleFile.Delete();
+            Console.WriteLine("Deleting {0} file {0}", typeOfFiles, file.Name);
+            file.Delete();
          }
       }
+
    }
 }

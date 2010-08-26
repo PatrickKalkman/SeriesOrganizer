@@ -3,9 +3,9 @@ using System.Text.RegularExpressions;
 using System.Text;
 using System.IO;
 
-namespace Chalk.SerieOrganizer
+namespace Chalk.ShowOrganizer
 {
-   public class Serie
+   public class Show
    {
       private readonly string fileName;
       private readonly string fullName;
@@ -17,7 +17,7 @@ namespace Chalk.SerieOrganizer
 
       private string seasonAndEpisode;
 
-      public Serie(string fileName)
+      public Show(string fileName)
       {
          this.fullName = fileName;
          this.fileName = Path.GetFileName(fileName);
@@ -53,7 +53,7 @@ namespace Chalk.SerieOrganizer
       private void Parse()
       {
          ExtractSeasonAndEpisode();
-         ParseSerieName();
+         ParseShowName();
          ParseSeasonAndEpisode();
          ExtractResolution();
       }
@@ -67,25 +67,25 @@ namespace Chalk.SerieOrganizer
          }
       }
 
-      private void ParseSerieName()
+      private void ParseShowName()
       {
-         MatchCollection seriePropertiesCollection = fileNameRegularExpression.Matches(fileName);
-         if (seriePropertiesCollection.Count > 0)
+         MatchCollection ShowPropertiesCollection = fileNameRegularExpression.Matches(fileName);
+         if (ShowPropertiesCollection.Count > 0)
          {
-            StringBuilder serieName = new StringBuilder();
-            foreach (Match match in seriePropertiesCollection)
+            StringBuilder ShowName = new StringBuilder();
+            foreach (Match match in ShowPropertiesCollection)
             {
                string token = match.Value.Replace(".", string.Empty);
                if (!IsSeasonAndEpisode(token) && !string.IsNullOrEmpty(token)) 
                {
-                  serieName.AppendFormat(" {0}", token.Substring(0, 1).ToUpper() + token.Substring(1).ToLower());
+                  ShowName.AppendFormat(" {0}", token.Substring(0, 1).ToUpper() + token.Substring(1).ToLower());
                }
                else
                {
                   break;
                }
             }
-            Name = serieName.ToString().Trim();
+            Name = ShowName.ToString().Trim();
          }
       }
 

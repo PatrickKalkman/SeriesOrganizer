@@ -7,13 +7,13 @@ using Chalk.SubtitlesManagement.Models;
 namespace Chalk.SubtitlesManagement
 {
    /// <summary>
-   /// This class is responsible for downloading subtitles of a serie.
+   /// This class is responsible for downloading subtitles of a Show.
    /// </summary>
    public class SubtitleDownloader
    {
-      private readonly SubtitleService subtitleService;
+      private readonly ShowService subtitleService;
 
-      public SubtitleDownloader(SubtitleService subtitleService)
+      public SubtitleDownloader(ShowService subtitleService)
       {
          this.subtitleService = subtitleService;
       }
