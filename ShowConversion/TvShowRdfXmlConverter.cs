@@ -13,7 +13,7 @@ namespace ShowConversion
       private const string TvShowNameSpace = "http://www.semanticarchitecture.net/tv#";
       private const string W3CRdfNameSpace = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 
-      public string Convert(TvShow show)
+      public virtual string Convert(TvShow show)
       {
          StringBuilder rdfString = new StringBuilder();
          using (StringWriter stringWriter = new StringWriter(rdfString))
@@ -62,10 +62,13 @@ namespace ShowConversion
 
       private static void WriteTvShowGenres(XmlWriter textWriter, TvShowBase show)
       {
-         foreach (string genre in show.Genres)
-         {
-            WriteTvElement(textWriter, "Genre", genre);
-         }
+          if (show.Genres != null)
+          {
+              foreach (string genre in show.Genres)
+              {
+                  WriteTvElement(textWriter, "Genre", genre);
+              }
+          }
       }
 
       private static XmlWriterSettings CreateXmlWriteSettings()

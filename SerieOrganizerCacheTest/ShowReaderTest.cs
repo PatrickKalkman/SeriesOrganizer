@@ -16,7 +16,7 @@ namespace ShowOrganizerCacheTest
          MockRepository mockRepository = new MockRepository();
 
          TvShow theShow;
-         ShowStorage showStorage = mockRepository.StrictMock<ShowStorage>(new object[] { null } );
+         ShowStorage showStorage = mockRepository.StrictMock<ShowStorage>(new object[] { null, null } );
          ShowService showService = mockRepository.StrictMock<ShowService>(null, null);
 
          Expect.Call(showStorage.TryReadShow(ShowToFind, out theShow)).Return(false).OutRef(theShow);
