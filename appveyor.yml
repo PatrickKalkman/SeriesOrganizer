@@ -7,7 +7,7 @@ build:
   verbosity: minimal
 
 after_build:
-  7z a SerieOrganizer.zip  %APPVEYOR_BUILD_FOLDER%\seriesorganizer\SerieOrganizer\bin\Release\*.*
+  7z a SerieOrganizer.zip  %APPVEYOR_BUILD_FOLDER%\SerieOrganizer\bin\Release\*.*
   
 
 artifacts:
