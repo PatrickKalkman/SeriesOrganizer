@@ -5,6 +5,9 @@ before_build:
 
 build:
   verbosity: minimal
+
+after_build:
+  7z a SerieOrganizer.zip  %APPVEYOR_BUILD_FOLDER%\seriesorganizer\SerieOrganizer\bin\Release\*.*
   
 
 artifacts:
