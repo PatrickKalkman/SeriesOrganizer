@@ -7,5 +7,5 @@ build:
   verbosity: minimal
 
 artifacts:
-- path: '**\*.dll' # find all dll recursively
+- path: SerieOrganizer.zip
   name: MyApp
